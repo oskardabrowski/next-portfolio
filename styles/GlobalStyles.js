@@ -5,7 +5,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Condensed";
+  font-family: "Work Sans";
+  background-color: #000B3D;
 }
 
 a {
