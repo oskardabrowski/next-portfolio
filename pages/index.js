@@ -80,6 +80,10 @@ export default function Home() {
 						<div className="AbstractPicture-layer2-obj30"></div>
 						<div className="AbstractPicture-layer2-obj31"></div>
 						<div className="AbstractPicture-layer2-obj32"></div>
+						<div className="AbstractPicture-layer2-obj33"></div>
+						<div className="AbstractPicture-layer2-obj34"></div>
+						<div className="AbstractPicture-layer2-obj35"></div>
+						<div className="AbstractPicture-layer2-obj36"></div>
 					</div>
 					<div className="AbstractPicture-layer1">
 						<div className="AbstractPicture-layer1-obj1"></div>

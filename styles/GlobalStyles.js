@@ -5,7 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Work Sans";
+  font-family: "Arimo";
   background-color: #000B3D;
 }
 

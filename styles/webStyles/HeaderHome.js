@@ -521,13 +521,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 30rem;
 				left: 12rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -535,13 +531,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 29rem;
 				left: 13rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -549,13 +541,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 28rem;
 				left: 14rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -563,13 +551,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 26rem;
 				left: 16rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -577,13 +561,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 25rem;
 				left: 17rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -591,13 +571,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 24rem;
 				left: 18rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -605,13 +581,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 23rem;
 				left: 19rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -619,13 +591,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 21rem;
 				left: 21rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -633,13 +601,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 20rem;
 				left: 22rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -647,13 +611,9 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 19rem;
 				left: 23rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
 			}
@@ -661,15 +621,55 @@ const HomeHeaderStyle = styled.header`
 				position: absolute;
 				top: 18rem;
 				left: 24rem;
-				width: 0.75rem;
-				height: 0.75rem;
+				width: 0.6rem;
+				height: 0.6rem;
 				z-index: 210;
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				flex-direction: column;
 				border-radius: 75px;
 				background: white;
+			}
+			&-obj33 {
+				position: absolute;
+				top: 16rem;
+				left: 16rem;
+				width: 7rem;
+				height: 0.5rem;
+				z-index: 210;
+				border-radius: 75px;
+				background: white;
+				transform: rotate(-45deg);
+			}
+			&-obj34 {
+				position: absolute;
+				top: 12rem;
+				left: 23rem;
+				width: 0.6rem;
+				height: 0.6rem;
+				z-index: 210;
+				border-radius: 75px;
+				background: white;
+				transform: rotate(-45deg);
+			}
+			&-obj35 {
+				position: absolute;
+				top: 11rem;
+				left: 24rem;
+				width: 0.6rem;
+				height: 0.6rem;
+				z-index: 210;
+				border-radius: 75px;
+				background: white;
+				transform: rotate(-45deg);
+			}
+			&-obj36 {
+				position: absolute;
+				top: 10rem;
+				left: 25rem;
+				width: 0.6rem;
+				height: 0.6rem;
+				z-index: 210;
+				border-radius: 75px;
+				background: white;
+				transform: rotate(-45deg);
 			}
 		}
 		&-layer3 {
@@ -714,13 +714,16 @@ const HomeHeaderStyle = styled.header`
 							padding-right: 5rem;
 							& > span {
 								padding-right: 0.75rem;
+								font-size: 2.65rem;
 							}
 						}
 						& > span {
-							background: linear-gradient(to top right, #0041ff, #ff00ac);
+							background: linear-gradient(to top right, #0062ff, #ff007b);
 							-webkit-background-clip: text;
 							background-clip: text;
 							-webkit-text-fill-color: transparent;
+							font-family: "Arimo";
+							font-weight: 1500;
 						}
 					}
 				}
