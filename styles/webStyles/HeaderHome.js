@@ -723,7 +723,7 @@ const HomeHeaderStyle = styled.header`
 							background-clip: text;
 							-webkit-text-fill-color: transparent;
 							font-family: "Arimo";
-							font-weight: 1500;
+							font-weight: 700;
 						}
 					}
 				}

@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: "Arimo";
   background-color: #000B3D;
+  font-weight: 500;
 }
 
 a {
