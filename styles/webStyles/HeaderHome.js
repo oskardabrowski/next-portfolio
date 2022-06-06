@@ -5,6 +5,23 @@ const HomeHeaderStyle = styled.header`
 	width: 100%;
 	height: 130vh;
 
+	@keyframes expandBlock {
+		0% {
+			width: 0%;
+		}
+		100% {
+			width: 100%;
+		}
+	}
+	@keyframes showBlock {
+		0% {
+			opacity: 0%;
+		}
+		100% {
+			opacity: 100%;
+		}
+	}
+
 	.AbstractPicture {
 		width: 100%;
 		height: 130vh;
@@ -19,24 +36,43 @@ const HomeHeaderStyle = styled.header`
 			z-index: 5;
 			&-obj1 {
 				position: absolute;
-				top: -3;
-				left: -8rem;
+				top: -6rem;
+				left: -7rem;
 				width: 18rem;
-				height: 7.5rem;
-				background: linear-gradient(to right, #3f00ff, #ff00ca);
+				height: 18rem;
 				transform: rotate(-45deg);
 				z-index: 100;
+				display: flex;
+				align-items: center;
+				justify-content: left;
+
+				&:before {
+					content: "";
+					width: 100%;
+					height: 7.5rem;
+					background: linear-gradient(to right, #3f00ff, #ff00ca);
+					animation: expandBlock 1s ease-in-out forwards;
+				}
 			}
 			&-obj2 {
 				position: absolute;
-				top: 2rem;
+				top: -10rem;
 				left: -10rem;
 				width: 35rem;
-				height: 10rem;
-				background: linear-gradient(to right, #000fff, #ff0045);
+				height: 35rem;
 				transform: rotate(-45deg);
 				z-index: 110;
-				box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8);
+				display: flex;
+				align-items: center;
+				justify-content: right;
+				&:before {
+					content: "";
+					width: 100%;
+					height: 10rem;
+					background: linear-gradient(to right, #000fff, #ff0045);
+					box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8);
+					animation: expandBlock 1.2s ease-in-out forwards;
+				}
 			}
 			&-obj3 {
 				position: absolute;
@@ -44,10 +80,18 @@ const HomeHeaderStyle = styled.header`
 				left: -13rem;
 				width: 50rem;
 				height: 9rem;
-				background: linear-gradient(to right, #000b3d, #000b3d, #9500ff);
 				transform: rotate(-45deg);
+				display: flex;
+				align-items: center;
+				justify-content: left;
 				z-index: 100;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				&:before {
+					content: "";
+					width: 100%;
+					height: 9rem;
+					background: linear-gradient(to right, #000b3d, #000b3d, #9500ff);
+					animation: expandBlock 1.5s ease-in-out forwards;
+				}
 			}
 			&-obj4 {
 				position: absolute;
@@ -55,10 +99,18 @@ const HomeHeaderStyle = styled.header`
 				left: -29rem;
 				width: 80rem;
 				height: 3rem;
-				background: linear-gradient(to right, #000b3d, #9500ff);
 				transform: rotate(-45deg);
 				z-index: 50;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				display: flex;
+				align-items: center;
+				justify-content: right;
+				&:before {
+					content: "";
+					width: 100%;
+					height: 3rem;
+					background: linear-gradient(to right, #000b3d, #9500ff);
+					animation: expandBlock 0.75s ease-in-out forwards;
+				}
 			}
 			&-obj5 {
 				position: absolute;
@@ -66,10 +118,19 @@ const HomeHeaderStyle = styled.header`
 				left: -25rem;
 				width: 80rem;
 				height: 5rem;
-				background: linear-gradient(to right, #000b3d, #000b3d, #0028dc);
+
 				transform: rotate(-45deg);
 				z-index: 25;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				display: flex;
+				align-items: center;
+				justify-content: left;
+				&:before {
+					content: "";
+					width: 100%;
+					height: 5rem;
+					background: linear-gradient(to right, #000b3d, #000b3d, #0028dc);
+					animation: expandBlock 1s ease-in-out forwards;
+				}
 			}
 			&-obj6 {
 				position: absolute;
@@ -86,7 +147,7 @@ const HomeHeaderStyle = styled.header`
 				);
 				transform: rotate(-45deg);
 				z-index: 10;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				animation: showBlock 1s ease-in-out forwards;
 			}
 			&-obj7 {
 				position: absolute;
@@ -103,7 +164,7 @@ const HomeHeaderStyle = styled.header`
 				);
 				transform: rotate(-45deg) skewX(50deg);
 				z-index: 20;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				animation: showBlock 1s ease-in-out forwards;
 			}
 			&-obj8 {
 				position: absolute;
@@ -120,7 +181,7 @@ const HomeHeaderStyle = styled.header`
 				);
 				transform: rotate(-45deg) skewX(50deg);
 				z-index: 15;
-				/* box-shadow: 2px -5px 10px rgba(0, 0, 0, 0.8); */
+				animation: showBlock 1s ease-in-out forwards;
 			}
 		}
 		&-layer2 {
@@ -131,33 +192,65 @@ const HomeHeaderStyle = styled.header`
 			z-index: 200;
 			top: 0rem;
 			left: 0rem;
+			@keyframes obj1animation {
+				0% {
+					top: -5rem;
+					left: -5rem;
+				}
+				100% {
+					top: -2rem;
+					left: -2rem;
+				}
+			}
 			&-obj1 {
 				position: absolute;
-				top: -2rem;
-				left: -2rem;
+				top: -5rem;
+				left: -5rem;
 				width: 5rem;
 				height: 5rem;
 				border-radius: 50%;
 				z-index: 200;
 				background: linear-gradient(to right top, #2200ff, #02ff00);
+				animation: obj1animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj2animation {
+				0% {
+					top: 6rem;
+					left: -5.5rem;
+				}
+				100% {
+					top: 1rem;
+					left: -0.5rem;
+				}
 			}
 			&-obj2 {
 				position: absolute;
-				top: 1rem;
-				left: -0.5rem;
+				top: 6rem;
+				left: -5.5rem;
 				width: 2rem;
 				height: 12rem;
 				border-radius: 25px;
 				z-index: 210;
 				background: linear-gradient(to top, #ffac00, #006a8e);
 				transform: rotate(45deg);
+				animation: obj2animation 1s ease-in-out 0.5s forwards;
+			}
+			@keyframes obj3animation {
+				0% {
+					top: -15rem;
+					left: 21rem;
+				}
+				100% {
+					top: -5rem;
+					left: 11rem;
+				}
 			}
 			&-obj3 {
 				position: absolute;
-				top: -4rem;
-				left: 10rem;
+				top: -15rem;
+				left: 21rem;
 				width: 4rem;
-				height: 15rem;
+				height: 16rem;
 				border-radius: 50px;
 				z-index: 210;
 				background: linear-gradient(to top, #000ffe, #9500ff);
@@ -167,10 +260,10 @@ const HomeHeaderStyle = styled.header`
 				flex-direction: column;
 				align-items: center;
 				justify-content: space-evenly;
+				animation: obj3animation 1s ease-in-out 1.5s forwards;
 				& > span {
 					width: 1.25rem;
 					height: 1.25rem;
-					/* border-radius: 50%; */
 					background-color: white;
 					&:nth-child(1) {
 						width: 0.5rem;
@@ -206,10 +299,20 @@ const HomeHeaderStyle = styled.header`
 					}
 				}
 			}
+			@keyframes obj4animation {
+				0% {
+					top: -6rem;
+					left: 18rem;
+				}
+				100% {
+					top: 10rem;
+					left: 2rem;
+				}
+			}
 			&-obj4 {
 				position: absolute;
-				top: 10rem;
-				left: 1rem;
+				top: -6rem;
+				left: 18rem;
 				width: 4rem;
 				height: 4rem;
 				border-radius: 50%;
@@ -219,6 +322,7 @@ const HomeHeaderStyle = styled.header`
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				animation: obj4animation 1s ease-in-out 1s forwards;
 				& > span {
 					width: 1.25rem;
 					height: 1.25rem;
@@ -226,56 +330,111 @@ const HomeHeaderStyle = styled.header`
 					background-color: white;
 				}
 			}
+			@keyframes obj5animation {
+				0% {
+					top: -1rem;
+					left: 24rem;
+				}
+				100% {
+					top: 7rem;
+					left: 16rem;
+				}
+			}
 			&-obj5 {
 				position: absolute;
-				top: 7rem;
-				left: 15rem;
+				top: -1rem;
+				left: 24rem;
 				width: 0.75rem;
 				height: 0.75rem;
 				border-radius: 50%;
 				z-index: 210;
 				background: white;
+				animation: obj5animation 1s ease-in-out 1.25s forwards;
+			}
+			@keyframes obj6animation {
+				0% {
+					top: -1rem;
+					left: 24rem;
+				}
+				100% {
+					top: 5rem;
+					left: 18rem;
+				}
 			}
 			&-obj6 {
 				position: absolute;
-				top: 5rem;
-				left: 17rem;
+				top: -1rem;
+				left: 24rem;
 				width: 0.75rem;
 				height: 0.75rem;
 				border-radius: 50%;
 				z-index: 210;
 				background: white;
+				animation: obj6animation 1s ease-in-out 1.5s forwards;
+			}
+			@keyframes obj7animation {
+				0% {
+					top: -1rem;
+					left: 24rem;
+				}
+				100% {
+					top: 3rem;
+					left: 20rem;
+				}
 			}
 			&-obj7 {
 				position: absolute;
-				top: 3rem;
-				left: 19rem;
+				top: -1rem;
+				left: 24rem;
 				width: 0.75rem;
 				height: 0.75rem;
 				border-radius: 50%;
 				z-index: 210;
 				background: white;
+				animation: obj7animation 1s ease-in-out 1.75s forwards;
+			}
+			@keyframes obj8animation {
+				0% {
+					top: -8rem;
+					left: 28rem;
+				}
+				100% {
+					top: 14rem;
+					left: 6rem;
+				}
 			}
 			&-obj8 {
 				position: absolute;
-				top: 14rem;
-				left: 6rem;
+				top: -8rem;
+				left: 28rem;
 				width: 1.25rem;
 				height: 8rem;
 				border-radius: 50px;
 				z-index: 210;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #008fff, #ff0074);
+				animation: obj8animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj9animation {
+				0% {
+					top: -8rem;
+					left: 28rem;
+				}
+				100% {
+					top: 22rem;
+					left: 1rem;
+				}
 			}
 			&-obj9 {
 				position: absolute;
-				top: 22rem;
-				left: 1rem;
+				top: -8rem;
+				left: 28rem;
 				width: 1.25rem;
 				height: 1.25rem;
 				border-radius: 50px;
 				z-index: 210;
 				background: linear-gradient(to top right, #0026ff, #9a00ff);
+				animation: obj9animation 1s ease-in-out 0.75s forwards;
 			}
 			&-obj10 {
 				position: absolute;
@@ -287,6 +446,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #9500ff, #000b3d);
+				/* display: none; */
 			}
 			&-obj11 {
 				position: relative;
@@ -299,6 +459,7 @@ const HomeHeaderStyle = styled.header`
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				display: none;
 
 				& > span {
 					position: absolute;
@@ -324,6 +485,7 @@ const HomeHeaderStyle = styled.header`
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				display: none;
 
 				& > span {
 					position: absolute;
@@ -351,6 +513,7 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				transform: rotate(45deg);
 				clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+				display: none;
 			}
 			&-obj13 {
 				position: relative;
@@ -365,6 +528,7 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				transform: rotate(45deg);
 				clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+				display: none;
 			}
 			&-obj14 {
 				position: relative;
@@ -378,6 +542,7 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				border-radius: 50%;
 				background: linear-gradient(to top right, #0072ff, #dc00ff);
+				display: none;
 
 				& > span {
 					position: absolute;
@@ -402,6 +567,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #00c9b2, #00c9b2, #ffa900);
+				display: none;
 				& > span {
 					width: 2rem;
 					height: 2rem;
@@ -428,6 +594,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #00ffec, #000b3d, #000b3d);
+				display: none;
 				& > span {
 					width: 1.5rem;
 					height: 1.5rem;
@@ -451,6 +618,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #ff00e9, #000b3d, #000b3d, #000b3d);
+				display: none;
 			}
 			&-obj18 {
 				position: absolute;
@@ -466,6 +634,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #5400ff, #000b3d, #000b3d, #000b3d);
+				display: none;
 			}
 			&-obj19 {
 				position: absolute;
@@ -487,6 +656,7 @@ const HomeHeaderStyle = styled.header`
 					transparent,
 					transparent
 				);
+				display: none;
 			}
 			&-obj20 {
 				position: absolute;
@@ -502,6 +672,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(225deg);
 				background: linear-gradient(to top, #9500ff, transparent, transparent);
+				display: none;
 			}
 			&-obj21 {
 				position: absolute;
@@ -516,6 +687,7 @@ const HomeHeaderStyle = styled.header`
 				flex-direction: column;
 				border-radius: 75px;
 				background: linear-gradient(to top right, #00ff18, #ffff00);
+				display: none;
 			}
 			&-obj22 {
 				position: absolute;
@@ -526,6 +698,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj23 {
 				position: absolute;
@@ -536,6 +709,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj24 {
 				position: absolute;
@@ -546,6 +720,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj25 {
 				position: absolute;
@@ -556,6 +731,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj26 {
 				position: absolute;
@@ -566,6 +742,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj27 {
 				position: absolute;
@@ -576,6 +753,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj28 {
 				position: absolute;
@@ -586,6 +764,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj29 {
 				position: absolute;
@@ -596,6 +775,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj30 {
 				position: absolute;
@@ -606,6 +786,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj31 {
 				position: absolute;
@@ -616,6 +797,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj32 {
 				position: absolute;
@@ -626,6 +808,7 @@ const HomeHeaderStyle = styled.header`
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
+				display: none;
 			}
 			&-obj33 {
 				position: absolute;
@@ -637,6 +820,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				background: white;
 				transform: rotate(-45deg);
+				display: none;
 			}
 			&-obj34 {
 				position: absolute;
@@ -648,6 +832,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				background: white;
 				transform: rotate(-45deg);
+				display: none;
 			}
 			&-obj35 {
 				position: absolute;
@@ -659,6 +844,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				background: white;
 				transform: rotate(-45deg);
+				display: none;
 			}
 			&-obj36 {
 				position: absolute;
@@ -670,6 +856,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				background: white;
 				transform: rotate(-45deg);
+				display: none;
 			}
 		}
 		&-layer3 {
@@ -683,6 +870,7 @@ const HomeHeaderStyle = styled.header`
 			display: flex;
 			align-items: center;
 			justify-content: end;
+			display: none;
 
 			&-hello {
 				min-width: 10rem;
