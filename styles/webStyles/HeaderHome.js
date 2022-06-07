@@ -192,6 +192,7 @@ const HomeHeaderStyle = styled.header`
 			z-index: 200;
 			top: 0rem;
 			left: 0rem;
+			/* display: none; */
 			@keyframes obj1animation {
 				0% {
 					top: -5rem;
@@ -436,22 +437,42 @@ const HomeHeaderStyle = styled.header`
 				background: linear-gradient(to top right, #0026ff, #9a00ff);
 				animation: obj9animation 1s ease-in-out 0.75s forwards;
 			}
+			@keyframes obj10animation {
+				0% {
+					top: -10rem;
+					left: 35rem;
+				}
+				100% {
+					top: 22rem;
+					left: 3rem;
+				}
+			}
 			&-obj10 {
 				position: absolute;
-				top: 22rem;
-				left: 3rem;
+				top: -10rem;
+				left: 35rem;
 				width: 1.25rem;
 				height: 8rem;
 				border-radius: 50px;
 				z-index: 210;
 				transform: rotate(45deg);
-				background: linear-gradient(to top, #9500ff, #000b3d);
-				/* display: none; */
+				background: linear-gradient(to top, #9500ff, transparent);
+				animation: obj10animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj11animation {
+				0% {
+					top: 30rem;
+					left: -2rem;
+				}
+				100% {
+					top: 1rem;
+					left: 27rem;
+				}
 			}
 			&-obj11 {
 				position: relative;
-				top: 1rem;
-				left: 27rem;
+				top: 30rem;
+				left: -2rem;
 				width: 2rem;
 				height: 2rem;
 				z-index: 210;
@@ -459,7 +480,7 @@ const HomeHeaderStyle = styled.header`
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				display: none;
+				animation: obj11animation 1.5s ease-in-out 1s forwards;
 
 				& > span {
 					position: absolute;
@@ -472,12 +493,22 @@ const HomeHeaderStyle = styled.header`
 					&:first-child {
 						transform: rotate(90deg);
 					}
+				}
+			}
+			@keyframes obj11_5animation {
+				0% {
+					top: -2rem;
+					left: -2rem;
+				}
+				100% {
+					top: 1rem;
+					left: 1rem;
 				}
 			}
 			&-obj11_5 {
 				position: relative;
-				top: 1rem;
-				left: 1rem;
+				top: -2rem;
+				left: -2rem;
 				width: 2rem;
 				height: 2rem;
 				z-index: 210;
@@ -485,7 +516,7 @@ const HomeHeaderStyle = styled.header`
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				display: none;
+				animation: obj11_5animation 0.5s ease-in-out 1.5s forwards;
 
 				& > span {
 					position: absolute;
@@ -500,10 +531,20 @@ const HomeHeaderStyle = styled.header`
 					}
 				}
 			}
+			@keyframes obj12animation {
+				0% {
+					top: 27rem;
+					left: -2rem;
+				}
+				100% {
+					top: -1rem;
+					left: 25.5rem;
+				}
+			}
 			&-obj12 {
 				position: relative;
-				top: -1rem;
-				left: 25.5rem;
+				top: 27rem;
+				left: -2rem;
 				width: 1.5rem;
 				height: 1.5rem;
 				z-index: 210;
@@ -513,12 +554,22 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				transform: rotate(45deg);
 				clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-				display: none;
+				animation: obj12animation 1.5s ease-in-out 1.5s forwards;
+			}
+			@keyframes obj13animation {
+				0% {
+					top: 27rem;
+					left: -2rem;
+				}
+				100% {
+					top: -0.5rem;
+					left: 23.5rem;
+				}
 			}
 			&-obj13 {
 				position: relative;
-				top: -0.5rem;
-				left: 23.5rem;
+				top: 27rem;
+				left: -2rem;
 				width: 1.5rem;
 				height: 1.5rem;
 				z-index: 210;
@@ -528,12 +579,22 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				transform: rotate(45deg);
 				clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-				display: none;
+				animation: obj13animation 1.5s ease-in-out 2s forwards;
+			}
+			@keyframes obj14animation {
+				0% {
+					top: -15rem;
+					left: 35rem;
+				}
+				100% {
+					top: 6rem;
+					left: 14rem;
+				}
 			}
 			&-obj14 {
 				position: relative;
-				top: 6rem;
-				left: 14rem;
+				top: -15rem;
+				left: 35rem;
 				width: 4rem;
 				height: 4rem;
 				z-index: 210;
@@ -542,7 +603,7 @@ const HomeHeaderStyle = styled.header`
 				justify-content: center;
 				border-radius: 50%;
 				background: linear-gradient(to top right, #0072ff, #dc00ff);
-				display: none;
+				animation: obj14animation 1.5s ease-in-out 1s forwards;
 
 				& > span {
 					position: absolute;
@@ -553,10 +614,20 @@ const HomeHeaderStyle = styled.header`
 					border-radius: 25px;
 				}
 			}
+			@keyframes obj15animation {
+				0% {
+					top: 25.5rem;
+					left: -20rem;
+				}
+				100% {
+					top: 5.5rem;
+					left: 0rem;
+				}
+			}
 			&-obj15 {
 				position: relative;
-				top: 5.5rem;
-				left: 0rem;
+				top: 25.5rem;
+				left: -20rem;
 				width: 6rem;
 				height: 35rem;
 				z-index: 210;
@@ -567,7 +638,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #00c9b2, #00c9b2, #ffa900);
-				display: none;
+				animation: obj15animation 1.5s ease-in-out 1s forwards;
 				& > span {
 					width: 2rem;
 					height: 2rem;
@@ -580,10 +651,20 @@ const HomeHeaderStyle = styled.header`
 					}
 				}
 			}
+			@keyframes obj16animation {
+				0% {
+					top: -30.5rem;
+					left: 53rem;
+				}
+				100% {
+					top: -17.5rem;
+					left: 40rem;
+				}
+			}
 			&-obj16 {
 				position: absolute;
-				top: -17.5rem;
-				left: 40rem;
+				top: -30.5rem;
+				left: 53rem;
 				width: 3rem;
 				height: 35rem;
 				z-index: 210;
@@ -594,7 +675,7 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(45deg);
 				background: linear-gradient(to top, #00ffec, #000b3d, #000b3d);
-				display: none;
+				animation: obj16animation 1.5s ease-in-out 1s forwards;
 				& > span {
 					width: 1.5rem;
 					height: 1.5rem;
@@ -604,10 +685,20 @@ const HomeHeaderStyle = styled.header`
 					border-radius: 50%;
 				}
 			}
+			@keyframes obj17animation {
+				0% {
+					top: -30rem;
+					left: 62rem;
+				}
+				100% {
+					top: -20rem;
+					left: 52rem;
+				}
+			}
 			&-obj17 {
 				position: absolute;
-				top: -20rem;
-				left: 52rem;
+				top: -30rem;
+				left: 62rem;
 				width: 1rem;
 				height: 35rem;
 				z-index: 210;
@@ -617,13 +708,29 @@ const HomeHeaderStyle = styled.header`
 				flex-direction: column;
 				border-radius: 75px;
 				transform: rotate(45deg);
-				background: linear-gradient(to top, #ff00e9, #000b3d, #000b3d, #000b3d);
-				display: none;
+				background: linear-gradient(
+					to top,
+					#ff00e9,
+					transparent,
+					transparent,
+					transparent
+				);
+				animation: obj17animation 0.75s ease-in-out 1s forwards;
+			}
+			@keyframes obj18animation {
+				0% {
+					top: -32rem;
+					left: 62rem;
+				}
+				100% {
+					top: -12rem;
+					left: 42rem;
+				}
 			}
 			&-obj18 {
 				position: absolute;
-				top: -12rem;
-				left: 42rem;
+				top: -32rem;
+				left: 62rem;
 				width: 1.5rem;
 				height: 35rem;
 				z-index: 210;
@@ -633,13 +740,29 @@ const HomeHeaderStyle = styled.header`
 				flex-direction: column;
 				border-radius: 75px;
 				transform: rotate(45deg);
-				background: linear-gradient(to top, #5400ff, #000b3d, #000b3d, #000b3d);
-				display: none;
+				background: linear-gradient(
+					to top,
+					#5400ff,
+					transparent,
+					transparent,
+					transparent
+				);
+				animation: obj18animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj19animation {
+				0% {
+					top: -35rem;
+					left: 65rem;
+				}
+				100% {
+					top: 5rem;
+					left: 25rem;
+				}
 			}
 			&-obj19 {
 				position: absolute;
-				top: 5rem;
-				left: 25rem;
+				top: -35rem;
+				left: 65rem;
 				width: 1.5rem;
 				height: 35rem;
 				z-index: 210;
@@ -656,12 +779,22 @@ const HomeHeaderStyle = styled.header`
 					transparent,
 					transparent
 				);
-				display: none;
+				animation: obj19animation 1.25s ease-in-out 1s forwards;
+			}
+			@keyframes obj20animation {
+				0% {
+					top: 45rem;
+					left: -10rem;
+				}
+				100% {
+					top: 30rem;
+					left: 5rem;
+				}
 			}
 			&-obj20 {
 				position: absolute;
-				top: 30rem;
-				left: 5rem;
+				top: 45rem;
+				left: -10rem;
 				width: 0.75rem;
 				height: 20rem;
 				z-index: 210;
@@ -672,12 +805,22 @@ const HomeHeaderStyle = styled.header`
 				border-radius: 75px;
 				transform: rotate(225deg);
 				background: linear-gradient(to top, #9500ff, transparent, transparent);
-				display: none;
+				animation: obj20animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj21animation {
+				0% {
+					top: -5rem;
+					left: 50rem;
+				}
+				100% {
+					top: 5rem;
+					left: 40rem;
+				}
 			}
 			&-obj21 {
 				position: absolute;
-				top: 5rem;
-				left: 40rem;
+				top: -5rem;
+				left: 50rem;
 				width: 1.5rem;
 				height: 1.5rem;
 				z-index: 210;
@@ -687,176 +830,323 @@ const HomeHeaderStyle = styled.header`
 				flex-direction: column;
 				border-radius: 75px;
 				background: linear-gradient(to top right, #00ff18, #ffff00);
-				display: none;
+				animation: obj21animation 1s ease-in-out 2.5s forwards;
+			}
+			@keyframes obj22animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 30rem;
+					left: 12rem;
+				}
 			}
 			&-obj22 {
 				position: absolute;
-				top: 30rem;
-				left: 12rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj22animation 1s ease-in-out 3.25s forwards;
+			}
+			@keyframes obj23animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 29rem;
+					left: 13rem;
+				}
 			}
 			&-obj23 {
 				position: absolute;
-				top: 29rem;
-				left: 13rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj23animation 1s ease-in-out 3s forwards;
+			}
+			@keyframes obj24animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 28rem;
+					left: 14rem;
+				}
 			}
 			&-obj24 {
 				position: absolute;
-				top: 28rem;
-				left: 14rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj24animation 1s ease-in-out 2.75s forwards;
+			}
+			@keyframes obj25animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 26rem;
+					left: 16rem;
+				}
 			}
 			&-obj25 {
 				position: absolute;
-				top: 26rem;
-				left: 16rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj25animation 1s ease-in-out 2.5s forwards;
+			}
+			@keyframes obj26animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 25rem;
+					left: 17rem;
+				}
 			}
 			&-obj26 {
 				position: absolute;
-				top: 25rem;
-				left: 17rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj26animation 1s ease-in-out 2.25s forwards;
+			}
+			@keyframes obj27animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 24rem;
+					left: 18rem;
+				}
 			}
 			&-obj27 {
 				position: absolute;
-				top: 24rem;
-				left: 18rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj27animation 1s ease-in-out 2s forwards;
+			}
+			@keyframes obj28animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 23rem;
+					left: 19rem;
+				}
 			}
 			&-obj28 {
 				position: absolute;
-				top: 23rem;
-				left: 19rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj28animation 1s ease-in-out 1.75s forwards;
+			}
+			@keyframes obj29animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 21rem;
+					left: 21rem;
+				}
 			}
 			&-obj29 {
 				position: absolute;
-				top: 21rem;
-				left: 21rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj29animation 1s ease-in-out 1.5s forwards;
+			}
+			@keyframes obj30animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 20rem;
+					left: 22rem;
+				}
 			}
 			&-obj30 {
 				position: absolute;
-				top: 20rem;
-				left: 22rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj30animation 1s ease-in-out 1.25s forwards;
+			}
+			@keyframes obj31animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 19rem;
+					left: 23rem;
+				}
 			}
 			&-obj31 {
 				position: absolute;
-				top: 19rem;
-				left: 23rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj31animation 1s ease-in-out 1s forwards;
+			}
+			@keyframes obj32animation {
+				0% {
+					top: 45rem;
+					left: -3rem;
+				}
+				100% {
+					top: 18rem;
+					left: 24rem;
+				}
 			}
 			&-obj32 {
 				position: absolute;
-				top: 18rem;
-				left: 24rem;
+				top: 45rem;
+				left: -3rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				display: none;
+				animation: obj32animation 1s ease-in-out 0.75s forwards;
+			}
+			@keyframes obj33animation {
+				0% {
+					top: -4rem;
+					left: 36rem;
+				}
+				100% {
+					top: 16rem;
+					left: 16rem;
+				}
 			}
 			&-obj33 {
 				position: absolute;
-				top: 16rem;
-				left: 16rem;
+				top: -4rem;
+				left: 36rem;
 				width: 7rem;
 				height: 0.5rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
 				transform: rotate(-45deg);
-				display: none;
+				animation: obj33animation 1s ease-in-out 1.5s forwards;
+			}
+			@keyframes obj34animation {
+				0% {
+					top: -3rem;
+					left: 38rem;
+				}
+				100% {
+					top: 12rem;
+					left: 23rem;
+				}
 			}
 			&-obj34 {
 				position: absolute;
-				top: 12rem;
-				left: 23rem;
+				top: -3rem;
+				left: 38rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				transform: rotate(-45deg);
-				display: none;
+				animation: obj34animation 1s ease-in-out 1.75s forwards;
+			}
+			@keyframes obj35animation {
+				0% {
+					top: -3rem;
+					left: 38rem;
+				}
+				100% {
+					top: 11rem;
+					left: 24rem;
+				}
 			}
 			&-obj35 {
 				position: absolute;
-				top: 11rem;
-				left: 24rem;
+				top: -3rem;
+				left: 38rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				transform: rotate(-45deg);
-				display: none;
+				animation: obj35animation 1s ease-in-out 2s forwards;
+			}
+			@keyframes obj36animation {
+				0% {
+					top: -3rem;
+					left: 38rem;
+				}
+				100% {
+					top: 10rem;
+					left: 25rem;
+				}
 			}
 			&-obj36 {
 				position: absolute;
-				top: 10rem;
-				left: 25rem;
+				top: -3rem;
+				left: 38rem;
 				width: 0.6rem;
 				height: 0.6rem;
 				z-index: 210;
 				border-radius: 75px;
 				background: white;
-				transform: rotate(-45deg);
-				display: none;
+				animation: obj36animation 1s ease-in-out 2.25s forwards;
 			}
 		}
 		&-layer3 {
@@ -870,8 +1160,7 @@ const HomeHeaderStyle = styled.header`
 			display: flex;
 			align-items: center;
 			justify-content: end;
-			display: none;
-
+			/* display: none; */
 			&-hello {
 				min-width: 10rem;
 				min-height: 5rem;
@@ -882,10 +1171,30 @@ const HomeHeaderStyle = styled.header`
 					flex-direction: column;
 					justify-content: space-between;
 					align-items: stretch;
+					height: 17rem;
 					& > div {
 						&:first-child {
 							font-size: 7rem;
 							padding-right: 20rem;
+							overflow: hidden;
+							height: 50%;
+							position: relative;
+							width: 60rem;
+							@keyframes godown {
+								0% {
+									top: -100%;
+								}
+								100% {
+									top: 0%;
+								}
+							}
+							& > main {
+								position: absolute;
+								top: -100%;
+								left: 0;
+								transition: all 0.5s ease-in-out;
+								animation: godown 1s ease-in-out 2s forwards;
+							}
 						}
 						&:nth-child(2) {
 							display: flex;
@@ -893,6 +1202,25 @@ const HomeHeaderStyle = styled.header`
 							justify-content: center;
 							font-size: 3.5rem;
 							padding-right: 5rem;
+							height: 30%;
+							position: relative;
+							width: 60rem;
+							overflow: hidden;
+							@keyframes goup {
+								0% {
+									top: 100%;
+								}
+								100% {
+									top: 0%;
+								}
+							}
+							& > main {
+								position: absolute;
+								top: 100%;
+								left: 10rem;
+								transition: all 0.5s ease-in-out;
+								animation: goup 1s ease-in-out 2s forwards;
+							}
 						}
 						&:nth-child(3) {
 							display: flex;
@@ -900,18 +1228,67 @@ const HomeHeaderStyle = styled.header`
 							justify-content: end;
 							font-size: 2.5rem;
 							padding-right: 5rem;
+							height: 20%;
+							position: relative;
+							width: 60rem;
+							overflow: hidden;
+							@keyframes goleft {
+								0% {
+									left: 110%;
+								}
+								100% {
+									left: 50%;
+								}
+							}
+							& > main {
+								position: absolute;
+								width: max-content;
+								left: 110%;
+								transition: all 0.5s ease-in-out;
+								animation: goleft 1s ease-in-out 2s forwards;
+							}
 							& > span {
 								padding-right: 0.75rem;
 								font-size: 2.65rem;
 							}
 						}
-						& > span {
-							background: linear-gradient(to top right, #0062ff, #ff007b);
-							-webkit-background-clip: text;
-							background-clip: text;
-							-webkit-text-fill-color: transparent;
-							font-family: "Arimo";
-							font-weight: 700;
+						& > main {
+							& > span {
+								background: linear-gradient(to top right, #0062ff, #ff007b);
+								-webkit-background-clip: text;
+								background-clip: text;
+								-webkit-text-fill-color: transparent;
+								font-family: "Arimo";
+								font-weight: 700;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media (min-width: 1600px) {
+		.AbstractPicture {
+			&-layer3 {
+				&-hello {
+					& > h1 {
+						height: 25rem;
+						& > div {
+							&:first-child {
+								font-size: 9rem;
+								width: 80rem;
+							}
+							&:nth-child(2) {
+								font-size: 4.5rem;
+								padding-right: 5rem;
+								height: 30%;
+								width: 80rem;
+							}
+							&:nth-child(3) {
+								font-size: 3.5rem;
+								width: 80rem;
+							}
 						}
 					}
 				}
