@@ -1,11 +1,11 @@
-import styles from "../styles/StyleBundle";
 import HomeHeader from "../components/Header";
-const { HomeHeaderStyle } = styles;
+import HomeDescription from "../components/HomeDescription";
 
 export default function Home() {
 	return (
 		<>
 			<HomeHeader />
+			{/* <HomeDescription /> */}
 		</>
 	);
 }
