@@ -51,6 +51,12 @@ const HomeHeaderStyle = styled.header`
 					width: 14rem;
 					height: 14rem;
 				}
+				@media (max-width: 46.875em) {
+					top: -5rem;
+					left: -6rem;
+					width: 10rem;
+					height: 10rem;
+				}
 
 				&:before {
 					content: "";
@@ -76,6 +82,12 @@ const HomeHeaderStyle = styled.header`
 					left: -8rem;
 					width: 25rem;
 					height: 25rem;
+				}
+				@media (max-width: 46.875em) {
+					top: -6rem;
+					left: -6rem;
+					width: 20rem;
+					height: 20rem;
 				}
 				&:before {
 					content: "";
@@ -106,6 +118,12 @@ const HomeHeaderStyle = styled.header`
 					width: 45rem;
 					height: 7rem;
 				}
+				@media (max-width: 46.875em) {
+					top: 10rem;
+					left: -19rem;
+					width: 45rem;
+					height: 5rem;
+				}
 				&:before {
 					content: "";
 					width: 100%;
@@ -130,6 +148,12 @@ const HomeHeaderStyle = styled.header`
 					left: -38rem;
 					width: 80rem;
 					height: 2rem;
+				}
+				@media (max-width: 46.875em) {
+					top: 19.5rem;
+					left: -40rem;
+					width: 80rem;
+					height: 1rem;
 				}
 				&:before {
 					content: "";
@@ -156,6 +180,12 @@ const HomeHeaderStyle = styled.header`
 					left: -35rem;
 					width: 80rem;
 					height: 3rem;
+				}
+				@media (max-width: 46.875em) {
+					top: 20rem;
+					left: -39rem;
+					width: 80rem;
+					height: 2rem;
 				}
 				&:before {
 					content: "";
@@ -187,6 +217,12 @@ const HomeHeaderStyle = styled.header`
 					width: 100rem;
 					height: 12rem;
 				}
+				@media (max-width: 46.875em) {
+					top: 15rem;
+					left: -47.5rem;
+					width: 100rem;
+					height: 12rem;
+				}
 			}
 			&-obj7 {
 				position: absolute;
@@ -209,6 +245,9 @@ const HomeHeaderStyle = styled.header`
 					left: -52rem;
 					width: 70rem;
 					height: 10rem;
+				}
+				@media (max-width: 46.875em) {
+					display: none;
 				}
 			}
 			&-obj8 {
@@ -233,6 +272,9 @@ const HomeHeaderStyle = styled.header`
 					width: 80rem;
 					height: 8rem;
 				}
+				@media (max-width: 46.875em) {
+					display: none;
+				}
 			}
 		}
 		&-layer2 {
@@ -243,7 +285,6 @@ const HomeHeaderStyle = styled.header`
 			z-index: 200;
 			top: 0rem;
 			left: 0rem;
-			/* display: none; */
 
 			@keyframes obj1animation {
 				0% {
@@ -280,6 +321,11 @@ const HomeHeaderStyle = styled.header`
 					height: 3rem;
 					animation: obj1animation75em 1s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					width: 3rem;
+					height: 3rem;
+					animation: obj1animation75em 1s ease-in-out 1s forwards;
+				}
 			}
 			@keyframes obj2animation {
 				0% {
@@ -305,6 +351,10 @@ const HomeHeaderStyle = styled.header`
 				@media (max-width: 75em) {
 					width: 1.5rem;
 					height: 10rem;
+				}
+				@media (max-width: 46.875em) {
+					width: 1rem;
+					height: 7rem;
 				}
 			}
 			@keyframes obj3animation {
@@ -350,6 +400,10 @@ const HomeHeaderStyle = styled.header`
 					height: 14rem;
 					animation: obj3animation75em 1s ease-in-out 1.5s forwards;
 				}
+				@media (max-width: 46.875em) {
+					width: 2rem;
+					height: 12rem;
+				}
 				& > span {
 					width: 1.25rem;
 					height: 1.25rem;
@@ -362,6 +416,10 @@ const HomeHeaderStyle = styled.header`
 							width: 0.35rem;
 							height: 4rem;
 						}
+						@media (max-width: 46.875em) {
+							width: 0.2rem;
+							height: 4rem;
+						}
 					}
 					&:nth-child(2) {
 						width: 0.5rem;
@@ -369,6 +427,10 @@ const HomeHeaderStyle = styled.header`
 						border-radius: 15px;
 						@media (max-width: 75em) {
 							width: 0.35rem;
+							height: 4rem;
+						}
+						@media (max-width: 46.875em) {
+							width: 0.2rem;
 							height: 4rem;
 						}
 					}
@@ -381,6 +443,10 @@ const HomeHeaderStyle = styled.header`
 						align-items: center;
 						justify-content: center;
 						transform: rotate(45deg);
+						@media (max-width: 46.875em) {
+							width: 1.2rem;
+							height: 1.2rem;
+						}
 						& > div {
 							position: absolute;
 							width: 100%;
@@ -390,6 +456,9 @@ const HomeHeaderStyle = styled.header`
 							border-radius: 25px;
 							@media (max-width: 75em) {
 								height: 0.3rem;
+							}
+							@media (max-width: 46.875em) {
+								height: 0.2rem;
 							}
 
 							&:first-child {
@@ -419,6 +488,16 @@ const HomeHeaderStyle = styled.header`
 					left: 1rem;
 				}
 			}
+			@keyframes obj4animation45em {
+				0% {
+					top: -4rem;
+					left: 10rem;
+				}
+				100% {
+					top: 6rem;
+					left: 1rem;
+				}
+			}
 			&-obj4 {
 				position: absolute;
 				top: -6rem;
@@ -440,6 +519,13 @@ const HomeHeaderStyle = styled.header`
 					height: 3rem;
 					animation: obj4animation75em 1s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: -4rem;
+					left: 10rem;
+					width: 2rem;
+					height: 2rem;
+					animation: obj4animation45em 1s ease-in-out 1s forwards;
+				}
 				& > span {
 					width: 1.25rem;
 					height: 1.25rem;
@@ -448,6 +534,10 @@ const HomeHeaderStyle = styled.header`
 					@media (max-width: 75em) {
 						width: 1rem;
 						height: 1rem;
+					}
+					@media (max-width: 46.875em) {
+						width: 0.75rem;
+						height: 0.75rem;
 					}
 				}
 			}
@@ -471,6 +561,16 @@ const HomeHeaderStyle = styled.header`
 					left: 10rem;
 				}
 			}
+			@keyframes obj5animation45em {
+				0% {
+					top: -1rem;
+					left: 14.5rem;
+				}
+				100% {
+					top: 4rem;
+					left: 9.5rem;
+				}
+			}
 			&-obj5 {
 				position: absolute;
 				top: -1rem;
@@ -487,6 +587,13 @@ const HomeHeaderStyle = styled.header`
 					width: 0.5rem;
 					height: 0.5rem;
 					animation: obj5animation75em 1s ease-in-out 1.25s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -1rem;
+					left: 14.5rem;
+					width: 0.5rem;
+					height: 0.5rem;
+					animation: obj5animation45em 1s ease-in-out 1.25s forwards;
 				}
 			}
 			@keyframes obj6animation {
@@ -509,6 +616,16 @@ const HomeHeaderStyle = styled.header`
 					left: 11rem;
 				}
 			}
+			@keyframes obj6animation45em {
+				0% {
+					top: -1rem;
+					left: 14.5rem;
+				}
+				100% {
+					top: 3rem;
+					left: 10.5rem;
+				}
+			}
 			&-obj6 {
 				position: absolute;
 				top: -1rem;
@@ -525,6 +642,13 @@ const HomeHeaderStyle = styled.header`
 					width: 0.5rem;
 					height: 0.5rem;
 					animation: obj6animation75em 1s ease-in-out 1.5s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -1rem;
+					left: 14.5rem;
+					width: 0.5rem;
+					height: 0.5rem;
+					animation: obj6animation45em 1s ease-in-out 1.5s forwards;
 				}
 			}
 			@keyframes obj7animation {
@@ -547,6 +671,16 @@ const HomeHeaderStyle = styled.header`
 					left: 12rem;
 				}
 			}
+			@keyframes obj7animation45em {
+				0% {
+					top: -1rem;
+					left: 14.5rem;
+				}
+				100% {
+					top: 2rem;
+					left: 11.5rem;
+				}
+			}
 			&-obj7 {
 				position: absolute;
 				top: -1rem;
@@ -564,6 +698,13 @@ const HomeHeaderStyle = styled.header`
 					height: 0.5rem;
 					animation: obj7animation75em 1s ease-in-out 1.75s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: -1rem;
+					left: 14.5rem;
+					width: 0.5rem;
+					height: 0.5rem;
+					animation: obj7animation45em 1s ease-in-out 1.75s forwards;
+				}
 			}
 			@keyframes obj8animation {
 				0% {
@@ -576,6 +717,16 @@ const HomeHeaderStyle = styled.header`
 				}
 			}
 			@keyframes obj8animation75em {
+				0% {
+					top: -6rem;
+					left: 18.5rem;
+				}
+				100% {
+					top: 8rem;
+					left: 4.5rem;
+				}
+			}
+			@keyframes obj8animation45em {
 				0% {
 					top: -6rem;
 					left: 18.5rem;
@@ -603,6 +754,11 @@ const HomeHeaderStyle = styled.header`
 					height: 6rem;
 					animation: obj8animation75em 1s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					width: 0.75rem;
+					height: 4rem;
+					animation: obj8animation75em 1s ease-in-out 1s forwards;
+				}
 			}
 			@keyframes obj9animation {
 				0% {
@@ -624,6 +780,16 @@ const HomeHeaderStyle = styled.header`
 					left: 1rem;
 				}
 			}
+			@keyframes obj9animation45em {
+				0% {
+					top: -3rem;
+					left: 17rem;
+				}
+				100% {
+					top: 13rem;
+					left: 1rem;
+				}
+			}
 			&-obj9 {
 				position: absolute;
 				top: -8rem;
@@ -640,6 +806,11 @@ const HomeHeaderStyle = styled.header`
 					width: 1rem;
 					height: 1rem;
 					animation: obj9animation75em 1s ease-in-out 0.75s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -3rem;
+					left: 17rem;
+					animation: obj9animation45em 1s ease-in-out 0.75s forwards;
 				}
 			}
 			@keyframes obj10animation {
@@ -662,6 +833,16 @@ const HomeHeaderStyle = styled.header`
 					left: 3rem;
 				}
 			}
+			@keyframes obj10animation45em {
+				0% {
+					top: -5rem;
+					left: 21rem;
+				}
+				100% {
+					top: 14rem;
+					left: 2rem;
+				}
+			}
 			&-obj10 {
 				position: absolute;
 				top: -10rem;
@@ -679,6 +860,13 @@ const HomeHeaderStyle = styled.header`
 					width: 1rem;
 					height: 5rem;
 					animation: obj10animation75em 1s ease-in-out 1s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -5rem;
+					left: 21rem;
+					width: 1rem;
+					height: 3rem;
+					animation: obj10animation45em 1s ease-in-out 1s forwards;
 				}
 			}
 			@keyframes obj11animation {
@@ -701,6 +889,16 @@ const HomeHeaderStyle = styled.header`
 					left: 18rem;
 				}
 			}
+			@keyframes obj11animation45em {
+				0% {
+					top: 20.5rem;
+					left: -4rem;
+				}
+				100% {
+					top: 0.5rem;
+					left: 16rem;
+				}
+			}
 			&-obj11 {
 				position: relative;
 				top: 30rem;
@@ -720,6 +918,13 @@ const HomeHeaderStyle = styled.header`
 					height: 1.5rem;
 					animation: obj11animation75em 1.5s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: 20.5rem;
+					left: -4rem;
+					width: 1.2rem;
+					height: 1.2rem;
+					animation: obj11animation45em 1.5s ease-in-out 1s forwards;
+				}
 
 				& > span {
 					position: absolute;
@@ -730,6 +935,9 @@ const HomeHeaderStyle = styled.header`
 					border-radius: 25px;
 					@media (max-width: 75em) {
 						height: 0.3rem;
+					}
+					@media (max-width: 46.875em) {
+						height: 0.2rem;
 					}
 
 					&:first-child {
@@ -763,6 +971,10 @@ const HomeHeaderStyle = styled.header`
 					width: 1.5rem;
 					height: 1.5rem;
 				}
+				@media (max-width: 46.875em) {
+					width: 1.2rem;
+					height: 1.2rem;
+				}
 
 				& > span {
 					position: absolute;
@@ -773,6 +985,9 @@ const HomeHeaderStyle = styled.header`
 					border-radius: 25px;
 					@media (max-width: 75em) {
 						height: 0.3rem;
+					}
+					@media (max-width: 46.875em) {
+						height: 0.2rem;
 					}
 
 					&:first-child {
@@ -800,6 +1015,16 @@ const HomeHeaderStyle = styled.header`
 					left: 17rem;
 				}
 			}
+			@keyframes obj12animation45em {
+				0% {
+					top: 20rem;
+					left: -5rem;
+				}
+				100% {
+					top: -0.5rem;
+					left: 15rem;
+				}
+			}
 			&-obj12 {
 				position: relative;
 				top: 27rem;
@@ -820,6 +1045,13 @@ const HomeHeaderStyle = styled.header`
 					width: 1rem;
 					height: 1rem;
 					animation: obj12animation75em 1.5s ease-in-out 1.5s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: 20rem;
+					left: -5rem;
+					width: 1rem;
+					height: 1rem;
+					animation: obj12animation45em 1.5s ease-in-out 1.5s forwards;
 				}
 			}
 			@keyframes obj13animation {
@@ -842,6 +1074,16 @@ const HomeHeaderStyle = styled.header`
 					left: 15.5rem;
 				}
 			}
+			@keyframes obj13animation45em {
+				0% {
+					top: 18rem;
+					left: -3.5rem;
+				}
+				100% {
+					top: -0.5rem;
+					left: 14rem;
+				}
+			}
 			&-obj13 {
 				position: relative;
 				top: 27rem;
@@ -862,6 +1104,11 @@ const HomeHeaderStyle = styled.header`
 					width: 1rem;
 					height: 1rem;
 					animation: obj13animation75em 1.5s ease-in-out 2s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: 18rem;
+					left: -3.5rem;
+					animation: obj13animation45em 1.5s ease-in-out 2s forwards;
 				}
 			}
 			@keyframes obj14animation {
@@ -904,6 +1151,13 @@ const HomeHeaderStyle = styled.header`
 					height: 3rem;
 					animation: obj14animation75em 1.5s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: -8.5rem;
+					left: 21.5rem;
+					width: 2rem;
+					height: 2rem;
+					animation: obj14animation75em 1.5s ease-in-out 1s forwards;
+				}
 
 				& > span {
 					position: absolute;
@@ -915,6 +1169,10 @@ const HomeHeaderStyle = styled.header`
 					@media (max-width: 75em) {
 						width: 1rem;
 						height: 1rem;
+					}
+					@media (max-width: 46.875em) {
+						width: 0.75rem;
+						height: 0.75rem;
 					}
 				}
 			}
@@ -930,11 +1188,21 @@ const HomeHeaderStyle = styled.header`
 			}
 			@keyframes obj15animation75em {
 				0% {
-					width: 5rem;
-					height: 25rem;
+					top: 25.5rem;
+					left: -20rem;
 				}
 				100% {
 					top: 2rem;
+					left: 0rem;
+				}
+			}
+			@keyframes obj15animation45em {
+				0% {
+					top: 26.5rem;
+					left: -20rem;
+				}
+				100% {
+					top: 3.5rem;
 					left: 0rem;
 				}
 			}
@@ -960,6 +1228,13 @@ const HomeHeaderStyle = styled.header`
 					height: 25rem;
 					animation: obj15animation75em 1.5s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: 26.5rem;
+					left: -20rem;
+					width: 3rem;
+					height: 20rem;
+					animation: obj15animation45em 1.5s ease-in-out 1s forwards;
+				}
 				& > span {
 					width: 2rem;
 					height: 2rem;
@@ -971,8 +1246,15 @@ const HomeHeaderStyle = styled.header`
 						width: 1.5rem;
 						height: 1.5rem;
 					}
+					@media (max-width: 46.875em) {
+						width: 1rem;
+						height: 1rem;
+					}
 					&:first-child {
 						margin-top: 2.5rem;
+						@media (max-width: 46.875em) {
+							margin-top: 1.5rem;
+						}
 					}
 				}
 			}
@@ -996,6 +1278,16 @@ const HomeHeaderStyle = styled.header`
 					left: 27.5rem;
 				}
 			}
+			@keyframes obj16animation45em {
+				0% {
+					top: -24.5rem;
+					left: 34.5rem;
+				}
+				100% {
+					top: -14.5rem;
+					left: 24.5rem;
+				}
+			}
 			&-obj16 {
 				position: absolute;
 				top: -30.5rem;
@@ -1017,6 +1309,11 @@ const HomeHeaderStyle = styled.header`
 					top: -22.5rem;
 					left: 37.5rem;
 					animation: obj16animation75em 1.5s ease-in-out 1s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -24.5rem;
+					left: 34.5rem;
+					animation: obj16animation45em 1.5s ease-in-out 1s forwards;
 				}
 				& > span {
 					width: 1.5rem;
@@ -1077,6 +1374,9 @@ const HomeHeaderStyle = styled.header`
 					left: 52.5rem;
 					animation: obj17animation75em 0.75s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					display: none;
+				}
 			}
 			@keyframes obj18animation {
 				0% {
@@ -1108,6 +1408,16 @@ const HomeHeaderStyle = styled.header`
 					left: 32rem;
 				}
 			}
+			@keyframes obj18animation45em {
+				0% {
+					top: -34rem;
+					left: 46rem;
+				}
+				100% {
+					top: -18rem;
+					left: 30rem;
+				}
+			}
 			&-obj18 {
 				position: absolute;
 				top: -32rem;
@@ -1133,6 +1443,11 @@ const HomeHeaderStyle = styled.header`
 					top: -32rem;
 					left: 48rem;
 					animation: obj18animation75em 1s ease-in-out 1s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -34rem;
+					left: 46rem;
+					animation: obj18animation45em 1s ease-in-out 1s forwards;
 				}
 			}
 			@keyframes obj19animation {
@@ -1181,6 +1496,9 @@ const HomeHeaderStyle = styled.header`
 					left: 48rem;
 					animation: obj19animation75em 1.25s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					display: none;
+				}
 			}
 			@keyframes obj20animation {
 				0% {
@@ -1222,6 +1540,9 @@ const HomeHeaderStyle = styled.header`
 					left: -10rem;
 					animation: obj20animation75em 1s ease-in-out 1s forwards;
 				}
+				@media (max-width: 46.875em) {
+					display: none;
+				}
 			}
 			@keyframes obj21animation {
 				0% {
@@ -1262,6 +1583,9 @@ const HomeHeaderStyle = styled.header`
 					left: 32rem;
 					animation: obj21animation75em 1s ease-in-out 2.5s forwards;
 				}
+				@media (max-width: 46.875em) {
+					display: none;
+				}
 			}
 			@keyframes obj22animation {
 				0% {
@@ -1283,6 +1607,16 @@ const HomeHeaderStyle = styled.header`
 					left: 8.5rem;
 				}
 			}
+			@keyframes obj22animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 18rem;
+					left: 6rem;
+				}
+			}
 			&-obj22 {
 				position: absolute;
 				top: 45rem;
@@ -1299,6 +1633,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj22animation75em 1s ease-in-out 3.25s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj22animation45em 1s ease-in-out 3.25s forwards;
 				}
 			}
 			@keyframes obj23animation {
@@ -1321,6 +1662,16 @@ const HomeHeaderStyle = styled.header`
 					left: 9rem;
 				}
 			}
+			@keyframes obj23animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 17.5rem;
+					left: 6.5rem;
+				}
+			}
 			&-obj23 {
 				position: absolute;
 				top: 45rem;
@@ -1337,6 +1688,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj23animation75em 1s ease-in-out 3s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj23animation45em 1s ease-in-out 3s forwards;
 				}
 			}
 			@keyframes obj24animation {
@@ -1359,6 +1717,16 @@ const HomeHeaderStyle = styled.header`
 					left: 9.5rem;
 				}
 			}
+			@keyframes obj24animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 17rem;
+					left: 7rem;
+				}
+			}
 			&-obj24 {
 				position: absolute;
 				top: 45rem;
@@ -1375,6 +1743,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj24animation75em 1s ease-in-out 2.75s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj24animation45em 1s ease-in-out 2.75s forwards;
 				}
 			}
 			@keyframes obj25animation {
@@ -1397,6 +1772,16 @@ const HomeHeaderStyle = styled.header`
 					left: 10.5rem;
 				}
 			}
+			@keyframes obj25animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 16rem;
+					left: 8rem;
+				}
+			}
 			&-obj25 {
 				position: absolute;
 				top: 45rem;
@@ -1413,6 +1798,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj25animation75em 1s ease-in-out 2.5s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj25animation45em 1s ease-in-out 2.5s forwards;
 				}
 			}
 			@keyframes obj26animation {
@@ -1435,6 +1827,16 @@ const HomeHeaderStyle = styled.header`
 					left: 11rem;
 				}
 			}
+			@keyframes obj26animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 15.5rem;
+					left: 8.5rem;
+				}
+			}
 			&-obj26 {
 				position: absolute;
 				top: 45rem;
@@ -1451,6 +1853,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj26animation75em 1s ease-in-out 2.25s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj26animation45em 1s ease-in-out 2.25s forwards;
 				}
 			}
 			@keyframes obj27animation {
@@ -1473,6 +1882,16 @@ const HomeHeaderStyle = styled.header`
 					left: 11.5rem;
 				}
 			}
+			@keyframes obj27animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 15rem;
+					left: 9rem;
+				}
+			}
 			&-obj27 {
 				position: absolute;
 				top: 45rem;
@@ -1489,6 +1908,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj27animation75em 1s ease-in-out 2s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj27animation45em 1s ease-in-out 2s forwards;
 				}
 			}
 			@keyframes obj28animation {
@@ -1511,6 +1937,16 @@ const HomeHeaderStyle = styled.header`
 					left: 12rem;
 				}
 			}
+			@keyframes obj28animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 14.5rem;
+					left: 9.5rem;
+				}
+			}
 			&-obj28 {
 				position: absolute;
 				top: 45rem;
@@ -1527,6 +1963,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj28animation75em 1s ease-in-out 1.75s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj28animation45em 1s ease-in-out 1.75s forwards;
 				}
 			}
 			@keyframes obj29animation {
@@ -1549,6 +1992,16 @@ const HomeHeaderStyle = styled.header`
 					left: 13rem;
 				}
 			}
+			@keyframes obj29animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 13.5rem;
+					left: 10.5rem;
+				}
+			}
 			&-obj29 {
 				position: absolute;
 				top: 45rem;
@@ -1565,6 +2018,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj29animation75em 1s ease-in-out 1.5s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj29animation45em 1s ease-in-out 1.5s forwards;
 				}
 			}
 			@keyframes obj30animation {
@@ -1587,6 +2047,16 @@ const HomeHeaderStyle = styled.header`
 					left: 13.5rem;
 				}
 			}
+			@keyframes obj30animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 13rem;
+					left: 11rem;
+				}
+			}
 			&-obj30 {
 				position: absolute;
 				top: 45rem;
@@ -1603,6 +2073,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj30animation75em 1s ease-in-out 1.25s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj30animation45em 1s ease-in-out 1.25s forwards;
 				}
 			}
 			@keyframes obj31animation {
@@ -1625,6 +2102,16 @@ const HomeHeaderStyle = styled.header`
 					left: 14rem;
 				}
 			}
+			@keyframes obj31animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 12.5rem;
+					left: 11.5rem;
+				}
+			}
 			&-obj31 {
 				position: absolute;
 				top: 45rem;
@@ -1641,6 +2128,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj31animation75em 1s ease-in-out 1s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj31animation45em 1s ease-in-out 1s forwards;
 				}
 			}
 			@keyframes obj32animation {
@@ -1663,6 +2157,16 @@ const HomeHeaderStyle = styled.header`
 					left: 14.5rem;
 				}
 			}
+			@keyframes obj32animation45em {
+				0% {
+					top: 26rem;
+					left: -2rem;
+				}
+				100% {
+					top: 12rem;
+					left: 12rem;
+				}
+			}
 			&-obj32 {
 				position: absolute;
 				top: 45rem;
@@ -1679,6 +2183,13 @@ const HomeHeaderStyle = styled.header`
 					top: 29.5rem;
 					left: -1.5rem;
 					animation: obj32animation75em 1s ease-in-out 0.75s forwards;
+				}
+				@media (max-width: 46.875em) {
+					width: 0.4rem;
+					height: 0.4rem;
+					top: 26rem;
+					left: -2rem;
+					animation: obj32animation45em 1s ease-in-out 0.75s forwards;
 				}
 			}
 			@keyframes obj33animation {
@@ -1701,6 +2212,16 @@ const HomeHeaderStyle = styled.header`
 					left: 11.5rem;
 				}
 			}
+			@keyframes obj33animation45em {
+				0% {
+					top: -3.5rem;
+					left: 22rem;
+				}
+				100% {
+					top: 9.5rem;
+					left: 9.5rem;
+				}
+			}
 			&-obj33 {
 				position: absolute;
 				top: -4rem;
@@ -1713,13 +2234,18 @@ const HomeHeaderStyle = styled.header`
 				transform: rotate(-45deg);
 				animation: obj33animation 1s ease-in-out 1.5s forwards;
 				@media (max-width: 75em) {
-					top: -4rem;
-					left: 36rem;
 					width: 5rem;
 					height: 0.35rem;
 					top: -2.5rem;
 					left: 24.5rem;
 					animation: obj33animation75em 1s ease-in-out 1.5s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -3.5rem;
+					left: 22rem;
+					width: 5rem;
+					height: 0.35rem;
+					animation: obj33animation45em 1s ease-in-out 1.5s forwards;
 				}
 			}
 			@keyframes obj34animation {
@@ -1742,6 +2268,16 @@ const HomeHeaderStyle = styled.header`
 					left: 17rem;
 				}
 			}
+			@keyframes obj34animation45em {
+				0% {
+					top: -3.5rem;
+					left: 22rem;
+				}
+				100% {
+					top: 7rem;
+					left: 14.25rem;
+				}
+			}
 			&-obj34 {
 				position: absolute;
 				top: -3rem;
@@ -1758,6 +2294,13 @@ const HomeHeaderStyle = styled.header`
 					width: 0.4rem;
 					height: 0.4rem;
 					animation: obj34animation75em 1s ease-in-out 1.75s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -2.5rem;
+					left: 24.5rem;
+					width: 0.4rem;
+					height: 0.4rem;
+					animation: obj34animation45em 1s ease-in-out 1.75s forwards;
 				}
 			}
 			@keyframes obj35animation {
@@ -1780,6 +2323,16 @@ const HomeHeaderStyle = styled.header`
 					left: 18rem;
 				}
 			}
+			@keyframes obj35animation45em {
+				0% {
+					top: -3.5rem;
+					left: 22rem;
+				}
+				100% {
+					top: 6.5rem;
+					left: 14.75rem;
+				}
+			}
 			&-obj35 {
 				position: absolute;
 				top: -3rem;
@@ -1796,6 +2349,13 @@ const HomeHeaderStyle = styled.header`
 					width: 0.4rem;
 					height: 0.4rem;
 					animation: obj35animation75em 1s ease-in-out 2s forwards;
+				}
+				@media (max-width: 46.875em) {
+					top: -2.5rem;
+					left: 24.5rem;
+					width: 0.4rem;
+					height: 0.4rem;
+					animation: obj35animation45em 1s ease-in-out 2s forwards;
 				}
 			}
 			@keyframes obj36animation {
@@ -1818,6 +2378,16 @@ const HomeHeaderStyle = styled.header`
 					left: 19rem;
 				}
 			}
+			@keyframes obj36animation45em {
+				0% {
+					top: -3.5rem;
+					left: 22rem;
+				}
+				100% {
+					top: 6rem;
+					left: 15.25rem;
+				}
+			}
 			&-obj36 {
 				position: absolute;
 				top: -3rem;
@@ -1835,6 +2405,13 @@ const HomeHeaderStyle = styled.header`
 					height: 0.4rem;
 					animation: obj36animation75em 1s ease-in-out 2.25s forwards;
 				}
+				@media (max-width: 46.875em) {
+					top: -2.5rem;
+					left: 24.5rem;
+					width: 0.4rem;
+					height: 0.4rem;
+					animation: obj36animation45em 1s ease-in-out 2.25s forwards;
+				}
 			}
 		}
 		&-layer3 {
@@ -1848,10 +2425,16 @@ const HomeHeaderStyle = styled.header`
 			display: flex;
 			align-items: center;
 			justify-content: end;
-			/* display: none; */
+			@media (max-width: 46.875em) {
+				justify-content: center;
+				align-items: end;
+			}
 			&-hello {
 				min-width: 10rem;
 				min-height: 5rem;
+				@media (max-width: 46.875em) {
+					width: 100%;
+				}
 				& > h1 {
 					font-size: 3rem;
 					color: white;
@@ -1864,7 +2447,18 @@ const HomeHeaderStyle = styled.header`
 						height: 12rem;
 						margin-right: 1rem;
 					}
+					@media (max-width: 62.5em) {
+						height: 10rem;
+					}
+					@media (max-width: 46.875em) {
+						margin-right: 0rem;
+						margin-bottom: 8rem;
+						width: 100%;
+					}
 					& > div {
+						@media (max-width: 46.875em) {
+							width: 100%;
+						}
 						&:first-child {
 							font-size: 7rem;
 							overflow: hidden;
@@ -1875,6 +2469,14 @@ const HomeHeaderStyle = styled.header`
 								width: 40rem;
 								font-size: 5rem;
 							}
+							@media (max-width: 62.5em) {
+								width: 30rem;
+								font-size: 4rem;
+							}
+							@media (max-width: 46.875em) {
+								width: 100%;
+								font-size: 3.5rem;
+							}
 							@keyframes godown {
 								0% {
 									top: -100%;
@@ -1883,12 +2485,26 @@ const HomeHeaderStyle = styled.header`
 									top: 0%;
 								}
 							}
+							@keyframes godown2 {
+								0% {
+									top: -100%;
+								}
+								100% {
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
+								}
+							}
 							& > main {
 								position: absolute;
 								top: -100%;
 								left: 0;
 								transition: all 0.5s ease-in-out;
 								animation: godown 1s ease-in-out 2s forwards;
+								@media (max-width: 46.875em) {
+									width: max-content;
+									animation: godown2 1s ease-in-out 2s forwards;
+								}
 							}
 						}
 						&:nth-child(2) {
@@ -1906,12 +2522,32 @@ const HomeHeaderStyle = styled.header`
 								width: 40rem;
 								font-size: 2.5rem;
 							}
+							@media (max-width: 62.5em) {
+								padding-right: 10rem;
+								width: 30rem;
+								font-size: 2rem;
+							}
+							@media (max-width: 46.875em) {
+								padding-right: 0rem;
+								width: 100%;
+								font-size: 1.5rem;
+							}
 							@keyframes goup {
 								0% {
 									top: 100%;
 								}
 								100% {
 									top: 0%;
+								}
+							}
+							@keyframes goup2 {
+								0% {
+									top: 100%;
+								}
+								100% {
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
 								}
 							}
 							& > main {
@@ -1922,6 +2558,11 @@ const HomeHeaderStyle = styled.header`
 								animation: goup 1s ease-in-out 2s forwards;
 								@media (max-width: 90.625em) {
 									left: 5rem;
+								}
+								@media (max-width: 46.875em) {
+									width: max-content;
+									left: 0;
+									animation: goup2 1s ease-in-out 2s forwards;
 								}
 							}
 						}
@@ -1939,6 +2580,16 @@ const HomeHeaderStyle = styled.header`
 								padding-right: 10rem;
 								width: 40rem;
 								font-size: 2rem;
+							}
+							@media (max-width: 62.5em) {
+								padding-right: 10rem;
+								width: 30rem;
+								font-size: 1.5rem;
+							}
+							@media (max-width: 46.875em) {
+								padding-right: 0rem;
+								width: 100%;
+								font-size: 1rem;
 							}
 							@keyframes goleft {
 								0% {
