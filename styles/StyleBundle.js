@@ -1,9 +1,9 @@
 import HomeHeaderStyle from "./webStyles/HeaderHome";
-import HomeDesc from "./webStyles/HomeDesc";
+import AboutDesc from "./webStyles/AboutDesc";
 
 const styles = {
 	HomeHeaderStyle,
-	HomeDesc,
+	AboutDesc,
 };
 
 export default styles;

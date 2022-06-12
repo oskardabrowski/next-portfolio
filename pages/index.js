@@ -1,11 +1,11 @@
 import HomeHeader from "../components/Header";
-import HomeDescription from "../components/HomeDescription";
+import HomeAbout from "../components/HomeAbout";
 
 export default function Home() {
 	return (
 		<>
 			<HomeHeader />
-			{/* <HomeDescription /> */}
+			<HomeAbout />
 		</>
 	);
 }
