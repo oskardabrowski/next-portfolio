@@ -3,7 +3,6 @@ import styled from "styled-components";
 const AboutDesc = styled.div`
 	width: 100%;
 	min-height: 100vh;
-	background-color: rgba(255, 255, 255, 0.5);
 	display: flex;
 	flex-direction: column;
 
@@ -76,7 +75,7 @@ const AboutDesc = styled.div`
 
 	.AboutDescription {
 		width: 100%;
-		background-color: red;
+		/* background-color: red; */
 		min-height: 32rem;
 		/* min-height: 80%; */
 	}
@@ -85,12 +84,39 @@ const AboutDesc = styled.div`
 		overflow-x: hidden;
 		&-left {
 			width: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			&-btn {
+				width: 40rem;
+				padding: 1rem;
+				border-radius: 25rem;
+				background: linear-gradient(to right, #000ffe, #ff0045);
+				display: flex;
+				align-items: center;
+				justify-content: end;
+				position: relative;
+				left: -5rem;
+				font-size: 1.2rem;
+				font-weight: bold;
+				color: white;
+				padding-right: 2rem;
+				& > span {
+					margin-left: 0.5rem;
+				}
+
+				& > .ico {
+					font-size: 2rem;
+				}
+			}
 		}
 		&-right {
 			width: 50%;
 			display: flex;
 			align-items: center;
 			justify-content: end;
+			padding-bottom: 3rem;
+			position: relative;
 
 			&-el {
 				margin-top: 0.5rem;
@@ -100,6 +126,63 @@ const AboutDesc = styled.div`
 				height: 4.5rem;
 				border-radius: 25rem;
 				background-color: blue;
+				background: linear-gradient(to right, #ffa900, #00c9b2);
+				display: flex;
+				align-items: center;
+				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+				z-index: 100;
+
+				& > span {
+					width: 1.5rem;
+					height: 1.5rem;
+					background-color: white;
+					margin-left: 1rem;
+					clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+					transform: rotate(-90deg);
+					&:first-child {
+						margin-left: 2rem;
+					}
+				}
+			}
+			&-el2 {
+				width: 30rem;
+				height: 3rem;
+				background: linear-gradient(to right, #000ffe, #9500ff);
+				position: absolute;
+				top: 4.5rem;
+				right: -5rem;
+				border-radius: 25rem;
+				z-index: 50;
+				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+				display: flex;
+				align-items: center;
+				justify-content: left;
+				& > span {
+					width: 7rem;
+					height: 0.3rem;
+					margin-left: 2rem;
+					background-color: white;
+					border-radius: 25rem;
+
+					&:first-child {
+						width: 2rem;
+						transform: rotate(45deg);
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin-left: 1.5rem;
+
+						&:before {
+							content: "";
+							width: 2rem;
+							height: 0.3rem;
+							background-color: white;
+							position: absolute;
+							transform: rotate(-90deg);
+						}
+					}
+				}
 			}
 		}
 	}
