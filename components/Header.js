@@ -16,7 +16,7 @@ export default function HomeHeader() {
 									</main>
 								</div>
 								<div>
-									<main>I'm Oskar Dąbrowski</main>
+									<main>I am Oskar Dąbrowski</main>
 								</div>
 								<div>
 									<main>
