@@ -12,11 +12,11 @@ export default function HomeHeader() {
 							<h1>
 								<div>
 									<main>
-										Dzień dobry<span>!</span>
+										Welcome<span>!</span>
 									</main>
 								</div>
 								<div>
-									<main>Jestem Oskar Dąbrowski</main>
+									<main>I'm Oskar Dąbrowski</main>
 								</div>
 								<div>
 									<main>

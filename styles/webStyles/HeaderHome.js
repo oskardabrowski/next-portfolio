@@ -2599,12 +2599,25 @@ const HomeHeaderStyle = styled.header`
 									left: 50%;
 								}
 							}
+							@keyframes goleft2 {
+								0% {
+									left: 110%;
+								}
+								100% {
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
+								}
+							}
 							& > main {
 								position: absolute;
 								width: max-content;
 								left: 110%;
 								transition: all 0.5s ease-in-out;
 								animation: goleft 1s ease-in-out 2s forwards;
+								@media (max-width: 46.875em) {
+									animation: goleft2 1s ease-in-out 2s forwards;
+								}
 							}
 							& > span {
 								padding-right: 0.75rem;
