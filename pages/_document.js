@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
 						name="description"
 						content="Dzień dobry! Jestem Oskar Dąbrowski, Front-End Developer. Tworzę strony w oparciu o VanillaJS, React i NextJS."
 					/>
+
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 					<link

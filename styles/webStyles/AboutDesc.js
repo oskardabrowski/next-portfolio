@@ -16,7 +16,7 @@ const AboutDesc = styled.div`
 			border-radius: 25rem;
 			background: linear-gradient(to right, #f400ff, #6500ff);
 			position: relative;
-			left: -5rem;
+			left: -60rem;
 			display: flex;
 			align-items: center;
 			justify-content: end;
@@ -25,13 +25,17 @@ const AboutDesc = styled.div`
 			color: white;
 			font-weight: bold;
 			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
-			& > span {
-				margin-right: 3rem;
-				font-size: 2.5rem;
-				background: linear-gradient(to top right, #0062ff, #ff007b);
-				-webkit-background-clip: text;
-				background-clip: text;
-				-webkit-text-fill-color: transparent;
+			transition: all 1s ease-in-out;
+			& > h2 {
+				font-size: 2rem;
+				& > span {
+					margin-right: 3rem;
+					font-size: 2.5rem;
+					background: linear-gradient(to top right, #0062ff, #ff007b);
+					-webkit-background-clip: text;
+					background-clip: text;
+					-webkit-text-fill-color: transparent;
+				}
 			}
 			&-dots {
 				width: 50rem;
@@ -73,11 +77,58 @@ const AboutDesc = styled.div`
 		}
 	}
 
+	.AboutHeadTitleVisible {
+		left: -5rem;
+	}
+
 	.AboutDescription {
 		width: 100%;
-		/* background-color: red; */
 		min-height: 32rem;
 		/* min-height: 80%; */
+		display: flex;
+		flex-direction: row;
+		&-text {
+			width: 50%;
+
+			&-p {
+				position: relative;
+				left: -50rem;
+				padding: 0rem 3rem;
+				padding-top: 4rem;
+				font-family: "Arimo";
+				font-size: 1.2rem;
+				color: white;
+				text-align: justify;
+				transition: all 0.5s ease-out;
+			}
+		}
+		&-photo {
+			width: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+
+			&-container {
+				background-color: red;
+				background: linear-gradient(to right bottom, #0036ff, #00ffa5);
+				border-radius: 500rem;
+				padding: 1.5rem;
+				position: relative;
+				right: -35rem;
+				transition: all 0.5s ease-out;
+				& > img {
+					border-radius: 500rem;
+					overflow: hidden;
+				}
+			}
+		}
+	}
+	.AboutTextVisible {
+		left: 0;
+	}
+	.AboutPhotoVisible {
+		right: 0;
 	}
 	.AboutReadMore {
 		display: flex;
@@ -96,11 +147,12 @@ const AboutDesc = styled.div`
 				align-items: center;
 				justify-content: end;
 				position: relative;
-				left: -5rem;
+				left: -40rem;
 				font-size: 1.2rem;
 				font-weight: bold;
 				color: white;
 				padding-right: 2rem;
+				transition: all 1s ease-in-out;
 				& > span {
 					margin-left: 0.5rem;
 				}
@@ -122,7 +174,7 @@ const AboutDesc = styled.div`
 				margin-top: 0.5rem;
 				width: 35rem;
 				position: relative;
-				right: -5rem;
+				right: -50rem;
 				height: 4.5rem;
 				border-radius: 25rem;
 				background-color: blue;
@@ -131,6 +183,7 @@ const AboutDesc = styled.div`
 				align-items: center;
 				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
 				z-index: 100;
+				transition: all 1s ease-in-out;
 
 				& > span {
 					width: 1.5rem;
@@ -150,13 +203,14 @@ const AboutDesc = styled.div`
 				background: linear-gradient(to right, #000ffe, #9500ff);
 				position: absolute;
 				top: 4.5rem;
-				right: -5rem;
+				right: -50rem;
 				border-radius: 25rem;
 				z-index: 50;
 				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
 				display: flex;
 				align-items: center;
 				justify-content: left;
+				transition: all 1s ease-in-out;
 				& > span {
 					width: 7rem;
 					height: 0.3rem;
@@ -185,6 +239,13 @@ const AboutDesc = styled.div`
 				}
 			}
 		}
+	}
+
+	.ReadMoreBtnVisible {
+		left: -5rem;
+	}
+	.ReadMoreEl1Visible {
+		right: -5rem;
 	}
 `;
 
