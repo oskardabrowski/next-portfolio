@@ -16,6 +16,10 @@ function MyApp({ Component, pageProps }) {
 					<Head>
 						<title>Abstract Developer</title>
 						<link href="/absico.png" rel="icon" type="image/png" />
+						<meta
+							name="viewport"
+							content="width=device-width, initial-scale=1"
+						/>
 					</Head>
 					<GlobalStyles />
 					<Component {...pageProps} />
