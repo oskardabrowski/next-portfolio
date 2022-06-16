@@ -16,7 +16,7 @@ const AboutDesc = styled.div`
 			border-radius: 25rem;
 			background: linear-gradient(to right, #f400ff, #6500ff);
 			position: relative;
-			left: -60rem;
+			left: -70rem;
 			display: flex;
 			align-items: center;
 			justify-content: end;
@@ -92,7 +92,7 @@ const AboutDesc = styled.div`
 
 			&-p {
 				position: relative;
-				left: -50rem;
+				left: -60rem;
 				padding: 0rem 3rem;
 				padding-top: 4rem;
 				font-family: "Arimo";
@@ -115,7 +115,7 @@ const AboutDesc = styled.div`
 				border-radius: 500rem;
 				padding: 1.5rem;
 				position: relative;
-				right: -35rem;
+				right: -50rem;
 				transition: all 0.5s ease-out;
 				& > img {
 					border-radius: 500rem;
@@ -147,12 +147,16 @@ const AboutDesc = styled.div`
 				align-items: center;
 				justify-content: end;
 				position: relative;
-				left: -40rem;
+				left: -50rem;
 				font-size: 1.2rem;
 				font-weight: bold;
 				color: white;
 				padding-right: 2rem;
-				transition: all 1s ease-in-out;
+				transition: all 0.5s ease-in-out;
+				&:hover {
+					cursor: pointer;
+					left: -2.5rem;
+				}
 				& > span {
 					margin-left: 0.5rem;
 				}
@@ -174,7 +178,7 @@ const AboutDesc = styled.div`
 				margin-top: 0.5rem;
 				width: 35rem;
 				position: relative;
-				right: -50rem;
+				right: -60rem;
 				height: 4.5rem;
 				border-radius: 25rem;
 				background-color: blue;
@@ -203,7 +207,7 @@ const AboutDesc = styled.div`
 				background: linear-gradient(to right, #000ffe, #9500ff);
 				position: absolute;
 				top: 4.5rem;
-				right: -50rem;
+				right: -60rem;
 				border-radius: 25rem;
 				z-index: 50;
 				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
