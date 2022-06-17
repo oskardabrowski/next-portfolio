@@ -4,6 +4,7 @@ import SelectedProjects from "./webStyles/HomeProjectsStyles";
 import SkillsStyles from "./webStyles/HomeSkillsStyles";
 import ContactOptions from "./webStyles/ContactStyles";
 import FooterStyle from "./webStyles/FooterStyles";
+import MenuStyles from "./webStyles/MenuStyles";
 
 const styles = {
 	HomeHeaderStyle,
@@ -12,6 +13,7 @@ const styles = {
 	SkillsStyles,
 	ContactOptions,
 	FooterStyle,
+	MenuStyles,
 };
 
 export default styles;

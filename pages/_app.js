@@ -3,6 +3,7 @@ import { GlobalStyles } from "../styles/GlobalStyles";
 import Head from "next/dist/shared/lib/head";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ContextProvider from "../components/Context";
+import Menu from "../components/Menu";
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null);
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
 						/>
 					</Head>
 					<GlobalStyles />
+					<Menu />
 					<Component {...pageProps} />
 				</main>
 			</LocomotiveScrollProvider>

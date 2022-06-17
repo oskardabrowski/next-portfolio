@@ -82,7 +82,7 @@ const Contact = () => {
 						className="ContactOptions-form-button"
 						data-scroll
 						data-scroll-class="LastSpanLeftVisible"
-						data-scroll-offset="25%"
+						data-scroll-offset="20%"
 					>
 						<button>Send message</button>
 					</span>

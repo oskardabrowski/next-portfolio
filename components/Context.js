@@ -1,11 +1,11 @@
-import React, { createContext } from "react";
+import React, { createContext, useState } from "react";
 
 export const AppContext = createContext();
 
 const ContextProvider = ({ children }) => {
-	const alertIsGood = "Done is good";
+	const [appLang, setAppLang] = useState("EN");
 	return (
-		<AppContext.Provider value={{ alertIsGood }}>
+		<AppContext.Provider value={{ appLang, setAppLang }}>
 			{children}
 		</AppContext.Provider>
 	);
