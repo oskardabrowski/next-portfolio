@@ -1,8 +1,9 @@
-import HomeHeader from "../components/Header";
+import HomeHeader from "../components/HomeHeader";
 import HomeAbout from "../components/HomeAbout";
 import HomeSelectedProjects from "../components/HomeSelectedProjects";
 import HomeSkills from "../components/HomeSkills";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<HomeSelectedProjects />
 			<HomeSkills />
 			<Contact />
+			<Footer />
 		</>
 	);
 }

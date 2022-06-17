@@ -3,6 +3,7 @@ import AboutDesc from "./webStyles/AboutDesc";
 import SelectedProjects from "./webStyles/HomeProjectsStyles";
 import SkillsStyles from "./webStyles/HomeSkillsStyles";
 import ContactOptions from "./webStyles/ContactStyles";
+import FooterStyle from "./webStyles/FooterStyles";
 
 const styles = {
 	HomeHeaderStyle,
@@ -10,6 +11,7 @@ const styles = {
 	SelectedProjects,
 	SkillsStyles,
 	ContactOptions,
+	FooterStyle,
 };
 
 export default styles;
