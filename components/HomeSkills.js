@@ -1,5 +1,5 @@
 import styles from "../styles/StyleBundle";
-import { AiFillHtml5 } from "react-icons/ai";
+import { skills } from "./database";
 
 const { SkillsStyles } = styles;
 
@@ -22,97 +22,26 @@ const HomeSkills = () => {
 				</div>
 			</div>
 			<div className="SkillsBtns">
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-					<div className="SkillsBtns-item-inprogress">In progress...</div>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
-				<div
-					className="SkillsBtns-item"
-					style={{
-						background: "linear-gradient(to top right, #FF1200, #990B00)",
-					}}
-				>
-					<AiFillHtml5 className="ico" />
-					<span>HTML</span>
-				</div>
+				{skills.map((item, index) => {
+					const { name, colors, ico, inprogress } = item;
+					return (
+						<div
+							className="SkillsBtns-item"
+							style={{
+								background: `linear-gradient(to top right, ${colors})`,
+							}}
+							key={index}
+						>
+							{ico}
+							<span>{name}</span>
+							{inprogress ? (
+								<div className="SkillsBtns-item-inprogress">In progress...</div>
+							) : (
+								""
+							)}
+						</div>
+					);
+				})}
 			</div>
 		</SkillsStyles>
 	);

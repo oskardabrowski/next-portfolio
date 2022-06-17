@@ -166,6 +166,16 @@ const SkillsStyles = styled.div`
 			font-size: 1.5rem;
 			position: relative;
 			overflow: hidden;
+			& > span {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				margin-top: 0.5rem;
+				width: 60%;
+				overflow-wrap: break-word;
+				text-align: center;
+			}
 
 			&-inprogress {
 				position: absolute;
