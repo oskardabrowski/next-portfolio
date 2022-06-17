@@ -1,5 +1,4 @@
 import styles from "../styles/StyleBundle";
-
 const { HomeHeaderStyle } = styles;
 
 export default function HomeHeader() {

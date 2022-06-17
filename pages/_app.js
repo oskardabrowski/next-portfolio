@@ -2,11 +2,12 @@ import { useRef } from "react";
 import { GlobalStyles } from "../styles/GlobalStyles";
 import Head from "next/dist/shared/lib/head";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import ContextProvider from "../components/Context";
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null);
 	return (
-		<>
+		<ContextProvider>
 			<LocomotiveScrollProvider
 				options={{}}
 				watch={[]}
@@ -25,7 +26,7 @@ function MyApp({ Component, pageProps }) {
 					<Component {...pageProps} />
 				</main>
 			</LocomotiveScrollProvider>
-		</>
+		</ContextProvider>
 	);
 }
 

@@ -3,6 +3,7 @@ import styled from "styled-components";
 const SkillsStyles = styled.div`
 	width: 100%;
 	height: auto;
+
 	.SkillsHead {
 		width: 100%;
 		position: relative;
@@ -10,7 +11,7 @@ const SkillsStyles = styled.div`
 			width: 60rem;
 			height: 7.5rem;
 			position: relative;
-			left: -5rem;
+			left: -70rem;
 			border-radius: 25rem;
 			background-color: red;
 			display: flex;
@@ -21,6 +22,7 @@ const SkillsStyles = styled.div`
 			color: white;
 			background: linear-gradient(to right, #f400ff, #6500ff);
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+			transition: all 1s ease-in-out;
 
 			& > span {
 				font-size: 2.5rem;
@@ -38,12 +40,13 @@ const SkillsStyles = styled.div`
 			background: linear-gradient(to right, #00b1ff, #ffd500);
 			border-radius: 25rem;
 			top: 5rem;
-			left: -10rem;
+			left: -60rem;
 			z-index: 100;
 			display: flex;
 			align-items: center;
 			justify-content: right;
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+			transition: all 1s ease-in-out;
 			& > span {
 				margin-right: 1.5rem;
 				&:nth-child(1) {
@@ -93,13 +96,14 @@ const SkillsStyles = styled.div`
 			width: 40rem;
 			height: 5rem;
 			position: relative;
-			left: -5rem;
+			left: -60rem;
 			border-radius: 25rem;
 			background: linear-gradient(to top right, #9500ff, #000ffe);
 			display: flex;
 			align-items: center;
 			justify-content: right;
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+			transition: all 1s ease-in-out;
 			& > span {
 				margin-right: 1.5rem;
 				&:nth-child(1) {
@@ -166,6 +170,8 @@ const SkillsStyles = styled.div`
 			font-size: 1.5rem;
 			position: relative;
 			overflow: hidden;
+			transform: scale(0);
+			transition: all 0.5s ease-in-out;
 			& > span {
 				display: flex;
 				align-items: center;
@@ -190,6 +196,19 @@ const SkillsStyles = styled.div`
 				font-size: 7rem;
 			}
 		}
+	}
+
+	.TitleView {
+		left: -5rem;
+	}
+	.El1View {
+		left: -10rem;
+	}
+	.El2View {
+		left: -5rem;
+	}
+	.Scale1 {
+		transform: scale(1);
 	}
 `;
 
