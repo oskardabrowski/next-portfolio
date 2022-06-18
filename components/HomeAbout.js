@@ -1,5 +1,4 @@
 import styles from "../styles/StyleBundle";
-import Image from "next/image";
 import { MdOutlineReadMore } from "react-icons/md";
 const { AboutDesc } = styles;
 
@@ -66,14 +65,7 @@ const HomeAbout = () => {
 						data-scroll-offset="30%"
 						data-scroll-class="AboutPhotoVisible"
 					>
-						<div className="AboutDescription-photo-container-img">
-							<Image
-								src="/img/Guy.png"
-								alt="guy"
-								layout="fill"
-								placeholder="empty"
-							/>
-						</div>
+						<img src="img/Guy.png" alt="guy" />
 					</div>
 				</div>
 			</div>
