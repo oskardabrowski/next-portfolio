@@ -43,6 +43,7 @@ const Menu = () => {
 				<a
 					href="https://github.com/oskardabrowski"
 					target="_blank"
+					rel="noreferrer"
 					className="Buttons-github"
 				>
 					<AiFillGithub />
