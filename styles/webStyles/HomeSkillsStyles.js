@@ -24,6 +24,16 @@ const SkillsStyles = styled.div`
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 			transition: all 1s ease-in-out;
 
+			@media (max-width: 62.5em) {
+				width: 40rem;
+				height: 5rem;
+			}
+			@media (max-width: 37.5em) {
+				width: 25rem;
+				height: 3.5rem;
+				font-size: 1.5rem;
+			}
+
 			& > span {
 				font-size: 2.5rem;
 				margin-right: 3.5rem;
@@ -31,6 +41,9 @@ const SkillsStyles = styled.div`
 				-webkit-background-clip: text;
 				background-clip: text;
 				-webkit-text-fill-color: transparent;
+				@media (max-width: 37.5em) {
+					font-size: 1.5rem;
+				}
 			}
 		}
 		&-el1 {
@@ -47,14 +60,35 @@ const SkillsStyles = styled.div`
 			justify-content: right;
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 			transition: all 1s ease-in-out;
+			@media (max-width: 62.5em) {
+				top: 4rem;
+				width: 30rem;
+				height: 3rem;
+			}
+			@media (max-width: 37.5em) {
+				top: 2rem;
+				width: 20rem;
+				height: 2rem;
+			}
 			& > span {
 				margin-right: 1.5rem;
+				@media (max-width: 37.5em) {
+					margin-right: 0.5rem;
+				}
 				&:nth-child(1) {
 					width: 1.75rem;
 					height: 1.75rem;
 					background-color: white;
 					clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 					transform: rotate(90deg);
+					@media (max-width: 62.5em) {
+						width: 1.25rem;
+						height: 1.25rem;
+					}
+					@media (max-width: 37.5em) {
+						width: 0.75rem;
+						height: 0.75rem;
+					}
 				}
 				&:nth-child(2) {
 					width: 1.75rem;
@@ -62,6 +96,14 @@ const SkillsStyles = styled.div`
 					background-color: white;
 					clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 					transform: rotate(90deg);
+					@media (max-width: 62.5em) {
+						width: 1.25rem;
+						height: 1.25rem;
+					}
+					@media (max-width: 37.5em) {
+						width: 0.75rem;
+						height: 0.75rem;
+					}
 				}
 				&:nth-child(3) {
 					width: 2rem;
@@ -71,6 +113,14 @@ const SkillsStyles = styled.div`
 					align-items: center;
 					justify-content: center;
 					transform: rotate(45deg);
+					@media (max-width: 62.5em) {
+						width: 1.5rem;
+						height: 1.5rem;
+					}
+					@media (max-width: 37.5em) {
+						width: 0.75rem;
+						height: 0.75rem;
+					}
 					&:after {
 						position: absolute;
 						content: "";
@@ -79,6 +129,9 @@ const SkillsStyles = styled.div`
 						border-radius: 25rem;
 						background-color: white;
 						transform: rotate(90deg);
+						@media (max-width: 37.5em) {
+							height: 0.15rem;
+						}
 					}
 					&:before {
 						position: absolute;
@@ -87,6 +140,9 @@ const SkillsStyles = styled.div`
 						height: 0.3rem;
 						border-radius: 25rem;
 						background-color: white;
+						@media (max-width: 37.5em) {
+							height: 0.15rem;
+						}
 					}
 				}
 			}
@@ -104,6 +160,15 @@ const SkillsStyles = styled.div`
 			justify-content: right;
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 			transition: all 1s ease-in-out;
+			@media (max-width: 62.5em) {
+				top: -1.5rem;
+				width: 30rem;
+				height: 3rem;
+			}
+			@media (max-width: 37.5em) {
+				width: 20rem;
+				height: 2rem;
+			}
 			& > span {
 				margin-right: 1.5rem;
 				&:nth-child(1) {
@@ -111,12 +176,20 @@ const SkillsStyles = styled.div`
 					height: 0.35rem;
 					background-color: white;
 					border-radius: 25rem;
+					@media (max-width: 37.5em) {
+						width: 5rem;
+						height: 0.2rem;
+					}
 				}
 				&:nth-child(2) {
 					width: 7.5rem;
 					height: 0.35rem;
 					background-color: white;
 					border-radius: 25rem;
+					@media (max-width: 37.5em) {
+						width: 5rem;
+						height: 0.2rem;
+					}
 				}
 				&:nth-child(3) {
 					width: 2rem;
@@ -126,6 +199,10 @@ const SkillsStyles = styled.div`
 					align-items: center;
 					justify-content: center;
 					transform: rotate(45deg);
+					@media (max-width: 37.5em) {
+						width: 1.5rem;
+						height: 1.5rem;
+					}
 					&:after {
 						position: absolute;
 						content: "";
@@ -134,6 +211,9 @@ const SkillsStyles = styled.div`
 						border-radius: 25rem;
 						background-color: white;
 						transform: rotate(90deg);
+						@media (max-width: 37.5em) {
+							height: 0.2rem;
+						}
 					}
 					&:before {
 						position: absolute;
@@ -142,6 +222,9 @@ const SkillsStyles = styled.div`
 						height: 0.3rem;
 						border-radius: 25rem;
 						background-color: white;
+						@media (max-width: 37.5em) {
+							height: 0.2rem;
+						}
 					}
 				}
 			}
@@ -172,6 +255,16 @@ const SkillsStyles = styled.div`
 			overflow: hidden;
 			transform: scale(0);
 			transition: all 0.5s ease-in-out;
+			@media (max-width: 62.5em) {
+				margin: 1rem;
+				width: 12rem;
+				height: 12rem;
+			}
+			@media (max-width: 37.5em) {
+				margin: 0.5rem;
+				width: 6rem;
+				height: 6rem;
+			}
 			& > span {
 				display: flex;
 				align-items: center;
@@ -181,6 +274,9 @@ const SkillsStyles = styled.div`
 				width: 60%;
 				overflow-wrap: break-word;
 				text-align: center;
+				@media (max-width: 37.5em) {
+					font-size: 0.75rem;
+				}
 			}
 
 			&-inprogress {
@@ -191,9 +287,18 @@ const SkillsStyles = styled.div`
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				@media (max-width: 37.5em) {
+					font-size: 0.75rem;
+				}
 			}
 			& > .ico {
 				font-size: 7rem;
+				@media (max-width: 62.5em) {
+					font-size: 5rem;
+				}
+				@media (max-width: 37.5em) {
+					font-size: 3rem;
+				}
 			}
 		}
 	}

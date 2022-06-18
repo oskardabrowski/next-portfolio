@@ -11,7 +11,7 @@ export default function Home() {
 			<HomeHeader />
 			<HomeAbout />
 			<HomeSelectedProjects />
-			{/* <HomeSkills /> */}
+			<HomeSkills />
 			{/* <Contact /> */}
 			{/* <Footer /> */}
 		</>
