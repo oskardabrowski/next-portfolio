@@ -276,6 +276,7 @@ const SkillsStyles = styled.div`
 				text-align: center;
 				@media (max-width: 37.5em) {
 					font-size: 0.75rem;
+					margin-top: 0rem;
 				}
 			}
 

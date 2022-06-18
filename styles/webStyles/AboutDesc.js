@@ -206,10 +206,11 @@ const AboutDesc = styled.div`
 				& > img {
 					border-radius: 500rem;
 					overflow: hidden;
-					width: 10rem;
-					height: 10rem;
+					width: 20rem;
+					height: 20rem;
 					@media (max-width: 62.5em) {
 						width: 10rem;
+						height: 10rem;
 					}
 				}
 			}
