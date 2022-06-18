@@ -10,10 +10,10 @@ export default function Home() {
 		<>
 			<HomeHeader />
 			<HomeAbout />
-			<HomeSelectedProjects />
+			{/* <HomeSelectedProjects />
 			<HomeSkills />
 			<Contact />
-			<Footer />
+			<Footer /> */}
 		</>
 	);
 }

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const HomeHeaderStyle = styled.header`
-	/* background-color: white; */
 	width: 100%;
 	height: 130vh;
 

@@ -26,9 +26,29 @@ const AboutDesc = styled.div`
 			font-weight: bold;
 			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
 			transition: all 1s ease-in-out;
+			@media (max-width: 62.5em) {
+				width: 50rem;
+				height: 5rem;
+			}
+			@media (max-width: 50em) {
+				width: 30rem;
+				height: 3rem;
+				font-size: 1.2rem;
+			}
+			@media (max-width: 31.25em) {
+				width: 25rem;
+				height: 3rem;
+				font-size: 1.2rem;
+			}
 			& > h2 {
 				font-size: 2rem;
+				@media (max-width: 50em) {
+					font-size: 1.2rem;
+				}
 				& > span {
+					@media (max-width: 50em) {
+						font-size: 1.2rem;
+					}
 					margin-right: 3rem;
 					font-size: 2.5rem;
 					background: linear-gradient(to top right, #0062ff, #ff007b);
@@ -49,6 +69,20 @@ const AboutDesc = styled.div`
 				align-items: center;
 				justify-content: end;
 				background: linear-gradient(to right, #ff7500, #ffd500);
+				@media (max-width: 62.5em) {
+					width: 40rem;
+					height: 3rem;
+				}
+				@media (max-width: 50em) {
+					width: 30rem;
+					height: 2rem;
+					top: 2.5rem;
+				}
+				@media (max-width: 31.25em) {
+					width: 20rem;
+					height: 2rem;
+					font-size: 1.2rem;
+				}
 				&-container {
 					width: 80%;
 					height: 1rem;
@@ -62,14 +96,42 @@ const AboutDesc = styled.div`
 						background-color: white;
 						border-radius: 15rem;
 						margin-right: 2rem;
+						@media (max-width: 62.5em) {
+							width: 0.5rem;
+							height: 0.5rem;
+							margin-right: 1rem;
+						}
+						@media (max-width: 31.25em) {
+							width: 0.25rem;
+							height: 0.25rem;
+							margin-right: 0.5rem;
+						}
 						&:nth-child(1) {
 							margin-right: 4rem;
+							@media (max-width: 62.5em) {
+								margin-right: 2rem;
+							}
+							@media (max-width: 31.25em) {
+								margin-right: 0.75rem;
+							}
 						}
 						&:nth-child(5) {
 							margin-right: 4rem;
+							@media (max-width: 62.5em) {
+								margin-right: 2rem;
+							}
+							@media (max-width: 31.25em) {
+								margin-right: 0.75rem;
+							}
 						}
 						&:nth-child(9) {
 							margin-right: 4rem;
+							@media (max-width: 62.5em) {
+								margin-right: 2rem;
+							}
+							@media (max-width: 31.25em) {
+								margin-right: 0.75rem;
+							}
 						}
 					}
 				}
@@ -87,8 +149,14 @@ const AboutDesc = styled.div`
 		/* min-height: 80%; */
 		display: flex;
 		flex-direction: row;
+		@media (max-width: 62.5em) {
+			flex-direction: column-reverse;
+		}
 		&-text {
 			width: 50%;
+			@media (max-width: 62.5em) {
+				width: 100%;
+			}
 
 			&-p {
 				position: relative;
@@ -100,6 +168,11 @@ const AboutDesc = styled.div`
 				color: white;
 				text-align: justify;
 				transition: all 0.5s ease-out;
+				@media (max-width: 31.25em) {
+					font-size: 1rem;
+					padding: 0rem 1rem;
+					padding-top: 2rem;
+				}
 			}
 		}
 		&-photo {
@@ -108,6 +181,10 @@ const AboutDesc = styled.div`
 			align-items: center;
 			justify-content: center;
 			overflow: hidden;
+			@media (max-width: 62.5em) {
+				width: 100%;
+				padding-top: 5rem;
+			}
 
 			&-container {
 				background-color: red;
@@ -117,9 +194,15 @@ const AboutDesc = styled.div`
 				position: relative;
 				right: -50rem;
 				transition: all 0.5s ease-out;
+				@media (max-width: 62.5em) {
+					padding: 1rem;
+				}
 				& > img {
 					border-radius: 500rem;
 					overflow: hidden;
+					@media (max-width: 62.5em) {
+						width: 10rem;
+					}
 				}
 			}
 		}
@@ -138,6 +221,9 @@ const AboutDesc = styled.div`
 			display: flex;
 			align-items: center;
 			justify-content: start;
+			@media (max-width: 31.25em) {
+				width: 100%;
+			}
 			&-btn {
 				width: 40rem;
 				padding: 1rem;
@@ -153,6 +239,18 @@ const AboutDesc = styled.div`
 				color: white;
 				padding-right: 2rem;
 				transition: all 0.5s ease-in-out;
+				@media (max-width: 62.5em) {
+					width: 30rem;
+					padding: 0.75rem;
+					font-size: 1rem;
+					padding-right: 2rem;
+				}
+				@media (max-width: 31.25em) {
+					width: 20rem;
+					padding: 0.5rem;
+					font-size: 0.8rem;
+					padding-right: 2rem;
+				}
 				&:hover {
 					cursor: pointer;
 					left: -2.5rem;
@@ -173,6 +271,10 @@ const AboutDesc = styled.div`
 			justify-content: end;
 			padding-bottom: 3rem;
 			position: relative;
+			@media (max-width: 31.25em) {
+				display: none;
+				width: 0%;
+			}
 
 			&-el {
 				margin-top: 0.5rem;
@@ -188,6 +290,10 @@ const AboutDesc = styled.div`
 				box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
 				z-index: 100;
 				transition: all 1s ease-in-out;
+				@media (max-width: 62.5em) {
+					width: 25rem;
+					height: 3.5rem;
+				}
 
 				& > span {
 					width: 1.5rem;
@@ -215,12 +321,21 @@ const AboutDesc = styled.div`
 				align-items: center;
 				justify-content: left;
 				transition: all 1s ease-in-out;
+				@media (max-width: 62.5em) {
+					width: 20rem;
+					height: 2rem;
+					top: 3.5rem;
+				}
 				& > span {
 					width: 7rem;
 					height: 0.3rem;
 					margin-left: 2rem;
 					background-color: white;
 					border-radius: 25rem;
+					@media (max-width: 62.5em) {
+						width: 4rem;
+						height: 0.2rem;
+					}
 
 					&:first-child {
 						width: 2rem;
@@ -230,6 +345,10 @@ const AboutDesc = styled.div`
 						align-items: center;
 						justify-content: center;
 						margin-left: 1.5rem;
+						@media (max-width: 62.5em) {
+							height: 0.2rem;
+							width: 1.2rem;
+						}
 
 						&:before {
 							content: "";
@@ -238,6 +357,10 @@ const AboutDesc = styled.div`
 							background-color: white;
 							position: absolute;
 							transform: rotate(-90deg);
+							@media (max-width: 62.5em) {
+								height: 0.2rem;
+								width: 1.2rem;
+							}
 						}
 					}
 				}

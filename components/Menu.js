@@ -1,6 +1,9 @@
 import styles from "../styles/StyleBundle";
 import Burger from "@animated-burgers/burger-rotate";
 import "@animated-burgers/burger-rotate/dist/styles.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
+
 import { useState, useContext } from "react";
 import { AppContext } from "./Context";
 import { AiFillGithub } from "react-icons/ai";
@@ -13,9 +16,16 @@ const Menu = () => {
 
 	const { appLang, setAppLang } = useContext(AppContext);
 
+	const router = useRouter();
+
 	const changeLangHandler = (lang) => {
 		setAppLang(lang);
 		setIsLang(false);
+	};
+
+	const redirectToPage = (link) => {
+		setIsMenuOpen(false);
+		router.push(link);
 	};
 	return (
 		<MenuStyles>
@@ -82,7 +92,33 @@ const Menu = () => {
 					)}
 				</div>
 			</div>
-			<div className="Components"></div>
+			<div className="Components">
+				<div className="Components-menu">
+					<div
+						className={`Components-menu-links ${
+							isMenuOpen ? "MenuActive" : ""
+						}`}
+					>
+						<button onClick={() => redirectToPage("/")}>
+							{router.pathname == "/" && <div></div>}
+							Home
+						</button>
+						<button onClick={() => redirectToPage("/about")}>
+							{router.pathname == "/about" && <div></div>}About
+						</button>
+						<button onClick={() => redirectToPage("/projects")}>
+							{router.pathname == "/projects" && <div></div>}
+							Projects
+						</button>
+					</div>
+					<div
+						className={`Components-menu-blue ${isMenuOpen ? "BlueActive" : ""}`}
+					></div>
+					<div
+						className={`Components-menu-red ${isMenuOpen ? "RedActive" : ""}`}
+					></div>
+				</div>
+			</div>
 		</MenuStyles>
 	);
 };
