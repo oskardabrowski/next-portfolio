@@ -203,9 +203,11 @@ const AboutDesc = styled.div`
 				@media (max-width: 62.5em) {
 					padding: 1rem;
 				}
-				& > img {
+				&-img {
 					border-radius: 500rem;
 					overflow: hidden;
+					width: 10rem;
+					height: 10rem;
 					@media (max-width: 62.5em) {
 						width: 10rem;
 					}
