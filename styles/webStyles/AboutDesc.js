@@ -157,6 +157,11 @@ const AboutDesc = styled.div`
 			@media (max-width: 62.5em) {
 				width: 100%;
 			}
+			@media (max-width: 31.25em) {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
 
 			&-p {
 				position: relative;
@@ -170,8 +175,9 @@ const AboutDesc = styled.div`
 				transition: all 0.5s ease-out;
 				@media (max-width: 31.25em) {
 					font-size: 1rem;
-					padding: 0rem 1rem;
-					padding-top: 2rem;
+					padding: 2rem 0rem;
+					margin: 0rem 0rem;
+					width: 90%;
 				}
 			}
 		}

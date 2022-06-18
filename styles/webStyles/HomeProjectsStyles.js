@@ -19,9 +19,24 @@ const SelectedProjects = styled.div`
 			justify-content: right;
 			z-index: 100;
 			transition: all 0.5s ease-in-out;
+			@media (max-width: 62.5em) {
+				width: 45rem;
+				height: 5rem;
+			}
+			@media (max-width: 31.25em) {
+				width: 35rem;
+				height: 3rem;
+				margin-top: 2rem;
+			}
 			& > h3 {
 				font-size: 2rem;
 				color: white;
+				@media (max-width: 62.5em) {
+					font-size: 1.5rem;
+				}
+				@media (max-width: 31.25em) {
+					font-size: 1.25rem;
+				}
 				& > span {
 					margin-right: 3.5rem;
 					font-size: 2.5rem;
@@ -29,6 +44,12 @@ const SelectedProjects = styled.div`
 					-webkit-background-clip: text;
 					background-clip: text;
 					-webkit-text-fill-color: transparent;
+					@media (max-width: 62.5em) {
+						font-size: 1.5rem;
+					}
+					@media (max-width: 31.25em) {
+						font-size: 1.25rem;
+					}
 				}
 			}
 		}
@@ -45,6 +66,14 @@ const SelectedProjects = styled.div`
 			justify-content: right;
 			z-index: 50;
 			transition: all 0.5s ease-in-out;
+			@media (max-width: 62.5em) {
+				width: 35rem;
+				height: 3rem;
+			}
+			@media (max-width: 31.25em) {
+				width: 25rem;
+				height: 2.5rem;
+			}
 
 			&:before {
 				content: "";
@@ -53,6 +82,14 @@ const SelectedProjects = styled.div`
 				margin-right: 1rem;
 				background-color: white;
 				border-radius: 25rem;
+				@media (max-width: 62.5em) {
+					width: 1.5rem;
+					height: 1.5rem;
+				}
+				@media (max-width: 31.25em) {
+					width: 1.25rem;
+					height: 1.25rem;
+				}
 			}
 		}
 		&-el2 {
@@ -64,11 +101,19 @@ const SelectedProjects = styled.div`
 			left: -50rem;
 			top: -1.25rem;
 			transition: all 0.5s ease-in-out;
+			@media (max-width: 62.5em) {
+				width: 15rem;
+				height: 1.5rem;
+				top: -0.75rem;
+			}
 		}
 	}
 
 	.SelectedHeaderContainerView {
 		left: -5rem;
+		@media (max-width: 50em) {
+			left: -15rem;
+		}
 	}
 
 	.SelectedProjectsItems {
@@ -107,6 +152,11 @@ const SelectedProjects = styled.div`
 					cursor: pointer;
 					right: -2.5rem;
 				}
+
+				@media (max-width: 31.25em) {
+					width: 45rem;
+					font-size: 1rem;
+				}
 			}
 		}
 
@@ -115,6 +165,9 @@ const SelectedProjects = styled.div`
 			position: relative;
 			height: 10rem;
 			margin: 1rem 0rem;
+			@media (max-width: 31.25em) {
+				height: 7rem;
+			}
 			&-span {
 				width: 60rem;
 				height: 10rem;
@@ -127,6 +180,10 @@ const SelectedProjects = styled.div`
 				align-items: center;
 				justify-content: center;
 				transition: all 1s ease-in-out;
+				@media (max-width: 31.25em) {
+					width: 45rem;
+					height: 6rem;
+				}
 				&-inside {
 					width: 58rem;
 					height: 8rem;
@@ -136,6 +193,11 @@ const SelectedProjects = styled.div`
 					align-items: center;
 					justify-content: end;
 					flex-direction: row-reverse;
+					@media (max-width: 31.25em) {
+						width: 48rem;
+						height: 5rem;
+						margin-right: 0.5rem;
+					}
 
 					&-desc {
 						height: 100%;
@@ -145,17 +207,28 @@ const SelectedProjects = styled.div`
 						flex-direction: column;
 						justify-content: space-between;
 						align-items: end;
+						@media (max-width: 50em) {
+							justify-content: space-evenly;
+						}
+
 						&-head {
 							margin: 0;
 							padding: 0;
 							font-size: 1.75rem;
 							font-weight: bold;
 							margin-top: 0.5rem;
+							@media (max-width: 31.25em) {
+								font-size: 1.5rem;
+								margin-bottom: 0.5rem;
+							}
 						}
 						&-tech {
 							margin: 0;
 							padding: 0;
 							font-size: 1.2rem;
+							@media (max-width: 50em) {
+								display: none;
+							}
 						}
 						&-btns {
 							margin: 0;
@@ -176,6 +249,11 @@ const SelectedProjects = styled.div`
 								color: white;
 								font-weight: bold;
 								transition: all 0.5s ease-in-out;
+								&:nth-child(2) {
+									@media (max-width: 31.25em) {
+										display: none;
+									}
+								}
 								& > div {
 									width: 0.75rem;
 									height: 0.75rem;
@@ -203,6 +281,11 @@ const SelectedProjects = styled.div`
 						border-radius: 25rem;
 						overflow: hidden;
 						margin-right: 0.5rem;
+						@media (max-width: 31.25em) {
+							width: 4.5rem;
+							height: 4.5rem;
+							margin-right: 0.25rem;
+						}
 					}
 				}
 			}
@@ -212,6 +295,9 @@ const SelectedProjects = styled.div`
 			position: relative;
 			height: 10rem;
 			margin: 1rem 0rem;
+			@media (max-width: 31.25em) {
+				height: 7rem;
+			}
 			&-span {
 				width: 60rem;
 				height: 10rem;
@@ -223,6 +309,10 @@ const SelectedProjects = styled.div`
 				align-items: center;
 				justify-content: center;
 				transition: all 1s ease-in-out;
+				@media (max-width: 31.25em) {
+					width: 45rem;
+					height: 6rem;
+				}
 				&-inside {
 					width: 58rem;
 					height: 8rem;
@@ -231,6 +321,11 @@ const SelectedProjects = styled.div`
 					display: flex;
 					align-items: center;
 					justify-content: start;
+					@media (max-width: 31.25em) {
+						width: 48rem;
+						height: 5rem;
+						margin-left: 0.5rem;
+					}
 
 					&-desc {
 						height: 100%;
@@ -240,17 +335,27 @@ const SelectedProjects = styled.div`
 						flex-direction: column;
 						justify-content: space-between;
 						align-items: start;
+						@media (max-width: 50em) {
+							justify-content: space-evenly;
+						}
 						&-head {
 							margin: 0;
 							padding: 0;
 							font-size: 1.75rem;
 							font-weight: bold;
 							margin-top: 0.5rem;
+							@media (max-width: 31.25em) {
+								font-size: 1.5rem;
+								margin-bottom: 0.5rem;
+							}
 						}
 						&-tech {
 							margin: 0;
 							padding: 0;
 							font-size: 1.2rem;
+							@media (max-width: 50em) {
+								display: none;
+							}
 						}
 						&-btns {
 							margin: 0;
@@ -271,6 +376,11 @@ const SelectedProjects = styled.div`
 								color: white;
 								font-weight: bold;
 								transition: all 0.5s ease-in-out;
+								&:nth-child(2) {
+									@media (max-width: 31.25em) {
+										display: none;
+									}
+								}
 								& > div {
 									width: 0.75rem;
 									height: 0.75rem;
@@ -298,6 +408,11 @@ const SelectedProjects = styled.div`
 						border-radius: 25rem;
 						overflow: hidden;
 						margin-left: 0.5rem;
+						@media (max-width: 31.25em) {
+							width: 4.5rem;
+							height: 4.5rem;
+							margin-left: 0.25rem;
+						}
 					}
 				}
 			}
@@ -306,12 +421,30 @@ const SelectedProjects = styled.div`
 
 	.RightVisible {
 		right: -15rem;
+		@media (max-width: 50em) {
+			right: -25rem;
+		}
+		@media (max-width: 31.25em) {
+			right: -23rem;
+		}
 	}
 	.LeftVisible {
 		left: -15rem;
+		@media (max-width: 50em) {
+			left: -25rem;
+		}
+		@media (max-width: 31.25em) {
+			left: -23rem;
+		}
 	}
 	.SeeVisible {
 		right: -5rem;
+		@media (max-width: 62.5em) {
+			right: -15rem;
+		}
+		@media (max-width: 50em) {
+			right: -25rem;
+		}
 	}
 `;
 
