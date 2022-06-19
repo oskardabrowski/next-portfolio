@@ -1,39 +1,11 @@
 import SkillsStyles from "./style";
 import { skills } from "../../database";
+import HomeSkillsHead from "../../../molecules/Title3";
 
 const HomeSkills = () => {
 	return (
 		<SkillsStyles data-scroll-section>
-			<div className="SkillsHead">
-				<h4
-					className="SkillsHead-title"
-					data-scroll
-					data-scroll-class="TitleView"
-					data-scroll-offset="10%"
-				>
-					Skills<span>.</span>
-				</h4>
-				<div
-					className="SkillsHead-el1"
-					data-scroll
-					data-scroll-class="El1View"
-					data-scroll-offset="15%"
-				>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div
-					className="SkillsHead-el2"
-					data-scroll
-					data-scroll-class="El2View"
-					data-scroll-offset="20%"
-				>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
+			<HomeSkillsHead title="Skills" />
 			<div className="SkillsBtns">
 				{skills.map((item, index) => {
 					const { name, colors, ico, inprogress } = item;

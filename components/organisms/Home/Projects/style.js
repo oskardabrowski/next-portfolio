@@ -281,6 +281,9 @@ const SelectedProjects = styled.div`
 						border-radius: 25rem;
 						overflow: hidden;
 						margin-right: 0.5rem;
+						& > img {
+							width: 100%;
+						}
 						@media (max-width: 31.25em) {
 							width: 4.5rem;
 							height: 4.5rem;
@@ -408,6 +411,9 @@ const SelectedProjects = styled.div`
 						border-radius: 25rem;
 						overflow: hidden;
 						margin-left: 0.5rem;
+						& > img {
+							width: 100%;
+						}
 						@media (max-width: 31.25em) {
 							width: 4.5rem;
 							height: 4.5rem;

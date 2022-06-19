@@ -1,7 +1,7 @@
 import Burger from "@animated-burgers/burger-rotate";
 import "@animated-burgers/burger-rotate/dist/styles.css";
 import { useRouter } from "next/router";
-import { useState, useContext } from "react";
+import { useState, useContext, useRef } from "react";
 import { AppContext } from "../Context";
 import { AiFillGithub } from "react-icons/ai";
 import { MdArrowLeft, MdArrowDropDown } from "react-icons/md";
@@ -10,6 +10,10 @@ import MenuStyles from "./style";
 const Menu = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isLang, setIsLang] = useState(false);
+	const loader = useRef();
+	const loaderRed = useRef();
+	const loaderBlue = useRef();
+	const loaderWhite = useRef();
 
 	const { appLang, setAppLang } = useContext(AppContext);
 
@@ -22,7 +26,14 @@ const Menu = () => {
 
 	const redirectToPage = (link) => {
 		setIsMenuOpen(false);
-		router.push(link);
+		// router.push(link);
+		loader.current.style.clipPath = "circle(150% at 100% 0)";
+		loaderRed.current.style.clipPath =
+			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
+		loaderBlue.current.style.clipPath =
+			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
+		loaderWhite.current.style.clipPath =
+			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
 	};
 	return (
 		<MenuStyles>
@@ -116,6 +127,11 @@ const Menu = () => {
 						className={`Components-menu-red ${isMenuOpen ? "RedActive" : ""}`}
 					></div>
 				</div>
+			</div>
+			<div className="Loader" ref={loader}>
+				<div className="Loader-red" ref={loaderRed}></div>
+				<div className="Loader-blue" ref={loaderBlue}></div>
+				<div className="Loader-white" ref={loaderWhite}></div>
 			</div>
 		</MenuStyles>
 	);

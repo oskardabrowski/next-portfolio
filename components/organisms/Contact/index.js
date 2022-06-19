@@ -1,47 +1,10 @@
 import ContactOptions from "./styles";
+import ContactTitle from "../../molecules/Title4";
 
 const Contact = () => {
 	return (
 		<ContactOptions data-scroll-section>
-			<div className="ContactHeader">
-				<div
-					className="ContactHeader-title"
-					data-scroll
-					data-scroll-class="TitleVisible"
-					data-scroll-offset="10%"
-				>
-					Contact options<span>.</span>
-				</div>
-				<div
-					className="ContactHeader-el1"
-					data-scroll
-					data-scroll-class="El1Visible"
-					data-scroll-offset="15%"
-				>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div
-					className="ContactHeader-el2"
-					data-scroll
-					data-scroll-class="El2Visible"
-					data-scroll-offset="17.5%"
-				>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
+			<ContactTitle title="Contact options" />
 			<div className="ContactOptions">
 				<form className="ContactOptions-form">
 					<p

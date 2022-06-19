@@ -205,6 +205,54 @@ const MenuStyles = styled.nav`
 	.MenuActive {
 		clip-path: circle(112.8% at 100% 0);
 	}
+
+	.Loader {
+		position: absolute;
+		top: 0rem;
+		left: 0rem;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		background-color: transparent;
+		z-index: 1000000;
+		clip-path: circle(0% at 100% 0);
+
+		&-red {
+			position: absolute;
+			width: 300%;
+			height: 280%;
+			top: 0rem;
+			right: -150%;
+			background: rgba(255, 0, 69, 0.5);
+			transform: rotate(45deg);
+			clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+			transition: all 0.5s ease-in-out;
+		}
+		&-blue {
+			position: absolute;
+			width: 300%;
+			height: 280%;
+			top: 0rem;
+			right: -150%;
+			background: rgba(0, 15, 254, 0.5);
+			transform: rotate(45deg);
+			clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+			transition: all 0.75s ease-in-out;
+			transition-delay: 0.2s;
+		}
+		&-white {
+			position: absolute;
+			width: 300%;
+			height: 280%;
+			top: 0rem;
+			right: -150%;
+			background-color: white;
+			transform: rotate(45deg);
+			clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+			transition: all 1s ease-in-out;
+			transition-delay: 0.3s;
+		}
+	}
 `;
 
 export default MenuStyles;

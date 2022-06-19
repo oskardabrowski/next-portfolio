@@ -1,166 +1,114 @@
 import SelectedProjects from "./style";
 import { ImEye } from "react-icons/im";
+import { projects } from "../../database";
+import SelectedProjectsHead from "../../../molecules/Title2";
 
 const HomeSelectedProjects = () => {
 	return (
 		<SelectedProjects data-scroll-section>
-			<div className="SelectedProjectsHeader">
-				<div
-					className="SelectedProjectsHeader-container"
-					data-scroll
-					data-scroll-offset="15%"
-					data-scroll-class="SelectedHeaderContainerView"
-				>
-					<h3>
-						Selected Projects<span>.</span>
-					</h3>
-				</div>
-				<div
-					className="SelectedProjectsHeader-el1"
-					data-scroll
-					data-scroll-offset="17.5%"
-					data-scroll-class="SelectedHeaderContainerView"
-				></div>
-				<div
-					className="SelectedProjectsHeader-el2"
-					data-scroll
-					data-scroll-offset="20%"
-					data-scroll-class="SelectedHeaderContainerView"
-				></div>
-			</div>
+			<SelectedProjectsHead title="Selected Projects" />
 			<div className="SelectedProjectsItems">
-				<div className="SelectedProjectsItems-right">
-					<span
-						className="SelectedProjectsItems-right-span"
-						data-scroll
-						data-scroll-offset="15%"
-						data-scroll-class="RightVisible"
-					>
-						<div className="SelectedProjectsItems-right-span-inside">
-							<div className="SelectedProjectsItems-right-span-inside-img">
-								<img src="img/proj/SolarMap.png" alt="SolarMapImage" />
-							</div>
-							<div className="SelectedProjectsItems-right-span-inside-desc">
-								<p className="SelectedProjectsItems-right-span-inside-desc-head">
-									Solar Map of Toruń
-								</p>
-								<p className="SelectedProjectsItems-right-span-inside-desc-tech">
-									React, Redux, Styled Components, LeafletJS, ThreeJS
-								</p>
-								<span className="SelectedProjectsItems-right-span-inside-desc-btns">
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Github
-									</button>
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Demo
-									</button>
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Read more
-									</button>
-								</span>
-							</div>
-						</div>
-					</span>
-				</div>
-				<div className="SelectedProjectsItems-left">
-					<span
-						className="SelectedProjectsItems-left-span"
-						data-scroll
-						data-scroll-offset="15%"
-						data-scroll-class="LeftVisible"
-					>
-						<div className="SelectedProjectsItems-left-span-inside">
-							<div className="SelectedProjectsItems-left-span-inside-img">
-								<img src="img/proj/SolarMap.png" alt="SolarMapImage" />
-							</div>
-							<div className="SelectedProjectsItems-left-span-inside-desc">
-								<p className="SelectedProjectsItems-left-span-inside-desc-head">
-									Solar Map of Toruń
-								</p>
-								<p className="SelectedProjectsItems-left-span-inside-desc-tech">
-									React, Redux, Styled Components, LeafletJS, ThreeJS
-								</p>
-								<span className="SelectedProjectsItems-left-span-inside-desc-btns">
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Github
-									</button>
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Demo
-									</button>
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Read more
-									</button>
-								</span>
-							</div>
-						</div>
-					</span>
-				</div>
-				<div className="SelectedProjectsItems-right">
-					<span
-						className="SelectedProjectsItems-right-span"
-						data-scroll
-						data-scroll-offset="15%"
-						data-scroll-class="RightVisible"
-					>
-						<div className="SelectedProjectsItems-right-span-inside">
-							<div className="SelectedProjectsItems-right-span-inside-img">
-								<img src="img/proj/SolarMap.png" alt="SolarMapImage" />
-							</div>
-							<div className="SelectedProjectsItems-right-span-inside-desc">
-								<p className="SelectedProjectsItems-right-span-inside-desc-head">
-									Solar Map of Toruń
-								</p>
-								<p className="SelectedProjectsItems-right-span-inside-desc-tech">
-									React, Redux, Styled Components, LeafletJS, ThreeJS
-								</p>
-								<span className="SelectedProjectsItems-right-span-inside-desc-btns">
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Github
-									</button>
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Demo
-									</button>
-									<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-										<div></div> Read more
-									</button>
-								</span>
-							</div>
-						</div>
-					</span>
-				</div>
-				<div className="SelectedProjectsItems-left">
-					<span
-						className="SelectedProjectsItems-left-span"
-						data-scroll
-						data-scroll-offset="15%"
-						data-scroll-class="LeftVisible"
-					>
-						<div className="SelectedProjectsItems-left-span-inside">
-							<div className="SelectedProjectsItems-left-span-inside-img">
-								<img src="img/proj/SolarMap.png" alt="SolarMapImage" />
-							</div>
-							<div className="SelectedProjectsItems-left-span-inside-desc">
-								<p className="SelectedProjectsItems-left-span-inside-desc-head">
-									Solar Map of Toruń
-								</p>
-								<p className="SelectedProjectsItems-left-span-inside-desc-tech">
-									React, Redux, Styled Components, LeafletJS, ThreeJS
-								</p>
-								<span className="SelectedProjectsItems-left-span-inside-desc-btns">
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Github
-									</button>
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Demo
-									</button>
-									<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-										<div></div> Read more
-									</button>
-								</span>
-							</div>
-						</div>
-					</span>
-				</div>
+				{projects.reverse().map((item, index) => {
+					const type = index % 2;
+					const { name, img, technologies, github, demo, readMore, selected } =
+						item;
+					if (index < 4 && selected === true) {
+						if (type === 1) {
+							return (
+								<div className="SelectedProjectsItems-right">
+									<span
+										className="SelectedProjectsItems-right-span"
+										data-scroll
+										data-scroll-offset="15%"
+										data-scroll-class="RightVisible"
+									>
+										<div className="SelectedProjectsItems-right-span-inside">
+											<div className="SelectedProjectsItems-right-span-inside-img">
+												<img src={`img/proj/${img}`} alt={img} />
+											</div>
+											<div className="SelectedProjectsItems-right-span-inside-desc">
+												<p className="SelectedProjectsItems-right-span-inside-desc-head">
+													{name}
+												</p>
+												<p className="SelectedProjectsItems-right-span-inside-desc-tech">
+													{technologies}
+												</p>
+												<span className="SelectedProjectsItems-right-span-inside-desc-btns">
+													<a
+														herf={github}
+														target="_blank"
+														rel="noreferrer"
+														className="SelectedProjectsItems-right-span-inside-desc-btns-btn"
+													>
+														<div></div> Github
+													</a>
+													<a
+														href={demo}
+														target="_blank"
+														rel="noreferrer"
+														className="SelectedProjectsItems-right-span-inside-desc-btns-btn"
+													>
+														<div></div> Demo
+													</a>
+													<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
+														<div></div> Read more
+													</button>
+												</span>
+											</div>
+										</div>
+									</span>
+								</div>
+							);
+						} else {
+							return (
+								<div className="SelectedProjectsItems-left">
+									<span
+										className="SelectedProjectsItems-left-span"
+										data-scroll
+										data-scroll-offset="15%"
+										data-scroll-class="LeftVisible"
+									>
+										<div className="SelectedProjectsItems-left-span-inside">
+											<div className="SelectedProjectsItems-left-span-inside-img">
+												<img src={`img/proj/${img}`} alt={img} />
+											</div>
+											<div className="SelectedProjectsItems-left-span-inside-desc">
+												<p className="SelectedProjectsItems-left-span-inside-desc-head">
+													{name}
+												</p>
+												<p className="SelectedProjectsItems-left-span-inside-desc-tech">
+													{technologies}
+												</p>
+												<span className="SelectedProjectsItems-left-span-inside-desc-btns">
+													<a
+														href={github}
+														target="_blank"
+														rel="noreferrer"
+														className="SelectedProjectsItems-left-span-inside-desc-btns-btn"
+													>
+														<div></div> Github
+													</a>
+													<a
+														href={demo}
+														target="_blank"
+														rel="noreferrer"
+														className="SelectedProjectsItems-left-span-inside-desc-btns-btn"
+													>
+														<div></div> Demo
+													</a>
+													<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
+														<div></div> Read more
+													</button>
+												</span>
+											</div>
+										</div>
+									</span>
+								</div>
+							);
+						}
+					}
+				})}
+
 				<div className="SelectedProjectsItems-see">
 					<button
 						className="SelectedProjectsItems-see-btn"

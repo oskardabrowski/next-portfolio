@@ -1,35 +1,10 @@
 import { MdOutlineReadMore } from "react-icons/md";
+import AboutHead from "../../../molecules/Title1";
 import AboutDesc from "./style";
 const HomeAbout = () => {
 	return (
 		<AboutDesc data-scroll-section>
-			<div className="AboutHead">
-				<div
-					className="AboutHead-title"
-					data-scroll
-					data-scroll-offset="20%"
-					data-scroll-class="AboutHeadTitleVisible"
-				>
-					<h2>
-						About me<span>.</span>
-					</h2>
-					<div className="AboutHead-title-dots">
-						<div className="AboutHead-title-dots-container">
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-				</div>
-			</div>
+			<AboutHead title="About me" />
 			<div className="AboutDescription">
 				<div className="AboutDescription-text">
 					<p
