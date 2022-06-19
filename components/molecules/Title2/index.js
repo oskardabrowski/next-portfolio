@@ -1,10 +1,11 @@
 import React from "react";
+import HeaderSelectedProjectsStyles from "./style";
 
 const SelectedProjectsHead = ({ title }) => {
 	return (
-		<div className="SelectedProjectsHeader">
+		<HeaderSelectedProjectsStyles>
 			<div
-				className="SelectedProjectsHeader-container"
+				className="container"
 				data-scroll
 				data-scroll-offset="15%"
 				data-scroll-class="SelectedHeaderContainerView"
@@ -15,18 +16,18 @@ const SelectedProjectsHead = ({ title }) => {
 				</h3>
 			</div>
 			<div
-				className="SelectedProjectsHeader-el1"
+				className="el1"
 				data-scroll
 				data-scroll-offset="17.5%"
 				data-scroll-class="SelectedHeaderContainerView"
 			></div>
 			<div
-				className="SelectedProjectsHeader-el2"
+				className="el2"
 				data-scroll
 				data-scroll-offset="20%"
 				data-scroll-class="SelectedHeaderContainerView"
 			></div>
-		</div>
+		</HeaderSelectedProjectsStyles>
 	);
 };
 

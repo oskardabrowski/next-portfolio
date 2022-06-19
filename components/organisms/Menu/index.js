@@ -69,12 +69,14 @@ const Menu = () => {
 						type="button"
 						isOpen={isMenuOpen}
 						onClick={() => setIsMenuOpen(!isMenuOpen)}
+						aria-label="Menu"
 					/>
 				</div>
 				<a
 					href="https://github.com/oskardabrowski"
 					target="_blank"
 					rel="noreferrer"
+					aria-label="My Github"
 					className="Buttons-github"
 				>
 					<AiFillGithub />

@@ -28,6 +28,7 @@ const AboutDesc = styled.div`
 
 			&-p {
 				position: relative;
+				text-indent: 50px;
 				left: -60rem;
 				padding: 0rem 3rem;
 				padding-top: 4rem;
@@ -36,6 +37,7 @@ const AboutDesc = styled.div`
 				color: white;
 				text-align: justify;
 				transition: all 0.5s ease-out;
+				line-height: 1.4;
 				@media (max-width: 31.25em) {
 					font-size: 1rem;
 					padding: 2rem 0rem;

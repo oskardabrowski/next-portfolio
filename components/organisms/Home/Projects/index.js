@@ -2,6 +2,7 @@ import SelectedProjects from "./style";
 import { ImEye } from "react-icons/im";
 import { projects } from "../../database";
 import SelectedProjectsHead from "../../../molecules/Title2";
+import Link from "next/link";
 
 const HomeSelectedProjects = () => {
 	return (
@@ -50,9 +51,10 @@ const HomeSelectedProjects = () => {
 												className={`SelectedProjectsItems-${side}-span-inside-desc-btns`}
 											>
 												<a
-													herf={github}
+													href={github}
 													target="_blank"
-													rel="noreferrer"
+													aria-label="Github"
+													rel="noopener noreferrer nofollow"
 													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
 												>
 													<div></div> Github
@@ -60,7 +62,8 @@ const HomeSelectedProjects = () => {
 												<a
 													href={demo}
 													target="_blank"
-													rel="noreferrer"
+													aria-label="Demo"
+													rel="noopener noreferrer nofollow"
 													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
 												>
 													<div></div> Demo
