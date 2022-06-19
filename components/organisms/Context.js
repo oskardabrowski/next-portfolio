@@ -4,8 +4,11 @@ export const AppContext = createContext();
 
 const ContextProvider = ({ children }) => {
 	const [appLang, setAppLang] = useState("EN");
+	const [pageLoaded, setPageLoaded] = useState(false);
 	return (
-		<AppContext.Provider value={{ appLang, setAppLang }}>
+		<AppContext.Provider
+			value={{ appLang, setAppLang, pageLoaded, setPageLoaded }}
+		>
 			{children}
 		</AppContext.Provider>
 	);

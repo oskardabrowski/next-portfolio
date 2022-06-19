@@ -1,12 +1,14 @@
-import { useRef } from "react";
+import { useRef, Suspense } from "react";
 import { GlobalStyles } from "../components/GlobalStyles";
 import Head from "next/dist/shared/lib/head";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ContextProvider from "../components/organisms/Context";
 import Menu from "../components/organisms/Menu";
+import PageLoaded from "../components/PageLoaded";
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null);
+
 	return (
 		<ContextProvider>
 			<LocomotiveScrollProvider
@@ -25,7 +27,10 @@ function MyApp({ Component, pageProps }) {
 					</Head>
 					<GlobalStyles />
 					<Menu />
-					<Component {...pageProps} />
+					<Suspense fallback={null}>
+						<PageLoaded />
+						<Component {...pageProps} />
+					</Suspense>
 				</main>
 			</LocomotiveScrollProvider>
 		</ContextProvider>

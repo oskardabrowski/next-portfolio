@@ -1,7 +1,7 @@
 import Burger from "@animated-burgers/burger-rotate";
 import "@animated-burgers/burger-rotate/dist/styles.css";
 import { useRouter } from "next/router";
-import { useState, useContext, useRef } from "react";
+import { useState, useContext, useRef, useEffect } from "react";
 import { AppContext } from "../Context";
 import { AiFillGithub } from "react-icons/ai";
 import { MdArrowLeft, MdArrowDropDown } from "react-icons/md";
@@ -15,7 +15,8 @@ const Menu = () => {
 	const loaderBlue = useRef();
 	const loaderWhite = useRef();
 
-	const { appLang, setAppLang } = useContext(AppContext);
+	const { appLang, setAppLang, pageLoaded, setPageLoaded } =
+		useContext(AppContext);
 
 	const router = useRouter();
 
@@ -24,9 +25,27 @@ const Menu = () => {
 		setIsLang(false);
 	};
 
+	useEffect(() => {
+		if (pageLoaded) {
+			loaderRed.current.style.clipPath =
+				"polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)";
+			loaderBlue.current.style.clipPath =
+				"polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)";
+			loaderWhite.current.style.clipPath =
+				"polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)";
+			setTimeout(() => {
+				loader.current.style.clipPath = "circle(0% at 100% 0)";
+				loaderRed.current.style.clipPath = "polygon(0 0, 100% 0, 100% 0, 0 0)";
+				loaderBlue.current.style.clipPath = "polygon(0 0, 100% 0, 100% 0, 0 0)";
+				loaderWhite.current.style.clipPath =
+					"polygon(0 0, 100% 0, 100% 0, 0 0)";
+			}, 1310);
+		}
+	}, [pageLoaded]);
+
 	const redirectToPage = (link) => {
 		setIsMenuOpen(false);
-		// router.push(link);
+
 		loader.current.style.clipPath = "circle(150% at 100% 0)";
 		loaderRed.current.style.clipPath =
 			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
@@ -34,6 +53,10 @@ const Menu = () => {
 			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
 		loaderWhite.current.style.clipPath =
 			"polygon(0 0, 100% 0, 100% 100%, 0 100%)";
+		setTimeout(() => {
+			router.push(link);
+			setPageLoaded(false);
+		}, 1300);
 	};
 	return (
 		<MenuStyles>

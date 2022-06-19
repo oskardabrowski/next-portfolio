@@ -8,104 +8,74 @@ const HomeSelectedProjects = () => {
 		<SelectedProjects data-scroll-section>
 			<SelectedProjectsHead title="Selected Projects" />
 			<div className="SelectedProjectsItems">
-				{projects.reverse().map((item, index) => {
+				{projects.map((item, index) => {
+					let side = "left";
 					const type = index % 2;
 					const { name, img, technologies, github, demo, readMore, selected } =
 						item;
-					if (index < 4 && selected === true) {
-						if (type === 1) {
-							return (
-								<div className="SelectedProjectsItems-right">
-									<span
-										className="SelectedProjectsItems-right-span"
-										data-scroll
-										data-scroll-offset="15%"
-										data-scroll-class="RightVisible"
-									>
-										<div className="SelectedProjectsItems-right-span-inside">
-											<div className="SelectedProjectsItems-right-span-inside-img">
-												<img src={`img/proj/${img}`} alt={img} />
-											</div>
-											<div className="SelectedProjectsItems-right-span-inside-desc">
-												<p className="SelectedProjectsItems-right-span-inside-desc-head">
-													{name}
-												</p>
-												<p className="SelectedProjectsItems-right-span-inside-desc-tech">
-													{technologies}
-												</p>
-												<span className="SelectedProjectsItems-right-span-inside-desc-btns">
-													<a
-														herf={github}
-														target="_blank"
-														rel="noreferrer"
-														className="SelectedProjectsItems-right-span-inside-desc-btns-btn"
-													>
-														<div></div> Github
-													</a>
-													<a
-														href={demo}
-														target="_blank"
-														rel="noreferrer"
-														className="SelectedProjectsItems-right-span-inside-desc-btns-btn"
-													>
-														<div></div> Demo
-													</a>
-													<button className="SelectedProjectsItems-right-span-inside-desc-btns-btn">
-														<div></div> Read more
-													</button>
-												</span>
-											</div>
+					if (type === 1) {
+						side = "right";
+					}
+					if (selected === true) {
+						return (
+							<div key={index} className={`SelectedProjectsItems-${side}`}>
+								<span
+									className={`SelectedProjectsItems-${side}-span`}
+									data-scroll
+									data-scroll-offset="15%"
+									data-scroll-class={
+										side === "left" ? "LeftVisible" : "RightVisible"
+									}
+								>
+									<div className={`SelectedProjectsItems-${side}-span-inside`}>
+										<div
+											className={`SelectedProjectsItems-${side}-span-inside-img`}
+										>
+											<img src={`img/proj/${img}`} alt={img} />
 										</div>
-									</span>
-								</div>
-							);
-						} else {
-							return (
-								<div className="SelectedProjectsItems-left">
-									<span
-										className="SelectedProjectsItems-left-span"
-										data-scroll
-										data-scroll-offset="15%"
-										data-scroll-class="LeftVisible"
-									>
-										<div className="SelectedProjectsItems-left-span-inside">
-											<div className="SelectedProjectsItems-left-span-inside-img">
-												<img src={`img/proj/${img}`} alt={img} />
-											</div>
-											<div className="SelectedProjectsItems-left-span-inside-desc">
-												<p className="SelectedProjectsItems-left-span-inside-desc-head">
-													{name}
-												</p>
-												<p className="SelectedProjectsItems-left-span-inside-desc-tech">
-													{technologies}
-												</p>
-												<span className="SelectedProjectsItems-left-span-inside-desc-btns">
-													<a
-														href={github}
-														target="_blank"
-														rel="noreferrer"
-														className="SelectedProjectsItems-left-span-inside-desc-btns-btn"
-													>
-														<div></div> Github
-													</a>
-													<a
-														href={demo}
-														target="_blank"
-														rel="noreferrer"
-														className="SelectedProjectsItems-left-span-inside-desc-btns-btn"
-													>
-														<div></div> Demo
-													</a>
-													<button className="SelectedProjectsItems-left-span-inside-desc-btns-btn">
-														<div></div> Read more
-													</button>
-												</span>
-											</div>
+										<div
+											className={`SelectedProjectsItems-${side}-span-inside-desc`}
+										>
+											<p
+												className={`SelectedProjectsItems-${side}-span-inside-desc-head`}
+											>
+												{name}
+											</p>
+											<p
+												className={`SelectedProjectsItems-${side}-span-inside-desc-tech`}
+											>
+												{technologies}
+											</p>
+											<span
+												className={`SelectedProjectsItems-${side}-span-inside-desc-btns`}
+											>
+												<a
+													herf={github}
+													target="_blank"
+													rel="noreferrer"
+													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
+												>
+													<div></div> Github
+												</a>
+												<a
+													href={demo}
+													target="_blank"
+													rel="noreferrer"
+													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
+												>
+													<div></div> Demo
+												</a>
+												<button
+													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
+												>
+													<div></div> Read more
+												</button>
+											</span>
 										</div>
-									</span>
-								</div>
-							);
-						}
+									</div>
+								</span>
+							</div>
+						);
 					}
 				})}
 

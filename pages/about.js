@@ -1,7 +1,14 @@
 import React from "react";
+import Footer from "../components/organisms/Footer";
+import AboutHeader from "../components/organisms/About/Header";
 
 const about = () => {
-	return <div>about</div>;
+	return (
+		<>
+			<AboutHeader />
+			<Footer />
+		</>
+	);
 };
 
 export default about;

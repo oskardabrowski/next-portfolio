@@ -16,6 +16,7 @@ import {
 	SiAffinity,
 	SiQgis,
 	SiElectron,
+	SiAngular,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io";
@@ -197,6 +198,12 @@ export const skills = [
 		name: `Electron`,
 		colors: "#74B1BE, #26879C",
 		ico: <SiElectron className="ico" />,
+		inprogress: true,
+	},
+	{
+		name: `Angular`,
+		colors: "#FF1200, #990B00",
+		ico: <SiAngular className="ico" />,
 		inprogress: true,
 	},
 	{
