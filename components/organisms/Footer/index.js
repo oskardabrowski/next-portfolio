@@ -1,6 +1,4 @@
-import styles from "../styles/StyleBundle";
-
-const { FooterStyle } = styles;
+import FooterStyle from "./style";
 
 const Footer = () => {
 	return (

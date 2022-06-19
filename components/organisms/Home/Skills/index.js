@@ -1,7 +1,5 @@
-import styles from "../styles/StyleBundle";
-import { skills } from "./database";
-
-const { SkillsStyles } = styles;
+import SkillsStyles from "./style";
+import { skills } from "../../database";
 
 const HomeSkills = () => {
 	return (

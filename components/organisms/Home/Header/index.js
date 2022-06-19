@@ -1,5 +1,4 @@
-import styles from "../styles/StyleBundle";
-const { HomeHeaderStyle } = styles;
+import HomeHeaderStyle from "./style";
 
 export default function HomeHeader() {
 	return (

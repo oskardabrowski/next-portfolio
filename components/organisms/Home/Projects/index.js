@@ -1,7 +1,5 @@
-import styles from "../styles/StyleBundle";
+import SelectedProjects from "./style";
 import { ImEye } from "react-icons/im";
-
-const { SelectedProjects } = styles;
 
 const HomeSelectedProjects = () => {
 	return (

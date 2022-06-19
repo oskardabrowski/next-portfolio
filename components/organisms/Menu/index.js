@@ -1,14 +1,11 @@
-import styles from "../styles/StyleBundle";
 import Burger from "@animated-burgers/burger-rotate";
 import "@animated-burgers/burger-rotate/dist/styles.css";
-import Link from "next/link";
 import { useRouter } from "next/router";
-
 import { useState, useContext } from "react";
-import { AppContext } from "./Context";
+import { AppContext } from "../Context";
 import { AiFillGithub } from "react-icons/ai";
 import { MdArrowLeft, MdArrowDropDown } from "react-icons/md";
-const { MenuStyles } = styles;
+import MenuStyles from "./style";
 
 const Menu = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);

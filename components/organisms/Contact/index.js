@@ -1,6 +1,4 @@
-import styles from "../styles/StyleBundle";
-
-const { ContactOptions } = styles;
+import ContactOptions from "./styles";
 
 const Contact = () => {
 	return (

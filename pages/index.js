@@ -1,9 +1,9 @@
-import HomeHeader from "../components/HomeHeader";
-import HomeAbout from "../components/HomeAbout";
-import HomeSelectedProjects from "../components/HomeSelectedProjects";
-import HomeSkills from "../components/HomeSkills";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import HomeHeader from "../components/organisms/Home/Header";
+import HomeAbout from "../components/organisms/Home/About";
+import HomeSelectedProjects from "../components/organisms/Home/Projects";
+import HomeSkills from "../components/organisms/Home/Skills";
+import Contact from "../components/organisms/Contact";
+import Footer from "../components/organisms/Footer";
 
 export default function Home() {
 	return (

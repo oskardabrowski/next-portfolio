@@ -1,7 +1,5 @@
-import styles from "../styles/StyleBundle";
 import { MdOutlineReadMore } from "react-icons/md";
-const { AboutDesc } = styles;
-
+import AboutDesc from "./style";
 const HomeAbout = () => {
 	return (
 		<AboutDesc data-scroll-section>

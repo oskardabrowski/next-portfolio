@@ -1,9 +1,9 @@
 import { useRef } from "react";
-import { GlobalStyles } from "../styles/GlobalStyles";
+import { GlobalStyles } from "../components/GlobalStyles";
 import Head from "next/dist/shared/lib/head";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import ContextProvider from "../components/Context";
-import Menu from "../components/Menu";
+import ContextProvider from "../components/organisms/Context";
+import Menu from "../components/organisms/Menu";
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null);
