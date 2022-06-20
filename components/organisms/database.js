@@ -31,7 +31,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/next-portfolio",
 		demo: "https://next-portfolio-nu-eight.vercel.app/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: true,
 	},
@@ -42,7 +57,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: true,
 	},
@@ -53,7 +83,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: true,
 	},
@@ -64,7 +109,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: true,
 	},
@@ -75,7 +135,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: false,
 	},
@@ -86,7 +161,22 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		readMore: "",
-		shortDesc: "",
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
 		desc: "",
 		selected: false,
 	},
