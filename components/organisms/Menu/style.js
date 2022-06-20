@@ -29,6 +29,9 @@ const MenuStyles = styled.nav`
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			@media (max-width: 37.5em) {
+				margin-right: 0.5rem;
+			}
 			& > button {
 				border: none;
 				background: none;
@@ -45,6 +48,10 @@ const MenuStyles = styled.nav`
 			&:hover {
 				cursor: pointer;
 			}
+
+			@media (max-width: 37.5em) {
+				display: none;
+			}
 		}
 		&-lang {
 			height: 100%;
@@ -52,6 +59,10 @@ const MenuStyles = styled.nav`
 			align-items: center;
 			position: relative;
 			align-items: center;
+
+			@media (max-width: 37.5em) {
+				display: none;
+			}
 
 			&-current {
 				width: max-content;
@@ -171,7 +182,32 @@ const MenuStyles = styled.nav`
 				justify-content: center;
 				transition: all 1s ease-in-out;
 
-				& > button {
+				&-github {
+					font-size: 2rem;
+					margin-bottom: 0.5rem;
+					background: none;
+					border: none;
+					/* display: flex; */
+					align-items: center;
+					justify-content: start;
+					width: 10rem;
+					font-family: "Arimo";
+					font-weight: 500;
+					display: none;
+					width: 20rem;
+
+					@media (max-width: 37.5em) {
+						display: flex;
+					}
+
+					& > .ico {
+						font-size: 2rem;
+						margin-right: 0.5rem;
+						margin-left: 0.25rem;
+					}
+				}
+
+				&-lang {
 					font-size: 2rem;
 					margin-bottom: 0.5rem;
 					background: none;
@@ -180,8 +216,47 @@ const MenuStyles = styled.nav`
 					align-items: center;
 					justify-content: start;
 					width: 10rem;
+					font-family: "Arimo";
+					font-weight: 500;
+
+					&-flag {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						overflow: hidden;
+						width: 1.75rem;
+						border: 1px solid black;
+						& > img {
+							width: 100%;
+						}
+					}
+				}
+
+				& > button.ResponsiveLang {
+					display: none;
+				}
+				& > button.ResponsiveLangVisible {
+					@media (max-width: 37.5em) {
+						display: flex;
+					}
+				}
+
+				& > button {
+					font-size: 2rem;
+					margin-bottom: 0.5rem;
+					background: none;
+					border: none;
+					display: flex;
+					align-items: center;
+					justify-content: start;
+					width: 20rem;
+					font-weight: 500;
 					&:hover {
 						cursor: pointer;
+					}
+					& > div.Components-menu-links-lang-flag {
+						width: 1.75rem;
+						height: 1.75rem;
 					}
 					& > div {
 						width: 1.25rem;

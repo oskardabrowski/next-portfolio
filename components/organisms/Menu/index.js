@@ -152,14 +152,46 @@ const Menu = () => {
 					>
 						<button onClick={() => redirectToPage("/")}>
 							{router.pathname == "/" && <div></div>}
-							Home
+							{appLang === "EN" ? "Home" : "Strona główna"}
 						</button>
 						<button onClick={() => redirectToPage("/about")}>
-							{router.pathname == "/about" && <div></div>}About
+							{router.pathname == "/about" && <div></div>}
+							{appLang === "EN" ? "About me" : "O mnie"}
 						</button>
 						<button onClick={() => redirectToPage("/projects")}>
 							{router.pathname == "/projects" && <div></div>}
-							Projects
+							{appLang === "EN" ? "Projects" : "Projekty"}
+						</button>
+						<a
+							href="https://github.com/oskardabrowski"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="My Github"
+							className="Components-menu-links-github"
+						>
+							<AiFillGithub className="ico" /> Github
+						</a>
+						<button
+							className={`Components-menu-links-lang ResponsiveLang ${
+								appLang === "EN" ? "ResponsiveLangVisible" : ""
+							}`}
+							onClick={() => changeLangHandler("PL")}
+						>
+							<div className="Components-menu-links-lang-flag">
+								<img src="img/EN.png" alt="EN" />
+							</div>
+							English
+						</button>
+						<button
+							className={`Components-menu-links-lang ResponsiveLang ${
+								appLang === "PL" ? "ResponsiveLangVisible" : ""
+							}`}
+							onClick={() => changeLangHandler("EN")}
+						>
+							<div className="Components-menu-links-lang-flag">
+								<img src="img/PL.png" alt="PL" />
+							</div>
+							Polski
 						</button>
 					</div>
 					<div
