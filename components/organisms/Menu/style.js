@@ -217,6 +217,18 @@ const MenuStyles = styled.nav`
 		z-index: 1000000;
 		clip-path: circle(0% at 100% 0);
 
+		@media (max-width: 62.5em) {
+			width: 150vw;
+		}
+
+		@media (max-width: 43.75em) {
+			width: 200vw;
+		}
+
+		@media (max-width: 31.25em) {
+			width: 300vw;
+		}
+
 		&-red {
 			position: absolute;
 			width: 300%;

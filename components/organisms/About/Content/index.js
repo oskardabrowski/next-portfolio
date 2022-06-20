@@ -11,7 +11,7 @@ const AboutContent = () => {
 					<img src="/img/guy.png" alt="guy" />
 				</div>
 			</div>
-			<AboutHead title="Some information's about me" />
+			<AboutHead title="About me" />
 			<div className="FirstDescription">
 				<p>
 					Carajillo aromatic cortado, body a et robust affogato cultivar variety
