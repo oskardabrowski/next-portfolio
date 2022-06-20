@@ -15,8 +15,14 @@ const Menu = () => {
 	const loaderBlue = useRef();
 	const loaderWhite = useRef();
 
-	const { appLang, setAppLang, pageLoaded, setPageLoaded } =
-		useContext(AppContext);
+	const {
+		appLang,
+		setAppLang,
+		pageLoaded,
+		setPageLoaded,
+		redirectPath,
+		setRedirectPath,
+	} = useContext(AppContext);
 
 	const router = useRouter();
 
@@ -24,6 +30,17 @@ const Menu = () => {
 		setAppLang(lang);
 		setIsLang(false);
 	};
+
+	useEffect(() => {
+		const { action, path } = redirectPath;
+		if (action) {
+			redirectToPage(path);
+			setRedirectPath({
+				action: false,
+				path: "",
+			});
+		}
+	}, [redirectPath]);
 
 	useEffect(() => {
 		if (pageLoaded) {

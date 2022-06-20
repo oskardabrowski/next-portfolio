@@ -17,6 +17,7 @@ import {
 	SiQgis,
 	SiElectron,
 	SiAngular,
+	SiLeaflet,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io";
@@ -24,18 +25,18 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 export const projects = [
 	{
-		name: "Solar Map of Toruń city",
-		img: "SolarMap.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
-		github: "https://github.com/oskardabrowski/solar-map",
-		demo: "http://solar-map.epizy.com/",
+		name: "Portfolio",
+		img: "PortfolioImg.png",
+		technologies: "NextJS, Styled Components",
+		github: "https://github.com/oskardabrowski/next-portfolio",
+		demo: "https://next-portfolio-nu-eight.vercel.app/",
 		readMore: "",
 		shortDesc: "",
 		desc: "",
-		selected: false,
+		selected: true,
 	},
 	{
-		name: "Solar Map of Toruń city",
+		name: "Solar Map of Toruń",
 		img: "SolarMap.png",
 		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
 		github: "https://github.com/oskardabrowski/solar-map",
@@ -43,7 +44,7 @@ export const projects = [
 		readMore: "",
 		shortDesc: "",
 		desc: "",
-		selected: false,
+		selected: true,
 	},
 	{
 		name: "Caffe",
@@ -68,7 +69,7 @@ export const projects = [
 		selected: true,
 	},
 	{
-		name: "Solar Map of Toruń",
+		name: "Solar Map of Toruń city",
 		img: "SolarMap.png",
 		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
 		github: "https://github.com/oskardabrowski/solar-map",
@@ -76,18 +77,18 @@ export const projects = [
 		readMore: "",
 		shortDesc: "",
 		desc: "",
-		selected: true,
+		selected: false,
 	},
 	{
-		name: "Portfolio",
-		img: "PortfolioImg.png",
-		technologies: "NextJS, Styled Components",
-		github: "https://github.com/oskardabrowski/next-portfolio",
-		demo: "https://next-portfolio-nu-eight.vercel.app/",
+		name: "Solar Map of Toruń city",
+		img: "SolarMap.png",
+		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
+		github: "https://github.com/oskardabrowski/solar-map",
+		demo: "http://solar-map.epizy.com/",
 		readMore: "",
 		shortDesc: "",
 		desc: "",
-		selected: true,
+		selected: false,
 	},
 ];
 
@@ -156,6 +157,12 @@ export const skills = [
 		name: `Styled Components`,
 		colors: "#CE65A6, #AC1773",
 		ico: <SiStyledcomponents className="ico" />,
+		inprogress: false,
+	},
+	{
+		name: `Leaflet`,
+		colors: "#8EAF1F, #566F03",
+		ico: <SiLeaflet className="ico" />,
 		inprogress: false,
 	},
 	{

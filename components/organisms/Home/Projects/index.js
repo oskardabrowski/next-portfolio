@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { AppContext } from "../../Context";
 import SelectedProjects from "./style";
 import { ImEye } from "react-icons/im";
 import { projects } from "../../database";
@@ -5,6 +7,7 @@ import SelectedProjectsHead from "../../../molecules/Title2";
 import Link from "next/link";
 
 const HomeSelectedProjects = () => {
+	const { setRedirectPath } = useContext(AppContext);
 	return (
 		<SelectedProjects data-scroll-section>
 			<SelectedProjectsHead title="Selected Projects" />
@@ -88,6 +91,12 @@ const HomeSelectedProjects = () => {
 						data-scroll
 						data-scroll-offset="10%"
 						data-scroll-class="SeeVisible"
+						onClick={() =>
+							setRedirectPath({
+								action: true,
+								path: "/projects",
+							})
+						}
 					>
 						<ImEye className="ico" />
 						See more projects
