@@ -86,7 +86,7 @@ const MenuStyles = styled.nav`
 				&-flag {
 					border-radius: 25rem;
 					overflow: hidden;
-					background-color: red;
+					background-color: black;
 					width: 1.75rem;
 					height: 1.75rem;
 					display: flex;

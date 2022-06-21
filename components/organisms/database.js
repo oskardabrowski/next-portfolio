@@ -18,6 +18,10 @@ import {
 	SiElectron,
 	SiAngular,
 	SiLeaflet,
+	SiHtml5,
+	SiCss3,
+	SiJquery,
+	SiCypress,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io";
@@ -27,8 +31,18 @@ export const projects = [
 	{
 		name: "Portfolio",
 		img: "PortfolioImg.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "PortfolioRWD.png",
 		technologies: "NextJS, Styled Components",
+		techStack: [
+			{
+				ico: <SiNextdotjs />,
+				name: "NextJS",
+			},
+			{
+				ico: <SiStyledcomponents />,
+				name: "Styled Components",
+			},
+		],
 		github: "https://github.com/oskardabrowski/next-portfolio",
 		demo: "https://next-portfolio-nu-eight.vercel.app/",
 		id: 12,
@@ -54,8 +68,26 @@ export const projects = [
 	{
 		name: "Solar Map of Toruń",
 		img: "SolarMap.png",
-		responsive: "CaffeResponsive.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
+		responsive: "SolarMapRWD.png",
+		technologies: "React, Redux, Styled Components, Leaflet",
+		techStack: [
+			{
+				ico: <SiReact />,
+				name: "React",
+			},
+			{
+				ico: <SiRedux />,
+				name: "Redux",
+			},
+			{
+				ico: <SiStyledcomponents />,
+				name: "Styled Components",
+			},
+			{
+				ico: <SiLeaflet />,
+				name: "Leaflet",
+			},
+		],
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		id: 11,
@@ -81,8 +113,26 @@ export const projects = [
 	{
 		name: "Flat Earth Ipsum",
 		img: "FlatEarth.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "FEIRWD.png",
 		technologies: "React, Styled Components, React Testing Library, Cypress",
+		techStack: [
+			{
+				ico: <SiReact />,
+				name: "React",
+			},
+			{
+				ico: <SiStyledcomponents />,
+				name: "Styled Components",
+			},
+			{
+				ico: <SiTestinglibrary />,
+				name: "Testing Library",
+			},
+			{
+				ico: <SiCypress />,
+				name: "Cypress",
+			},
+		],
 		github: "https://github.com/oskardabrowski/flat-earth-ipsum",
 		demo: "https://musical-manatee-d6436a.netlify.app/",
 		id: 10,
@@ -108,8 +158,26 @@ export const projects = [
 	{
 		name: "Blue Flower",
 		img: "BlueFlowerImg.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "BlueFlowerRWD.png",
 		technologies: "HTML, Sass, JavaScript PHP",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiCss3 />,
+				name: "CSS",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+			{
+				ico: <SiPhp />,
+				name: "PHP",
+			},
+		],
 		github: "https://github.com/oskardabrowski/BlueFlower",
 		demo: "http://testsite.epizy.com/",
 		id: 9,
@@ -137,6 +205,16 @@ export const projects = [
 		img: "Weather.png",
 		responsive: "CaffeResponsive.png",
 		technologies: "GatsbyJS, StyledComponents",
+		techStack: [
+			{
+				ico: <SiGatsby />,
+				name: "Gatsby",
+			},
+			{
+				ico: <SiStyledcomponents />,
+				name: "Styled Components",
+			},
+		],
 		github: "https://github.com/oskardabrowski/GatsbyWeatherApp",
 		demo: "http://weatherapiapp.epizy.com/",
 		id: 8,
@@ -163,7 +241,7 @@ export const projects = [
 		name: "Caffe",
 		img: "CaffeAppImg.png",
 		responsive: "CaffeResponsive.png",
-		technologies: "React, Styled Components, ExpressJS",
+		technologies: "React, Styled Components, NodeJS",
 		techStack: [
 			{
 				ico: <SiReact />,
@@ -248,8 +326,22 @@ export const projects = [
 	{
 		name: "MovieFinder",
 		img: "movie.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "MovieRWD.png",
 		technologies: "HTML, Sass, JavaScript",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiSass />,
+				name: "Sass",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+		],
 		github: "https://github.com/oskardabrowski/MovieFinder",
 		demo: "https://thirsty-lumiere-60886a.netlify.app/",
 		id: 6,
@@ -275,8 +367,30 @@ export const projects = [
 	{
 		name: "corpio.pl",
 		img: "Corpio.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "CorpioRWD.png",
 		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiCss3 />,
+				name: "CSS",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+			{
+				ico: <SiPhp />,
+				name: "PHP",
+			},
+			{
+				ico: <SiJquery />,
+				name: "jQuery",
+			},
+		],
 		github: "",
 		demo: "http://corpio.pl/corpio/",
 		id: 5,
@@ -302,8 +416,30 @@ export const projects = [
 	{
 		name: "Flowers Online",
 		img: "Shop.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "FORWD.png",
 		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiCss3 />,
+				name: "CSS",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+			{
+				ico: <SiPhp />,
+				name: "PHP",
+			},
+			{
+				ico: <SiJquery />,
+				name: "jQuery",
+			},
+		],
 		github: "https://github.com/oskardabrowski/flowersonline",
 		demo: "http://flowers-fakeecommerce.epizy.com/",
 		id: 4,
@@ -329,8 +465,26 @@ export const projects = [
 	{
 		name: "Calculator",
 		img: "Calculator.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "CalculatorRWD.png",
 		technologies: "HTML, CSS, JavaScript, jQuery",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiCss3 />,
+				name: "CSS",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+			{
+				ico: <SiJquery />,
+				name: "jQuery",
+			},
+		],
 		github: "https://github.com/oskardabrowski/calculator-project",
 		demo: "https://sweet-capybara-64bcba.netlify.app/",
 		id: 3,
@@ -356,10 +510,24 @@ export const projects = [
 	{
 		name: "ShoppingApp",
 		img: "ShopApp.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "ShopAppRWD.png",
 		technologies: "HTML, CSS, JavaScript",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiCss3 />,
+				name: "CSS",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+		],
 		github: "https://github.com/oskardabrowski/ShoppingList",
-		demo: "https://app.netlify.com/sites/roaring-malasada-2f310d/overview",
+		demo: "https://roaring-malasada-2f310d.netlify.app/",
 		id: 2,
 		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
 					biscuits brie who moved my cheese pepper jack chalk and cheese
@@ -383,8 +551,22 @@ export const projects = [
 	{
 		name: "Fake Domplast Website",
 		img: "Domplast.png",
-		responsive: "CaffeResponsive.png",
+		responsive: "DomplastRWD.png",
 		technologies: "HTML, Sass, JavaScript",
+		techStack: [
+			{
+				ico: <SiHtml5 />,
+				name: "HTML",
+			},
+			{
+				ico: <SiSass />,
+				name: "Sass",
+			},
+			{
+				ico: <SiJavascript />,
+				name: "JavaScript",
+			},
+		],
 		github: "https://github.com/oskardabrowski/fakeweb-domplast",
 		demo: "https://statuesque-genie-47600b.netlify.app/",
 		id: 1,
