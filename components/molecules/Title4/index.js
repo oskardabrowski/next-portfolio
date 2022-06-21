@@ -5,7 +5,7 @@ const ContactTitle = ({ title }) => {
 	return (
 		<ContactTitleStyle>
 			<div
-				className="title"
+				className="titleName"
 				data-scroll
 				data-scroll-class="TitleVisible"
 				data-scroll-offset="10%"

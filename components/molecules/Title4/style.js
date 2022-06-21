@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ContactTitleStyle = styled.div`
 	width: 100%;
-	.title {
+	.titleName {
 		width: 50rem;
 		height: 7.5rem;
 		background-color: red;

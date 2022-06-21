@@ -5,6 +5,8 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ContextProvider from "../components/organisms/Context";
 import Menu from "../components/organisms/Menu";
 import PageLoaded from "../components/PageLoaded";
+import Footer from "../components/organisms/Footer";
+import Contact from "../components/organisms/Contact";
 
 function MyApp({ Component, pageProps }) {
 	const containerRef = useRef(null);
@@ -29,6 +31,8 @@ function MyApp({ Component, pageProps }) {
 					<Menu />
 					<Suspense fallback={null}>
 						<Component {...pageProps} />
+						<Contact />
+						<Footer />
 						<PageLoaded />
 					</Suspense>
 				</main>

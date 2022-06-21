@@ -36,6 +36,10 @@ const FooterStyle = styled.footer`
 	}
 
 	.FooterImage {
+		width: 100%;
+		& > span > img {
+			width: 100%;
+		}
 		@media (max-width: 62.5em) {
 			display: none;
 		}

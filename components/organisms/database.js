@@ -27,10 +27,11 @@ export const projects = [
 	{
 		name: "Portfolio",
 		img: "PortfolioImg.png",
+		responsive: "CaffeResponsive.png",
 		technologies: "NextJS, Styled Components",
 		github: "https://github.com/oskardabrowski/next-portfolio",
 		demo: "https://next-portfolio-nu-eight.vercel.app/",
-		readMore: "",
+		id: 12,
 		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
 					biscuits brie who moved my cheese pepper jack chalk and cheese
 					mascarpone roquefort. Port-salut boursin pecorino st. agur
@@ -53,10 +54,11 @@ export const projects = [
 	{
 		name: "Solar Map of Toruń",
 		img: "SolarMap.png",
+		responsive: "CaffeResponsive.png",
 		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
-		readMore: "",
+		id: 11,
 		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
 					biscuits brie who moved my cheese pepper jack chalk and cheese
 					mascarpone roquefort. Port-salut boursin pecorino st. agur
@@ -73,68 +75,17 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		desc: ``,
 		selected: true,
 	},
 	{
-		name: "Caffe",
-		img: "CaffeAppImg.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
-		github: "https://github.com/oskardabrowski/solar-map",
-		demo: "http://solar-map.epizy.com/",
-		readMore: "",
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
-		selected: true,
-	},
-	{
-		name: "Blue Flower",
-		img: "BlueFlowerImg.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
-		github: "https://github.com/oskardabrowski/solar-map",
-		demo: "http://solar-map.epizy.com/",
-		readMore: "",
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
-		selected: true,
-	},
-	{
-		name: "Solar Map of Toruń city",
-		img: "SolarMap.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
-		github: "https://github.com/oskardabrowski/solar-map",
-		demo: "http://solar-map.epizy.com/",
-		readMore: "",
+		name: "Flat Earth Ipsum",
+		img: "FlatEarth.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "React, Styled Components, React Testing Library, Cypress",
+		github: "https://github.com/oskardabrowski/flat-earth-ipsum",
+		demo: "https://musical-manatee-d6436a.netlify.app/",
+		id: 10,
 		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
 					biscuits brie who moved my cheese pepper jack chalk and cheese
 					mascarpone roquefort. Port-salut boursin pecorino st. agur
@@ -155,12 +106,288 @@ export const projects = [
 		selected: false,
 	},
 	{
-		name: "Solar Map of Toruń city",
-		img: "SolarMap.png",
-		technologies: "React, Redux, Styled Components, Leaflet, ThreeJS",
-		github: "https://github.com/oskardabrowski/solar-map",
-		demo: "http://solar-map.epizy.com/",
-		readMore: "",
+		name: "Blue Flower",
+		img: "BlueFlowerImg.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, Sass, JavaScript PHP",
+		github: "https://github.com/oskardabrowski/BlueFlower",
+		demo: "http://testsite.epizy.com/",
+		id: 9,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: true,
+	},
+	{
+		name: "GatsbyWeatherApp",
+		img: "Weather.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "GatsbyJS, StyledComponents",
+		github: "https://github.com/oskardabrowski/GatsbyWeatherApp",
+		demo: "http://weatherapiapp.epizy.com/",
+		id: 8,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: false,
+	},
+	{
+		name: "Caffe",
+		img: "CaffeAppImg.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "React, Styled Components, ExpressJS",
+		techStack: [
+			{
+				ico: <SiReact />,
+				name: "React",
+			},
+			{
+				ico: <SiStyledcomponents />,
+				name: "Styled Components",
+			},
+			{
+				ico: <IoLogoNodejs />,
+				name: "NodeJS",
+			},
+		],
+		github: "https://github.com/oskardabrowski/caffe-app",
+		demo: "https://clinquant-fenglisu-3c11fc.netlify.app/",
+		id: 7,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		selected: true,
+	},
+	{
+		name: "MovieFinder",
+		img: "movie.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, Sass, JavaScript",
+		github: "https://github.com/oskardabrowski/MovieFinder",
+		demo: "https://thirsty-lumiere-60886a.netlify.app/",
+		id: 6,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: true,
+	},
+	{
+		name: "corpio.pl",
+		img: "Corpio.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
+		github: "",
+		demo: "http://corpio.pl/corpio/",
+		id: 5,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: false,
+	},
+	{
+		name: "Flowers Online",
+		img: "Shop.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
+		github: "https://github.com/oskardabrowski/flowersonline",
+		demo: "http://flowers-fakeecommerce.epizy.com/",
+		id: 4,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: false,
+	},
+	{
+		name: "Calculator",
+		img: "Calculator.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, CSS, JavaScript, jQuery",
+		github: "https://github.com/oskardabrowski/calculator-project",
+		demo: "https://sweet-capybara-64bcba.netlify.app/",
+		id: 3,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: false,
+	},
+	{
+		name: "ShoppingApp",
+		img: "ShopApp.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, CSS, JavaScript",
+		github: "https://github.com/oskardabrowski/ShoppingList",
+		demo: "https://app.netlify.com/sites/roaring-malasada-2f310d/overview",
+		id: 2,
+		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and cheese.
+					Lancashire squirty cheese halloumi. Roquefort cheese and
+					biscuits brie who moved my cheese pepper jack chalk and cheese
+					mascarpone roquefort. Port-salut boursin pecorino st. agur
+					blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
+					and biscuits brie who moved my cheese pepper jack chalk and
+					cheese mascarpone roquefort. Port-salut boursin pecorino st.
+					agur blue cheese cheese strings cheese triangles st. agur blue
+					cheese monterey jack. Danish fontina chalk and
+					cheese.Lancashire squirty cheese halloumi.`,
+		desc: "",
+		selected: false,
+	},
+	{
+		name: "Fake Domplast Website",
+		img: "Domplast.png",
+		responsive: "CaffeResponsive.png",
+		technologies: "HTML, Sass, JavaScript",
+		github: "https://github.com/oskardabrowski/fakeweb-domplast",
+		demo: "https://statuesque-genie-47600b.netlify.app/",
+		id: 1,
 		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
 					biscuits brie who moved my cheese pepper jack chalk and cheese
 					mascarpone roquefort. Port-salut boursin pecorino st. agur

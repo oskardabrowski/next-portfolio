@@ -4,19 +4,19 @@ import SelectedProjects from "./style";
 import { ImEye } from "react-icons/im";
 import { projects } from "../../database";
 import SelectedProjectsHead from "../../../molecules/Title2";
-import Link from "next/link";
 
 const HomeSelectedProjects = () => {
 	const { setRedirectPath } = useContext(AppContext);
+
+	const filteredProjects = projects.filter((el) => el.selected === true);
 	return (
 		<SelectedProjects data-scroll-section>
 			<SelectedProjectsHead title="Selected Projects" />
 			<div className="SelectedProjectsItems">
-				{projects.map((item, index) => {
+				{filteredProjects.map((item, index) => {
 					let side = "left";
 					const type = index % 2;
-					const { name, img, technologies, github, demo, readMore, selected } =
-						item;
+					const { name, img, technologies, github, demo, id, selected } = item;
 					if (type === 1) {
 						side = "right";
 					}
@@ -73,6 +73,12 @@ const HomeSelectedProjects = () => {
 												</a>
 												<button
 													className={`SelectedProjectsItems-${side}-span-inside-desc-btns-btn`}
+													onClick={() =>
+														setRedirectPath({
+															action: true,
+															path: `/project/${id}`,
+														})
+													}
 												>
 													<div></div> Read more
 												</button>

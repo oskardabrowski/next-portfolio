@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../../Context";
 import ProjectsContainer from "./style";
 import { projects } from "../../database";
 
 const AllProjects = () => {
+	const { setRedirectPath } = useContext(AppContext);
 	return (
 		<ProjectsContainer>
 			{projects.map((item, index) => {
-				const { name, img, technologies, github, demo, readMore, shortDesc } =
-					item;
+				const { name, img, technologies, github, demo, id, shortDesc } = item;
 				return (
 					<div className="Item" key={index}>
 						<div className="Item-container">
@@ -25,7 +26,15 @@ const AllProjects = () => {
 							<div className="Item-container-description">
 								<p className="Item-container-description-text">{shortDesc}</p>
 								<div className="Item-container-description-btns">
-									<button className="btn">
+									<button
+										className="btn"
+										onClick={() =>
+											setRedirectPath({
+												action: true,
+												path: `/project/${id}`,
+											})
+										}
+									>
 										<div></div>Read more
 									</button>
 									<a

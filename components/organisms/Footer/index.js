@@ -7,7 +7,7 @@ const Footer = () => {
 				Copyright &copy; Oskar Dąbrowski {new Date().getFullYear()}
 			</div>
 			<div className="FooterImage">
-				<img src="FooterSVG.svg" alt="footerImage" />
+				<img src="/FooterSVG.svg" alt="footerImage" />
 			</div>
 		</FooterStyle>
 	);

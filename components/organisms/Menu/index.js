@@ -6,6 +6,7 @@ import { AppContext } from "../Context";
 import { AiFillGithub } from "react-icons/ai";
 import { MdArrowLeft, MdArrowDropDown } from "react-icons/md";
 import MenuStyles from "./style";
+import Image from "next/image";
 
 const Menu = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -105,9 +106,21 @@ const Menu = () => {
 					>
 						<div className="Buttons-lang-current-flag">
 							{appLang === "EN" ? (
-								<img src="img/EN.png" alt="EN" />
+								<Image
+									width="100%"
+									height="100%"
+									src="/img/EN.png"
+									alt="EN"
+									placeholder="empty"
+								/>
 							) : (
-								<img src="img/PL.png" alt="PL" />
+								<Image
+									width="100%"
+									height="100%"
+									src="/img/PL.png"
+									alt="PL"
+									placeholder="empty"
+								/>
 							)}
 						</div>
 						<span>{appLang === "EN" ? "EN" : "PL"}</span>
@@ -124,7 +137,13 @@ const Menu = () => {
 								onClick={() => changeLangHandler("EN")}
 							>
 								<div className="Buttons-lang-current-flag">
-									<img src="img/EN.png" alt="EN" />
+									<Image
+										width="100%"
+										height="100%"
+										src="/img/EN.png"
+										alt="EN"
+										placeholder="empty"
+									/>
 								</div>
 								<span>EN</span>
 							</button>
@@ -135,7 +154,13 @@ const Menu = () => {
 								onClick={() => changeLangHandler("PL")}
 							>
 								<div className="Buttons-lang-current-flag">
-									<img src="img/PL.png" alt="PL" />
+									<Image
+										width="100%"
+										height="100%"
+										src="/img/PL.png"
+										alt="PL"
+										placeholder="empty"
+									/>
 								</div>
 								<span>PL</span>
 							</button>
@@ -178,7 +203,13 @@ const Menu = () => {
 							onClick={() => changeLangHandler("PL")}
 						>
 							<div className="Components-menu-links-lang-flag">
-								<img src="img/EN.png" alt="EN" />
+								<Image
+									width="100%"
+									height="100%"
+									src="/img/EN.png"
+									alt="EN"
+									placeholder="empty"
+								/>
 							</div>
 							English
 						</button>
@@ -189,7 +220,13 @@ const Menu = () => {
 							onClick={() => changeLangHandler("EN")}
 						>
 							<div className="Components-menu-links-lang-flag">
-								<img src="img/PL.png" alt="PL" />
+								<Image
+									width="100%"
+									height="100%"
+									src="/img/PL.png"
+									alt="PL"
+									placeholder="empty"
+								/>
 							</div>
 							Polski
 						</button>

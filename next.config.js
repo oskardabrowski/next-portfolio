@@ -5,6 +5,9 @@ const nextConfig = {
 		locales: ["pl"],
 		defaultLocale: "pl",
 	},
+	experimental: {
+		styledComponents: true,
+	},
 };
 
 module.exports = nextConfig;
