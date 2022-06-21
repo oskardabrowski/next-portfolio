@@ -18,12 +18,25 @@ const ProjectsContainer = styled.div`
 		justify-content: center;
 		color: white;
 		border-radius: 25px;
+		@media (max-width: 50em) {
+			width: 100%;
+			border-radius: 0px;
+			margin: 0rem;
+			height: min-content;
+			padding: 0.5rem 0rem;
+		}
 		&-container {
 			width: 96.5%;
 			height: 95%;
 			background-color: black;
 			border-radius: 15px;
 			overflow: hidden;
+			@media (max-width: 50em) {
+				width: 100%;
+				border-radius: 0px;
+				height: max-content;
+				padding: 0rem 0rem 1rem 0rem;
+			}
 			&-header {
 				width: 100%;
 				display: flex;
@@ -45,6 +58,9 @@ const ProjectsContainer = styled.div`
 					}
 					&-tech {
 						font-size: 1.2rem;
+						@media (max-width: 43.75em) {
+							display: none;
+						}
 					}
 				}
 			}

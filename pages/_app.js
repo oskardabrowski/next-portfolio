@@ -28,8 +28,8 @@ function MyApp({ Component, pageProps }) {
 					<GlobalStyles />
 					<Menu />
 					<Suspense fallback={null}>
-						<PageLoaded />
 						<Component {...pageProps} />
+						<PageLoaded />
 					</Suspense>
 				</main>
 			</LocomotiveScrollProvider>
