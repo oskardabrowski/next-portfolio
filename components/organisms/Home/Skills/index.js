@@ -1,14 +1,17 @@
 import SkillsStyles from "./style";
 import { skills } from "../../database";
 import HomeSkillsHead from "../../../molecules/Title3";
+import { useContext } from "react";
+import { AppContext } from "../../Context";
 
 const HomeSkills = () => {
+	const { appLang } = useContext(AppContext);
 	return (
 		<SkillsStyles data-scroll-section>
-			<HomeSkillsHead title="Skills" />
+			<HomeSkillsHead title={appLang === "EN" ? "Skills" : "Umięjętności"} />
 			<div className="SkillsBtns">
 				{skills.map((item, index) => {
-					const { name, colors, ico, inprogress } = item;
+					const { name, colors, ico, inprogress, namePL } = item;
 					let offset = 5;
 					if (index < 5) {
 						offset = 5 * index;
@@ -33,7 +36,9 @@ const HomeSkills = () => {
 							{ico}
 							<span>{name}</span>
 							{inprogress ? (
-								<div className="SkillsBtns-item-inprogress">In progress...</div>
+								<div className="SkillsBtns-item-inprogress">
+									{appLang === "EN" ? "In progress..." : "W trakcie nauki..."}
+								</div>
 							) : (
 								""
 							)}

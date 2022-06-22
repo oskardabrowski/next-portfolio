@@ -26,7 +26,7 @@ const ContactOptions = styled.div`
 				padding-left: 50%;
 				font-weight: bold;
 				position: relative;
-				left: -50rem;
+				left: -60rem;
 				transition: all 1s ease-in-out;
 				@media (max-width: 50em) {
 					padding-left: 0%;

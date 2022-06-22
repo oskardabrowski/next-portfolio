@@ -30,6 +30,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 export const projects = [
 	{
 		name: "Portfolio",
+		namePL: "Portfolio",
 		img: "PortfolioImg.png",
 		responsive: "PortfolioRWD.png",
 		technologies: "NextJS, Styled Components",
@@ -62,11 +63,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: true,
 	},
 	{
 		name: "Solar Map of Toruń",
+		namePL: "Mapa Solarna Torunia",
 		img: "SolarMap.png",
 		responsive: "SolarMapRWD.png",
 		technologies: "React, Redux, Styled Components, Leaflet",
@@ -107,11 +111,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: ``,
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: true,
 	},
 	{
 		name: "Flat Earth Ipsum",
+		namePL: "Flat Earth Ipsum",
 		img: "FlatEarth.png",
 		responsive: "FEIRWD.png",
 		technologies: "React, Styled Components, React Testing Library, Cypress",
@@ -152,14 +159,17 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "Blue Flower",
+		namePL: "Blue Flower",
 		img: "BlueFlowerImg.png",
 		responsive: "BlueFlowerRWD.png",
-		technologies: "HTML, Sass, JavaScript PHP",
+		technologies: "HTML, Sass, JavaScript, PHP",
 		techStack: [
 			{
 				ico: <SiHtml5 />,
@@ -197,11 +207,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: true,
 	},
 	{
 		name: "GatsbyWeatherApp",
+		namePL: "GatsbyWeatherApp",
 		img: "Weather.png",
 		responsive: "CaffeResponsive.png",
 		technologies: "GatsbyJS, StyledComponents",
@@ -234,11 +247,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "Caffe",
+		namePL: "Caffe",
 		img: "CaffeAppImg.png",
 		responsive: "CaffeResponsive.png",
 		technologies: "React, Styled Components, NodeJS",
@@ -275,56 +291,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: true,
 	},
 	{
 		name: "MovieFinder",
+		namePL: "MovieFinder",
 		img: "movie.png",
 		responsive: "MovieRWD.png",
 		technologies: "HTML, Sass, JavaScript",
@@ -361,11 +335,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: true,
 	},
 	{
 		name: "corpio.pl",
+		namePL: "corpio.pl",
 		img: "Corpio.png",
 		responsive: "CorpioRWD.png",
 		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
@@ -410,11 +387,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "Flowers Online",
+		namePL: "Flowers Online",
 		img: "Shop.png",
 		responsive: "FORWD.png",
 		technologies: "HTML, CSS, JavaScript, PHP, jQuery",
@@ -459,11 +439,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "Calculator",
+		namePL: "Calculator",
 		img: "Calculator.png",
 		responsive: "CalculatorRWD.png",
 		technologies: "HTML, CSS, JavaScript, jQuery",
@@ -504,11 +487,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "ShoppingApp",
+		namePL: "ShoppingApp",
 		img: "ShopApp.png",
 		responsive: "ShopAppRWD.png",
 		technologies: "HTML, CSS, JavaScript",
@@ -545,11 +531,14 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 	{
 		name: "Fake Domplast Website",
+		namePL: "Fake Domplast Website",
 		img: "Domplast.png",
 		responsive: "DomplastRWD.png",
 		technologies: "HTML, Sass, JavaScript",
@@ -586,7 +575,9 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		desc: "",
+		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		desc: "EN description",
+		descPL: "PL opis",
 		selected: false,
 	},
 ];
@@ -725,3 +716,19 @@ export const skills = [
 		inprogress: false,
 	},
 ];
+
+export const aboutMe = {
+	contactOptions: ["email@email.pl", "linkedin@linekdin.pl"],
+	shortDesc:
+		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
+	shortDescPL:
+		"Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.",
+	longDesc:
+		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
+	longDescPL:
+		"Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.",
+	interests:
+		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
+	interestsPL:
+		"Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.",
+};

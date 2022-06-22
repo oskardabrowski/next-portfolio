@@ -1,10 +1,14 @@
 import ContactOptions from "./styles";
 import ContactTitle from "../../molecules/Title4";
+import { useContext } from "react";
+import { AppContext } from "../Context";
+import { aboutMe } from "../database";
 
 const Contact = () => {
+	const { appLang } = useContext(AppContext);
 	return (
 		<ContactOptions data-scroll-section>
-			<ContactTitle title="Contact options" />
+			<ContactTitle title={appLang === "EN" ? "Contact options" : "Kontakt"} />
 			<div className="ContactOptions">
 				<form className="ContactOptions-form">
 					<p
@@ -13,7 +17,8 @@ const Contact = () => {
 						data-scroll-class="HeaderVisible"
 						data-scroll-offset="10%"
 					>
-						Contact form<span>.</span>
+						{appLang === "EN" ? "Contact form" : "Formularz kontaktowy"}
+						<span>.</span>
 					</p>
 					<span
 						className="ContactOptions-form-span"
@@ -21,7 +26,11 @@ const Contact = () => {
 						data-scroll-class="SpanLeftVisible"
 						data-scroll-offset="10%"
 					>
-						<input type="text" placeholder="name / company" required />
+						<input
+							type="text"
+							placeholder={appLang === "EN" ? "name / company" : "imię / firma"}
+							required
+						/>
 					</span>
 					<span
 						className="ContactOptions-form-span"
@@ -37,7 +46,12 @@ const Contact = () => {
 						data-scroll-class="SpanLeftVisible"
 						data-scroll-offset="20%"
 					>
-						<textarea placeholder="Your message" rows="7"></textarea>
+						<textarea
+							placeholder={
+								appLang === "EN" ? "Your message" : "Twoja wiadomość"
+							}
+							rows="7"
+						></textarea>
 					</span>
 					<span
 						className="ContactOptions-form-button"
@@ -45,26 +59,25 @@ const Contact = () => {
 						data-scroll-class="LastSpanLeftVisible"
 						data-scroll-offset="10%"
 					>
-						<button>Send message</button>
+						<button>
+							{appLang === "EN" ? "Send message" : "Wyślij wiadomość"}
+						</button>
 					</span>
 				</form>
 				<div className="ContactOptions-other">
-					<span
-						className="ContactOptions-other-el"
-						data-scroll
-						data-scroll-class="OtherVisible"
-						data-scroll-offset="10%"
-					>
-						email@email.pl
-					</span>
-					<span
-						className="ContactOptions-other-el"
-						data-scroll
-						data-scroll-class="OtherVisible"
-						data-scroll-offset="15%"
-					>
-						linkedin@linekdin.pl
-					</span>
+					{aboutMe.contactOptions.map((el, index) => {
+						return (
+							<span
+								key={index}
+								className="ContactOptions-other-el"
+								data-scroll
+								data-scroll-class="OtherVisible"
+								data-scroll-offset="10%"
+							>
+								{el}
+							</span>
+						);
+					})}
 				</div>
 			</div>
 		</ContactOptions>

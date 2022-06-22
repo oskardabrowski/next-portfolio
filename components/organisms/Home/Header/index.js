@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import HomeHeaderStyle from "./style";
+import { AppContext } from "../../Context";
 
 export default function HomeHeader() {
+	const { appLang } = useContext(AppContext);
 	return (
 		<>
 			<HomeHeaderStyle>
@@ -10,11 +13,16 @@ export default function HomeHeader() {
 							<h1>
 								<div>
 									<main>
-										Welcome<span>!</span>
+										{appLang === "EN" ? "Welcome" : "Dzień dobry"}
+										<span>!</span>
 									</main>
 								</div>
 								<div>
-									<main>{"I'm Oskar Dąbrowski"}</main>
+									<main>
+										{appLang === "EN"
+											? "I'm Oskar Dąbrowski"
+											: "Jestem Oskar Dąbrowski"}
+									</main>
 								</div>
 								<div>
 									<main>

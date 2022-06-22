@@ -3,11 +3,13 @@ import { AppContext } from "../../Context";
 import { MdOutlineReadMore } from "react-icons/md";
 import AboutHead from "../../../molecules/Title1";
 import AboutDesc from "./style";
+import { aboutMe } from "../../database";
+
 const HomeAbout = () => {
-	const { setRedirectPath } = useContext(AppContext);
+	const { setRedirectPath, appLang } = useContext(AppContext);
 	return (
 		<AboutDesc data-scroll-section>
-			<AboutHead title="About me" />
+			<AboutHead title={appLang === "EN" ? "About me" : "O mnie"} />
 			<div className="AboutDescription">
 				<div className="AboutDescription-text">
 					<p
@@ -16,22 +18,7 @@ const HomeAbout = () => {
 						data-scroll-class="AboutTextVisible"
 						className="AboutDescription-text-p"
 					>
-						Lancashire squirty cheese halloumi. Roquefort cheese and biscuits
-						brie who moved my cheese pepper jack chalk and cheese mascarpone
-						roquefort. Port-salut boursin pecorino st. agur blue cheese cheese
-						strings cheese triangles st. agur blue cheese monterey jack. Danish
-						fontina chalk and cheese. Lancashire squirty cheese halloumi.
-						Roquefort cheese and biscuits brie who moved my cheese pepper jack
-						chalk and cheese mascarpone roquefort. Port-salut boursin pecorino
-						st. agur blue cheese cheese strings cheese triangles st. agur blue
-						cheese monterey jack. Danish fontina chalk and cheese.Lancashire
-						squirty cheese halloumi. Roquefort cheese and biscuits brie who
-						moved my cheese pepper jack chalk and cheese mascarpone roquefort.
-						Port-salut boursin pecorino st. agur blue cheese cheese strings
-						cheese triangles st. agur blue cheese monterey jack. Danish fontina
-						chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina
-						chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina
-						chalk and cheese.Lancashire squirty cheese halloumi.
+						{appLang === "EN" ? aboutMe.shortDesc : aboutMe.shortDescPL}
 					</p>
 				</div>
 				<div className="AboutDescription-photo">
@@ -41,7 +28,7 @@ const HomeAbout = () => {
 						data-scroll-offset="30%"
 						data-scroll-class="AboutPhotoVisible"
 					>
-						<img src="img/Guy.png" alt="guy" />
+						<img src="/img/Guy.png" alt="guy" />
 					</div>
 				</div>
 			</div>
@@ -60,7 +47,7 @@ const HomeAbout = () => {
 						}
 					>
 						<MdOutlineReadMore className="ico" />
-						<span>Read more</span>
+						<span>{appLang === "EN" ? "Read more" : "Czytaj więcej"}</span>
 					</button>
 				</div>
 				<div className="AboutReadMore-right">

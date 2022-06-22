@@ -107,9 +107,6 @@ const ProjectContentStyle = styled.div`
 			text-align: justify;
 			text-indent: 50px;
 			line-height: 2.25rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
 			@media (max-width: 37.5em) {
 				font-size: 1rem;
 				line-height: 1.25rem;

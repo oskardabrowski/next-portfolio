@@ -6,17 +6,28 @@ import { projects } from "../../database";
 import SelectedProjectsHead from "../../../molecules/Title2";
 
 const HomeSelectedProjects = () => {
-	const { setRedirectPath } = useContext(AppContext);
+	const { setRedirectPath, appLang } = useContext(AppContext);
 
 	const filteredProjects = projects.filter((el) => el.selected === true);
 	return (
 		<SelectedProjects data-scroll-section>
-			<SelectedProjectsHead title="Selected Projects" />
+			<SelectedProjectsHead
+				title={appLang === "EN" ? "Selected projects" : "Wybrane projekty"}
+			/>
 			<div className="SelectedProjectsItems">
 				{filteredProjects.map((item, index) => {
 					let side = "left";
 					const type = index % 2;
-					const { name, img, technologies, github, demo, id, selected } = item;
+					const {
+						name,
+						img,
+						technologies,
+						github,
+						demo,
+						id,
+						selected,
+						namePL,
+					} = item;
 					if (type === 1) {
 						side = "right";
 					}
@@ -43,7 +54,7 @@ const HomeSelectedProjects = () => {
 											<p
 												className={`SelectedProjectsItems-${side}-span-inside-desc-head`}
 											>
-												{name}
+												{appLang === "EN" ? name : namePL}
 											</p>
 											<p
 												className={`SelectedProjectsItems-${side}-span-inside-desc-tech`}
@@ -80,7 +91,8 @@ const HomeSelectedProjects = () => {
 														})
 													}
 												>
-													<div></div> Read more
+													<div></div>{" "}
+													{appLang === "EN" ? "Read more" : "Czytaj więcej"}
 												</button>
 											</span>
 										</div>
@@ -105,7 +117,7 @@ const HomeSelectedProjects = () => {
 						}
 					>
 						<ImEye className="ico" />
-						See more projects
+						{appLang === "EN" ? "See more projects" : "Zobacz więcej projektów"}
 					</button>
 				</div>
 			</div>
