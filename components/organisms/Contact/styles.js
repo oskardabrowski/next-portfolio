@@ -220,6 +220,18 @@ const ContactOptions = styled.div`
 			left: -17.5rem;
 		}
 	}
+
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	.SendingMessage {
+		animation: rotate 1s linear infinite;
+	}
 `;
 
 export default ContactOptions;
