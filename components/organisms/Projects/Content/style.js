@@ -74,7 +74,9 @@ const ProjectsContainer = styled.div`
 				&-text {
 					text-align: justify;
 					padding: 0.75rem 1.25rem;
-					height: 80%;
+					min-height: 14rem;
+					max-height: 500rem;
+					line-height: 1.5rem;
 				}
 				&-btns {
 					height: 20%;

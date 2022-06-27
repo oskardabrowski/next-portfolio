@@ -26,6 +26,23 @@ function MyApp({ Component, pageProps }) {
 							name="viewport"
 							content="width=device-width, initial-scale=1"
 						/>
+						<meta name="robots" content="noindex, nofollow" />
+						<meta
+							name="keywords"
+							content="Front-End, Developer, HTML, CSS, JavaScript, PHP, React, NextJS"
+						/>
+						<meta
+							name="description"
+							content="Hello, my name is Oskar Dąbrowski. I'm Front-End Developer learning modern technologies to create awesome projects!"
+						/>
+						<meta name="author" content="Oskar Dąbrowski" />
+						<meta name="og:title" content="Abstract Developer" />
+						<meta name="og:type" content="website" />
+						<meta name="og:image" content="" />
+						<meta
+							name="og:description"
+							content="Hello, my name is Oskar Dąbrowski. I'm Front-End Developer learning modern technologies to create awesome projects!"
+						/>
 					</Head>
 					<GlobalStyles />
 					<Menu />
