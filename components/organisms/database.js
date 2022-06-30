@@ -47,22 +47,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/next-portfolio",
 		demo: "https://next-portfolio-nu-eight.vercel.app/",
 		id: 12,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My new portfolio project inspired by abstract graphic. Graphical project was created in Affinity Designer, program for vector graphic. Code was created with NextJS, this is my second project with that framework.`,
 		shortDescPL: `Jest to projekt mojej nowej strony portfolio który został zainspirowany abstrakcją. Poza programowaniem lubię bardzo grafikę komputerową w każdej postaci, posiadam zatem pewne umiejętności w tworzeniu grafiki rastrowej i wektorowej. Mam również mniejsze nieco umiejętności związane z grafiką 3D. Zdecydowałem się zatem na zaprojektowanie mojej nowej strony portfolio za pomocą grafiki wektorowej, a następnie przełożenie jej na kod. Strona, którą właśnie oglądasz została zaprojektowana za pomocą Affinity Designer i stworzona w NextJS jako mój drugi projekt.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -95,22 +80,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/solar-map",
 		demo: "http://solar-map.epizy.com/",
 		id: 11,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `Project created as part of my master thesis, most advanced project I've created. I used React framework with various libraries. Part of my project are tiles created with QGIS using QTiles plugin. Most important library in this project is leaflet, because it's most advanced map library with huge number of plugins.`,
 		shortDescPL: `Jest to mój projekt magisterski, zacząłem go ponad pół roku temu i starałem rozwijać wraz z tokiem studiów. Największe zmiany nastąpiły stosunkowo niedawno, gdyż udało mi się z powodzeniem zaliczyć wszystkie zajęcia co przełożyło się na więcej wolnego czasu, który mogę w niego zainwestować. Buduję go za pomocą React oraz wielu świetnych bibliotek, które nadają dodatkowe funkcjonalności. Zdecydowałem się utworzyć go na bazie LeafletJS przez wzgląd, iż jest to najbardziej rozwinięta biblioteka mapowa posiadająca ogromną ilość pluginów. Analiza przestrzenna zamieszczona na mapie została przetworzona na kafelki za pomocą QTiles w QGIS.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -143,22 +113,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/flat-earth-ipsum",
 		demo: "https://musical-manatee-d6436a.netlify.app/",
 		id: 10,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `Funny project created to learn more about automatic tests of code. I used React Resting Library and Cypress to learn two options of code testing. Application is inspired by Ancient Aliens Ipsum.`,
 		shortDescPL: `Jest to projekt stworzony w celu napisania pierwszych własnych testów za pomocą React Testing Library oraz Cypress. Aplikacja została zainspirowana Ancient Alien Ipsum którego
 		aktualnie nie ma, zatem zdecydowałem się utworzyć mu Polski odpowiednik i przy okazji nauczyć się czegoś nowego.`,
 		desc: "EN description",
@@ -192,22 +147,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/BlueFlower",
 		demo: "http://testsite.epizy.com/",
 		id: 9,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `PHP based project created to remind my knowledge about that language. Most important part is PHP functionality allows create account and make impact on website. I deployed project on free PHP hosing and connect it to SQL database so everything works.`,
 		shortDescPL: `Projekt został oparty na PHP, stworzyłem go, aby przypomnieć i utrwalić wiedzę na temat PHP zdobytą z kursu. Zawiera on podłączenie od bazy danych oraz związane z nią funkcjonalności. Zawiera prostą symulację płatności, gdyż nie widziałem potrzeby po raz kolejny implementować wtyczki Stripe co robiłem w poprzednich projektach. Skupiłem się tutaj przede wszystkim na stworzeniu funkcjonalności w oparciu o PHP oraz realnego wpływu użytkownika na treść strony.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -232,22 +172,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/GatsbyWeatherApp",
 		demo: "http://weatherapiapp.epizy.com/",
 		id: 8,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `Simple application showing weather fetched from OpenWeatherMap. Similar projects are created by Bootcamps students so I decided to create my own project with other technology and with more options.`,
 		shortDescPL: `Mała aplikacja przedstawiająca prognozę pogody pobraną z OpenWeatherMap. Podobne projekty tworzone są na Bootcampach zatem postanowiłem zrobić ją w innej technologii oraz rozszerzyć nieco jej funkcjonalność. Stworzyłem tą aplikację w oparciu o GatsbyJS oraz prognozę co trzy godziny. Pobiera ona prognozę dla danego miejsca a następnie przyciski z widoczną pogodą dominującą danego dnia. Po kliknięciu jednego z nich można sprawdzić prognozę pogody co trzy godziny oraz zobaczyć wykres opisujący dany czynnik pogodowy w danym dniu.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -276,22 +201,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/caffe-app",
 		demo: "https://clinquant-fenglisu-3c11fc.netlify.app/",
 		id: 7,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My second React based application, this is my own project created while learning React when I don't fully understand some hooks and options. I created this project to make another step while learning React and make first steps in express. This is also my second project with working stripe implementation.`,
 		shortDescPL: `Moja druga aplikacja opracowana w React, mój własny projekt tworzony jeszcze w czasie Nauki tego frameworka, kiedy to nie rozumiałem do końca niektórych koncepcji i hooków. Opracowałem go w celu postawienia kolejnych kroków w trakcie nauki oraz poznania nieco bardziej Reacta i podstaw Expressa. Jest to ecommerce sprzedające kawę w internecie gdzie po raz drugi zaimplementowałem Stripe, lecz w innej technologii niż dotychczas.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -320,22 +230,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/MovieFinder",
 		demo: "https://thirsty-lumiere-60886a.netlify.app/",
 		id: 6,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My project in VanillaJS, created to better understand this language and async functions. This project fetch data from TMDB and describe movies as slides. User can save movie as liked and add this to list of movies to watch.`,
 		shortDescPL: `Jest to projekt stworzony w czystym JavaScript, opracowałem go w celu lepszego zrozumienia tego języka oraz asynchroniczności. Pobiera dane z TMDB oraz wyświetla w stworzonym przeze mnie sliderze. Użytkownik ma opcję dodania filmów do ulubionych oraz do listy do obejrzenia. Zapisuje je wtedy w przeglądarce za pomocą pamięci lokalnej.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -372,22 +267,7 @@ export const projects = [
 		github: "",
 		demo: "http://corpio.pl/corpio/",
 		id: 5,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `Bigger project created for one from tailoring companies from my city. Website have admin panel and he can add groups or under groups of products. Admin have full possibilities to change all content of website. For security reasons code of this project isn't available for inspection.`,
 		shortDescPL: `Większy projekt stworzony na bazie PHP dla jednej z miejscowych szwalni, ma opcję tworzenia grup i podgrup w katalogu z produktami oraz włączania lub wyłączania ich widoczności dla użytkownika. Administrator strony ma również pełną swobodę w dostosowywaniu jej do własnych potrzeb. Z powodów bezpieczeństwa nie udostępniono kodu strony do wglądu.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -424,22 +304,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/flowersonline",
 		demo: "http://flowers-fakeecommerce.epizy.com/",
 		id: 4,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My first own project with stripe integration, created to learn more about PHP and website deployment. Website have products saved in database and allows to create account. But creating account and options inside isn't most important part of this project.`,
 		shortDescPL: `Jest to mój pierwszy projekt z integracją wtyczki Stripe stworzony w celu lepszego zapoznania się z językiem PHP oraz publikacją na stronach z hostingiem. Posiada katalog produktów oparty na bazach danych oraz możliwość założenia konta która jest funkcjonalnością poboczną.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -472,22 +337,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/calculator-project",
 		demo: "https://sweet-capybara-64bcba.netlify.app/",
 		id: 3,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `One form my first projects created with jQuery. It's simple calculator created to develop my knowledge about programming.`,
 		shortDescPL: `Jeden z moich pierwszych projektów stworzonych przy pomocy jQuery. Jest to prosty przeglądarkowy kalkulator stworzony w celu rozwoju moich umiejętności
 		programowania w JavaScript z wykorzystaniem biblioteki jQuery.`,
 		desc: "EN description",
@@ -517,22 +367,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/ShoppingList",
 		demo: "https://roaring-malasada-2f310d.netlify.app/",
 		id: 2,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My first web app, simple shopping list allows to add or remove product.`,
 		shortDescPL: `Moja pierwsza aplikacja internetowa stworzona za pomocą czystego JavaScript. Prosta lista zakupowa do której dodaje lub kasuje się produkty.`,
 		desc: "EN description",
 		descPL: "PL opis",
@@ -561,22 +396,7 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/fakeweb-domplast",
 		demo: "https://statuesque-genie-47600b.netlify.app/",
 		id: 1,
-		shortDesc: `Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and cheese.
-					Lancashire squirty cheese halloumi. Roquefort cheese and
-					biscuits brie who moved my cheese pepper jack chalk and cheese
-					mascarpone roquefort. Port-salut boursin pecorino st. agur
-					blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi. Roquefort cheese
-					and biscuits brie who moved my cheese pepper jack chalk and
-					cheese mascarpone roquefort. Port-salut boursin pecorino st.
-					agur blue cheese cheese strings cheese triangles st. agur blue
-					cheese monterey jack. Danish fontina chalk and
-					cheese.Lancashire squirty cheese halloumi.`,
+		shortDesc: `My first website inspired not actual version of my uncle’s company website.`,
 		shortDescPL: `Jest to pierwsza stworzona przeze mnie strona internetowa dla której inspiracją była przestarzała strona jednej z lokalnych firm. Posiada podstawowe funkcjonalności w
 		JavaScript.`,
 		desc: "EN description",
@@ -722,13 +542,16 @@ export const skills = [
 
 export const aboutMe = {
 	contactOptions: ["email@email.pl", "linkedin@linekdin.pl"],
-	shortDesc:
-		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
+	shortDesc: `I'm Oskar Dąbrowki, second degree student of Geoinformation. I have been interested in programming from second year of my first stage studies. Firstly, I was learning Python, but I decided to try other various languages and choose the best for me. At last, I decided to learn JavaScript because it's very interesting language and have much interesting libraries, frameworks and supersets. Today I learn about TypeScript, next I'll learn Angular because in my opinion it's good to know that framework. At now I use React for my projects, and I know React based static sites generators NextJS and GatsbyJS. I prefer first option because I feel it's more right for me, but I don't have any problems with second option. I will learn also React Native and Electron to create cross-platform applications. While learning about programming it's easy to get an impression the farther you go then less you know. But I thing every single part of new knowledge create awesome opportunities for you.`,
 	shortDescPL: `Jestem Oskar Dąbrowski, obecnie kończę studia na kierunku Geoinformacja II stopnia. Programowaniem interesuję się od końca drugiego roku studiów licencjackich. Początkowo uczyłem się Pythona, postanowiłem, jednakże rozejrzeć się wśród innych języków programowania, aby poszukać coś najbardziej odpowiedniego dla mnie. Ostatecznie zdecydowałem się wybrać JavaScript, gdyż posiada on wiele ciekawych bibliotek, frameworków i supersetów. Aktualnie uczę się TypeScript, wraz z nim chcę poznać również Angulara, gdyż jest frameworkiem który w mojej ocenie warto poznać. Aktualnie programuję aplikacje w React, znam również zbudowane na jego bazie generatory stron statycznych NextJS i Gatsby JS. Preferuję jednakże pierwszy z nich, lecz nie mam problemu w pracy z drugim. Dalej mam zamiar poznać React Native i Electron, aby również umieć tworzyć aplikacje crossplatformowe. Ucząc się programowania łatwo odnieść wrażenie, iż im dalej w las tym więcej drzew, dla mnie, jednakże nie jest to problemem, gdyż każde z nich jest ciekawe i niesie nowe świetne możliwości.`,
-	longDesc: ``,
+	longDesc: [
+		`I'm Oskar Dąbrowski, I started programming in college about two years ago. At this time, I learn programming in college and on my own. I was Geoinformation student, which is why I learnt most about Python. It was also Front-End Programming courses, but I have been learning about it before, so I had no problem to pass this exam. I've been interested more about this kind of programming so I've been developing my knowledge on my own. Firstly, I've learned from freeCodeCamp and books, but I decided to learn from other courses and platforms.`,
+		`I live in Golub-Dobrzyń, it's small town near Toruń in Kujawsko-Pomorskie. I'm interested in books, movies and shooting. I like trips and explore new places. I'm interested also in computer graphic in second and third dimensions.`,
+		`I took part in military training for student's, I make student practise in geodesy and cartography department of my town city hall. I also did an internship as surveyor's assistant in one from companies in Toruń.`,
+	],
 	longDescPL: [
 		`Jestem Oskar Dąbrowski, programować zacząłem podczas studiów około dwa lata temu. Przez ten czas wraz uczyłem się programowania na studiach jak i na własną rękę. Jako iż byłem studentem Geoinformacji najwięcej uczyłem się języka Python, lecz miałem również zajęcia dotyczące budowy aplikacji internetowych. Interesowałem się Front-Endem jeszcze przed formalnymi kursami ze studiów, przez co łatwiej przez wszystko przeszedłem. Zainteresowałem się tymi zagadnieniami bardziej, co poskutkowało moim osobistym rozwojem w tym kierunku. Początkowo przechodziłem kursy na freeCodeCamp i czytałem książki. Lecz z czasem zacząłem czerpać wiedzę z różnych źródeł co znacznie poszerzyło moje horyzonty. Aktualnie porządkuję wiedzę za pomocą strony roadmap.sh udostępniającą świetną drogę, którą powinien przejść każdy Front-End Developer. Sam również poznaje inne zagadnienia, takie jak biblioteka Leaflet lub TURF będące Front-Endowymi bibliotekami geoinformacyjnymi.`,
-		`Mieszkam w Golubiu-Dobrzyniu, małym mieście niedaleko Torunia w województwie Kujawsko-Pomorskim. Interesuje się książkami, filmami i sportem strzeleckim. Z kultury popularnej najbardziej interesuje mnie fantastyka. Lubię również wyjeżdżać i poznawać nowe miejsca. Interesuję się również grafiką komputerową w różnych wariantach. Aktualnie jestem posiadaczem Affinity Suite, czyli zestawu narzędzi stworzonych przez firmę Serif które zakupiłem w połowie poprzedniego roku. Wykorzystałem je, żeby zaprojektować moją stronę portfolio, oraz korzystam z nich do innych projektów.`,
+		`Mieszkam w Golubiu-Dobrzyniu, małym mieście niedaleko Torunia w województwie Kujawsko-Pomorskim. Interesuje się książkami, filmami i sportem strzeleckim. Lubię również wyjeżdżać i poznawać nowe miejsca. Interesuję się również grafiką komputerową w różnych wariantach. Aktualnie jestem posiadaczem Affinity Suite, czyli zestawu narzędzi stworzonych przez firmę Serif które zakupiłem w połowie poprzedniego roku. Wykorzystałem je, żeby zaprojektować moją stronę portfolio, oraz korzystam z nich do innych projektów.`,
 		`Brałem udział w szkoleniach dla studentów w programie Legii Akademickiej, odbywałem praktyki w ośrodku geodezji i kartografii Urzędu Miasta Golubia-Dobrzynia. Oraz staż absolwencki jako asystent Geodety w jednej z Toruńskich firm.`,
 	],
 };
