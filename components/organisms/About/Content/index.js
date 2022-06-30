@@ -17,13 +17,13 @@ const AboutContent = () => {
 			</div>
 			<AboutHead title={appLang === "EN" ? "About me" : "Kim jestem?"} />
 			<div className="FirstDescription">
-				<p>{appLang === "EN" ? aboutMe.longDesc : aboutMe.longDescPL}</p>
-			</div>
-			<SelectedProjectsHead
-				title={appLang === "EN" ? "My interests" : "Moje zaintereowania"}
-			/>
-			<div className="FirstDescription">
-				<p>{appLang === "EN" ? aboutMe.interests : aboutMe.interestsPL}</p>
+				{appLang === "EN"
+					? aboutMe.longDesc.map((el) => {
+							return <p>{el}</p>;
+					  })
+					: aboutMe.longDescPL.map((el) => {
+							return <p>{el}</p>;
+					  })}
 			</div>
 		</StylesAboutContent>
 	);

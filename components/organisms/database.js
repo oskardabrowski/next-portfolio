@@ -63,10 +63,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `Jest to projekt mojej nowej strony portfolio któy został zainspirowany abstrakcją. Poza programowaniem lubię bardzo grafikę komputerową w każdej postaci,
-		posiadam zatem pewne umiejętnosci w tworzeniu grafiki rastrowej i wektorowej. Mam również mniejsze nieco umiejętności związane z grafiką 3D. Zdecydowałem się zatem na
-		zaprojektowanie mojej nowej strony portfolio za pomocą grafiki wektorowej, a następnie przełożenie jej na kod. Strona którą własnie oglądasz została zaprojektowana za
-		pomocą Affinity Designer i stworzona w NextJS jako mój drugi projekt.`,
+		shortDescPL: `Jest to projekt mojej nowej strony portfolio który został zainspirowany abstrakcją. Poza programowaniem lubię bardzo grafikę komputerową w każdej postaci, posiadam zatem pewne umiejętności w tworzeniu grafiki rastrowej i wektorowej. Mam również mniejsze nieco umiejętności związane z grafiką 3D. Zdecydowałem się zatem na zaprojektowanie mojej nowej strony portfolio za pomocą grafiki wektorowej, a następnie przełożenie jej na kod. Strona, którą właśnie oglądasz została zaprojektowana za pomocą Affinity Designer i stworzona w NextJS jako mój drugi projekt.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: true,
@@ -114,10 +111,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `Jest to mój projekt magisterski, zacząłem go ponad pół roku temu i starałem rozwijać wraz z tokiem studiów. Największe zmiany nastąpiły stosunkowo niedawno
-		gdyż udało mi się z powodzeniem zaliczyć wszystkie zajęcia co przełożyło się na więcej wolnego czasu który mogę w niego zainwestować. Buduję go za pomocą React oraz wielu
-		świetnych bibliotek które nadają dodatkowe funkcjonalności. Zdecydowałem się utworzyć go na bazie LeafletJS przez wzgląd iż jest to najbardziej rozwinięta biblioteka
-		mapowa posiadająca ogromną ilość pluginów. Analiza przestrzenna zamieszczona na mapie została przetworzona na kafelki za pomocą QTiles w QGIS.`,
+		shortDescPL: `Jest to mój projekt magisterski, zacząłem go ponad pół roku temu i starałem rozwijać wraz z tokiem studiów. Największe zmiany nastąpiły stosunkowo niedawno, gdyż udało mi się z powodzeniem zaliczyć wszystkie zajęcia co przełożyło się na więcej wolnego czasu, który mogę w niego zainwestować. Buduję go za pomocą React oraz wielu świetnych bibliotek, które nadają dodatkowe funkcjonalności. Zdecydowałem się utworzyć go na bazie LeafletJS przez wzgląd, iż jest to najbardziej rozwinięta biblioteka mapowa posiadająca ogromną ilość pluginów. Analiza przestrzenna zamieszczona na mapie została przetworzona na kafelki za pomocą QTiles w QGIS.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: true,
@@ -214,7 +208,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Projekt został oparty na PHP, stworzyłem go, aby przypomnieć i utrwalić wiedzę na temat PHP zdobytą z kursu. Zawiera on podłączenie od bazy danych oraz związane z nią funkcjonalności. Zawiera prostą symulację płatności, gdyż nie widziałem potrzeby po raz kolejny implementować wtyczki Stripe co robiłem w poprzednich projektach. Skupiłem się tutaj przede wszystkim na stworzeniu funkcjonalności w oparciu o PHP oraz realnego wpływu użytkownika na treść strony.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: true,
@@ -254,7 +248,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Mała aplikacja przedstawiająca prognozę pogody pobraną z OpenWeatherMap. Podobne projekty tworzone są na Bootcampach zatem postanowiłem zrobić ją w innej technologii oraz rozszerzyć nieco jej funkcjonalność. Stworzyłem tą aplikację w oparciu o GatsbyJS oraz prognozę co trzy godziny. Pobiera ona prognozę dla danego miejsca a następnie przyciski z widoczną pogodą dominującą danego dnia. Po kliknięciu jednego z nich można sprawdzić prognozę pogody co trzy godziny oraz zobaczyć wykres opisujący dany czynnik pogodowy w danym dniu.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -298,7 +292,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Moja druga aplikacja opracowana w React, mój własny projekt tworzony jeszcze w czasie Nauki tego frameworka, kiedy to nie rozumiałem do końca niektórych koncepcji i hooków. Opracowałem go w celu postawienia kolejnych kroków w trakcie nauki oraz poznania nieco bardziej Reacta i podstaw Expressa. Jest to ecommerce sprzedające kawę w internecie gdzie po raz drugi zaimplementowałem Stripe, lecz w innej technologii niż dotychczas.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: true,
@@ -342,7 +336,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Jest to projekt stworzony w czystym JavaScript, opracowałem go w celu lepszego zrozumienia tego języka oraz asynchroniczności. Pobiera dane z TMDB oraz wyświetla w stworzonym przeze mnie sliderze. Użytkownik ma opcję dodania filmów do ulubionych oraz do listy do obejrzenia. Zapisuje je wtedy w przeglądarce za pomocą pamięci lokalnej.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: true,
@@ -394,7 +388,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Większy projekt stworzony na bazie PHP dla jednej z miejscowych szwalni, ma opcję tworzenia grup i podgrup w katalogu z produktami oraz włączania lub wyłączania ich widoczności dla użytkownika. Administrator strony ma również pełną swobodę w dostosowywaniu jej do własnych potrzeb. Z powodów bezpieczeństwa nie udostępniono kodu strony do wglądu.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -446,7 +440,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Jest to mój pierwszy projekt z integracją wtyczki Stripe stworzony w celu lepszego zapoznania się z językiem PHP oraz publikacją na stronach z hostingiem. Posiada katalog produktów oparty na bazach danych oraz możliwość założenia konta która jest funkcjonalnością poboczną.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -494,7 +488,8 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Jeden z moich pierwszych projektów stworzonych przy pomocy jQuery. Jest to prosty przeglądarkowy kalkulator stworzony w celu rozwoju moich umiejętności
+		programowania w JavaScript z wykorzystaniem biblioteki jQuery.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -538,7 +533,7 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Moja pierwsza aplikacja internetowa stworzona za pomocą czystego JavaScript. Prosta lista zakupowa do której dodaje lub kasuje się produkty.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -582,7 +577,8 @@ export const projects = [
 					agur blue cheese cheese strings cheese triangles st. agur blue
 					cheese monterey jack. Danish fontina chalk and
 					cheese.Lancashire squirty cheese halloumi.`,
-		shortDescPL: `NASA kłamie... Satelity. Sat pochodzi od saturna i od satanizmu, sataniści są wyznawcami saturna, elity to władza. Rządzą nami satanistyczne elity. Niby skąd to wiedzą. Twarz Boga jest wyrysowana na płaskiej ziemi! Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą. Ziemia jest dyskiem z kopułą! Jesteśmy w centrum wszechświata. Słońce jest w środku kopuły i porusza się siłą magii. Antarktydy pilnuje wojsko. Wsyzstkie dowody są na jutuba. Arktyka jest w środku dysku bo tak pasuje. Jak polecisz za wysoko to uderzysz kopułę. Ziemia jest płaska lemingu. To tylko teoria.`,
+		shortDescPL: `Jest to pierwsza stworzona przeze mnie strona internetowa dla której inspiracją była przestarzała strona jednej z lokalnych firm. Posiada podstawowe funkcjonalności w
+		JavaScript.`,
 		desc: "EN description",
 		descPL: "PL opis",
 		selected: false,
@@ -728,18 +724,11 @@ export const aboutMe = {
 	contactOptions: ["email@email.pl", "linkedin@linekdin.pl"],
 	shortDesc:
 		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
-	shortDescPL: `Jestem Oskar Dąbrowski, obecnie konćzę studia na kierunku Geoinformacja II stopnia. Programowaniem insteresuję się od końca drugiego roku studiów licencjackich.
-		Początkowo uczyłem się Pythona, postanowiłem jednakże rozejrzeć się wśród innych języków programowania aby poszukać coś najbardziej odpowiedniego dla mnie. Ostatecznie zdecydowałem
-		się wybrać JavaScript gdyż posiada on wiele ciekawych bibliotek, frameworków i supersetów. Aktualnie uczę się TypeScript, wraz z nim chcę poznać również Angulara gdyż jest
-		frameworkiem który w mojej ocenie warto poznać. Aktualnie programuję aplikacje w React, znam również zbudowane na jego bazie generatory stron statycznych NextJS i Gatsby JS.
-		Preferuję jednakże pierwszy z nich lecz nie mam problemu w pracy z drugim. Dalej mam zamiar poznać React Native i Electron, aby również umieć tworzyć aplikacje crossplatformowe. Ucząc się programowania łatwo odnieść wrażenie iż
-		im dalej w las tym więcej drzew, dla mnie jednakże nie jest to problemem gdyż każde z nich jest ciekwe i niesie nowe świetne możliwości.`,
-	longDesc:
-		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
-	longDescPL:
-		"Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.",
-	interests:
-		"Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese. Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Roquefort cheese and biscuits brie who moved my cheese pepper jack chalk and cheese mascarpone roquefort. Port-salut boursin pecorino st. agur blue cheese cheese strings cheese triangles st. agur blue cheese monterey jack. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi. Danish fontina chalk and cheese.Lancashire squirty cheese halloumi.",
-	interestsPL:
-		"Gwiazda polarna jest widoczna na drugiej półkuli, ale czasami nie poniważ perspektywa. Nie pojedziemy na antarktydę bo nam nie wolno. Wszystkie gwiazdy, planety i księżyce to zjawiska bliskie i lokalne. Istnieje zorganizowana sieć blokad które nie pozwalają nam pójść na antarktydę. Fikcja, grafika komputerowa, jesteśmy okłamywani, ziemia jest płaska. Mierzenie lotu poziomicą.",
+	shortDescPL: `Jestem Oskar Dąbrowski, obecnie kończę studia na kierunku Geoinformacja II stopnia. Programowaniem interesuję się od końca drugiego roku studiów licencjackich. Początkowo uczyłem się Pythona, postanowiłem, jednakże rozejrzeć się wśród innych języków programowania, aby poszukać coś najbardziej odpowiedniego dla mnie. Ostatecznie zdecydowałem się wybrać JavaScript, gdyż posiada on wiele ciekawych bibliotek, frameworków i supersetów. Aktualnie uczę się TypeScript, wraz z nim chcę poznać również Angulara, gdyż jest frameworkiem który w mojej ocenie warto poznać. Aktualnie programuję aplikacje w React, znam również zbudowane na jego bazie generatory stron statycznych NextJS i Gatsby JS. Preferuję jednakże pierwszy z nich, lecz nie mam problemu w pracy z drugim. Dalej mam zamiar poznać React Native i Electron, aby również umieć tworzyć aplikacje crossplatformowe. Ucząc się programowania łatwo odnieść wrażenie, iż im dalej w las tym więcej drzew, dla mnie, jednakże nie jest to problemem, gdyż każde z nich jest ciekawe i niesie nowe świetne możliwości.`,
+	longDesc: ``,
+	longDescPL: [
+		`Jestem Oskar Dąbrowski, programować zacząłem podczas studiów około dwa lata temu. Przez ten czas wraz uczyłem się programowania na studiach jak i na własną rękę. Jako iż byłem studentem Geoinformacji najwięcej uczyłem się języka Python, lecz miałem również zajęcia dotyczące budowy aplikacji internetowych. Interesowałem się Front-Endem jeszcze przed formalnymi kursami ze studiów, przez co łatwiej przez wszystko przeszedłem. Zainteresowałem się tymi zagadnieniami bardziej, co poskutkowało moim osobistym rozwojem w tym kierunku. Początkowo przechodziłem kursy na freeCodeCamp i czytałem książki. Lecz z czasem zacząłem czerpać wiedzę z różnych źródeł co znacznie poszerzyło moje horyzonty. Aktualnie porządkuję wiedzę za pomocą strony roadmap.sh udostępniającą świetną drogę, którą powinien przejść każdy Front-End Developer. Sam również poznaje inne zagadnienia, takie jak biblioteka Leaflet lub TURF będące Front-Endowymi bibliotekami geoinformacyjnymi.`,
+		`Mieszkam w Golubiu-Dobrzyniu, małym mieście niedaleko Torunia w województwie Kujawsko-Pomorskim. Interesuje się książkami, filmami i sportem strzeleckim. Z kultury popularnej najbardziej interesuje mnie fantastyka. Lubię również wyjeżdżać i poznawać nowe miejsca. Interesuję się również grafiką komputerową w różnych wariantach. Aktualnie jestem posiadaczem Affinity Suite, czyli zestawu narzędzi stworzonych przez firmę Serif które zakupiłem w połowie poprzedniego roku. Wykorzystałem je, żeby zaprojektować moją stronę portfolio, oraz korzystam z nich do innych projektów.`,
+		`Brałem udział w szkoleniach dla studentów w programie Legii Akademickiej, odbywałem praktyki w ośrodku geodezji i kartografii Urzędu Miasta Golubia-Dobrzynia. Oraz staż absolwencki jako asystent Geodety w jednej z Toruńskich firm.`,
+	],
 };
