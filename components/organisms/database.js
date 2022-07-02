@@ -22,6 +22,7 @@ import {
 	SiCss3,
 	SiJquery,
 	SiCypress,
+	SiBootstrap,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io";
@@ -49,7 +50,7 @@ export const projects = [
 		id: 12,
 		shortDesc: `My new portfolio project inspired by abstract graphic. Graphical project was created in Affinity Designer, program for vector graphic. Code was created with NextJS, this is my second project with that framework.`,
 		shortDescPL: `Jest to projekt mojej nowej strony portfolio który został zainspirowany abstrakcją. Poza programowaniem lubię bardzo grafikę komputerową w każdej postaci, posiadam zatem pewne umiejętności w tworzeniu grafiki rastrowej i wektorowej. Mam również mniejsze nieco umiejętności związane z grafiką 3D. Zdecydowałem się zatem na zaprojektowanie mojej nowej strony portfolio za pomocą grafiki wektorowej, a następnie przełożenie jej na kod. Strona, którą właśnie oglądasz została zaprojektowana za pomocą Affinity Designer i stworzona w NextJS jako mój drugi projekt.`,
-		desc: "EN description",
+		desc: `I created this project using NextJS because it can pre-render web pages and I wanted to learn new technology. Firstly, I created graphic design of my new portfolio website then I started coding. The NextJS configuration file is interesting for me, because it’s similar to the webpack configuration but requires only configuration of selected plugins or loaders to work. I really understand NextJS, it’s very useful and I decided to use it in my future projects. In this project the most difficult thing to create was optimal location of elements and containers in the first view animation. Although NextJS offer CSS and CSS modules support I decided to use Styled Components, because Styled Components offer the same options like in SASS and for me this plugin is more useful than clear CSS or his modules.`,
 		descPL: `Projekt został wykonany przy użyciu NextJS, przez wzgląd na możliwość prerenderowania stron internetowych i chęć nauki nowej technologii. Zaprojektowano go w programie Affinity Designer a następnie zamieniono grafikę na kod. Ciekawa jest dla mnie konfiguracja Nexta która przypomina tą z Webpacka, lecz wymaga konfiguracji tylko niektórych bibliotek lub loaderów. Projekt nie sprawił większych problemów, NextJS jest dla mnie w zupełności zrozumiały i chętnie będę go wykorzystywał w przyszłości. W samym projekcie największym wyzwaniem było odpowiednie ustawienie elementów wobec siebie oraz nadanie odpowiednich zapytań media w stylach strony. Pomimo iż Next oferuje bezproblemowe odczytywanie CSS oraz wprowadza ich moduły, wolałem skorzystać ze Styled Components przez wzgląd, iż działają w zasadzie tak samo jednocześnie posiadając funkcjonalność SCSS. Zastosowałem również atomic design, aby umieścić komponenty oraz ich fragmenty w różnych katalogach, ułatwiając sobie w ten sposób pracę oraz umożliwiając wielokrotne wykorzystanie komponentów strony. `,
 		selected: true,
 	},
@@ -82,8 +83,9 @@ export const projects = [
 		id: 11,
 		shortDesc: `Project created as part of my master thesis, most advanced project I've created. I used React framework with various libraries. Part of my project are tiles created with QGIS using QTiles plugin. Most important library in this project is leaflet, because it's most advanced map library with huge number of plugins.`,
 		shortDescPL: `Jest to mój projekt magisterski, zacząłem go ponad pół roku temu i starałem rozwijać wraz z tokiem studiów. Największe zmiany nastąpiły stosunkowo niedawno, gdyż udało mi się z powodzeniem zaliczyć wszystkie zajęcia co przełożyło się na więcej wolnego czasu, który mogę w niego zainwestować. Buduję go za pomocą React oraz wielu świetnych bibliotek, które nadają dodatkowe funkcjonalności. Zdecydowałem się utworzyć go na bazie LeafletJS przez wzgląd, iż jest to najbardziej rozwinięta biblioteka mapowa posiadająca ogromną ilość pluginów. Analiza przestrzenna zamieszczona na mapie została przetworzona na kafelki za pomocą QTiles w QGIS.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `I create this project with React framework as a project in my master thesis. It combines many plugins and libraries and my knowledge from geoinformation and programming. I decided to build this project using React because it gives me advanced options. Map is working depending on Leaflet and react components for that library. Styles are created using Styled Components and I wrote them in file under component function. Inside second dimension are base maps available for free or under non-commercial license. I created solar layers using ArcGIS, QGIS and SAGA GIS. It's result of lidar point cloud processing, I convert them to digital surface model using PDAL library then I created solar layers using SAGA GIS. I merged them into one layer using ArcMap and clip to borders of Toruń. Then I converted that layers to Tiles using QTiles and add them to my application. Currently I'm while creating 3D model of city and add it as 3D version in my application.`,
+		descPL:
+			"Jest to przedsięwzięcie tworzone w React jako mój projekt magisterski, łączy on wiele wtyczek oraz wiedzę z zakresu geoinformacyjnego oraz programistycznego. Zdecydowałem o budowie go właśnie w tym frameworku przez wzgląd na możliwości jakie on daje. Mapa działa w oparciu o bibliotekę Leaflet oraz komponenty tej biblioteki dla Reacta. W celu nadania stylu wykorzystano Styled Components zapisując styl pod komponentem. Aplikacja zawiera mapy bazowe udostępnione za darmo lub na licencji pozwalającej na ich użycie niekomercyjne. Warstwy tematyczne zawierają natomiast potencjał solarny opracowany w ArcGIS, QGIS oraz SAGAGIS. Jest to wynik przetwarzania chmury punktów za pomocą biblioteki PDAL do częściowo pokrywających się ze sobą fragmentów, na bazie których zliczono sumy promieniowania. Obróbkę oraz łączenie w większe warstwy zrobiono w programie ArcMap, następnie przeprowadzono kaflekowanie w QGIS z pomocą wtyczki QTiles. Pozwoliło to na załadowanie danych do aplikacji bez jej zawieszania i problemów z funkcjonalnością. Wersja trójwymiarowa jest aktualnie opracowywana przy pomocy programów QGIS, Blender i SketchUp. Wynik zostanie przetworzony do modelu 3D umieszczonego w aplikacji za pomocą ThreeJS oraz react-threejs/fiber.",
 		selected: true,
 	},
 	{
@@ -116,8 +118,8 @@ export const projects = [
 		shortDesc: `Funny project created to learn more about automatic tests of code. I used React Resting Library and Cypress to learn two options of code testing. Application is inspired by Ancient Aliens Ipsum.`,
 		shortDescPL: `Jest to projekt stworzony w celu napisania pierwszych własnych testów za pomocą React Testing Library oraz Cypress. Aplikacja została zainspirowana Ancient Alien Ipsum którego
 		aktualnie nie ma, zatem zdecydowałem się utworzyć mu Polski odpowiednik i przy okazji nauczyć się czegoś nowego.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `FlatEarthIpsum was a project I wanted to create from long time, it’s inspired by Ancient Aliens Ipsum. Firstly I was thinking about copy this project, but finally I decided to create something new so I build ipsum based on flatearthers arguments. While creating this project I learn two application testing libraries, react testing library and cypress. So I created my first automatic tests.`,
+		descPL: `FlatEarthIpsum jest projektem, który od dawna chciałem stworzyć, zainspirowało mnie do tego już niestety nieistniejące Ancient Aliens Ipsum. Początkowo postanowiłem je odtworzyć, lecz wolałem zrobić coś bardziej oryginalnego i zwróciłem uwagę na inną popularną teorię spiskową. Wraz z tworzeniem tego projektu postanowiłem nauczyć się dwóch popularnych środowisk do testów automatycznych. React-testing-library która posiada świetne funkcjonalności oraz Cypress przeznaczony do testów end to end. Napisałem zatem w tym projekcie moje pierwsze automatyczne testy aplikacji a następnie przekonałem się o ich znacznej użyteczności w trakcie tworzenia projektów.`,
 		selected: false,
 	},
 	{
@@ -147,10 +149,10 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/BlueFlower",
 		demo: "http://testsite.epizy.com/",
 		id: 9,
-		shortDesc: `PHP based project created to remind my knowledge about that language. Most important part is PHP functionality allows create account and make impact on website. I deployed project on free PHP hosing and connect it to SQL database so everything works.`,
+		shortDesc: `PHP based project created to remind my knowledge about that language. Most important part is PHP functionality allows create account and make influence on website. I deployed project on free PHP hosing and connect it to SQL database so everything works.`,
 		shortDescPL: `Projekt został oparty na PHP, stworzyłem go, aby przypomnieć i utrwalić wiedzę na temat PHP zdobytą z kursu. Zawiera on podłączenie od bazy danych oraz związane z nią funkcjonalności. Zawiera prostą symulację płatności, gdyż nie widziałem potrzeby po raz kolejny implementować wtyczki Stripe co robiłem w poprzednich projektach. Skupiłem się tutaj przede wszystkim na stworzeniu funkcjonalności w oparciu o PHP oraz realnego wpływu użytkownika na treść strony.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `Project created to refresh my knowledge about PHP, I created this website based on PHP and JavaScript. This project allows create account, create ads, add them to cart and push to home page. You can personalize your account, add and delete comments and some other options. User have real influence for website view. Project is deployed on free PHP host and connected to SQL database, everything works correctly.`,
+		descPL: `Strona stworzona w celu odświeżenia mojej wiedzy na temat PHP, została stworzona przede wszystkim w oparciu o właśnie ten język oraz czysty JavaScript. Posiada możliwość zakładania konta, tworzenia reklam, dodawania ich do koszyka oraz symulację płatności. Użytkownik posiada możliwość publikacji reklamy z wybranym standardem. Istnieje również możliwość personalizacji konta, dodawania prostych komentarzy, kasowania ich oraz kilka innych opcji. Użytkownik ma realny wpływ na wygląd strony poprzez zarządzanie ogłoszeniami, dodawanie lub usuwanie komentarzy.`,
 		selected: true,
 	},
 	{
@@ -174,8 +176,8 @@ export const projects = [
 		id: 8,
 		shortDesc: `Simple application showing weather fetched from OpenWeatherMap. Similar projects are created by Bootcamps students so I decided to create my own project with other technology and with more options.`,
 		shortDescPL: `Mała aplikacja przedstawiająca prognozę pogody pobraną z OpenWeatherMap. Podobne projekty tworzone są na Bootcampach zatem postanowiłem zrobić ją w innej technologii oraz rozszerzyć nieco jej funkcjonalność. Stworzyłem tą aplikację w oparciu o GatsbyJS oraz prognozę co trzy godziny. Pobiera ona prognozę dla danego miejsca a następnie przyciski z widoczną pogodą dominującą danego dnia. Po kliknięciu jednego z nich można sprawdzić prognozę pogody co trzy godziny oraz zobaczyć wykres opisujący dany czynnik pogodowy w danym dniu.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `This is small app using asynchronous functions, fetching data and returning weather for any place. This is simple project similar to projects from Bootcamps so I decided to make it more creative and advanced. Firstly, I chosen other technology, GatsbyJS and I chosen other data format. Data describe weather in 3-hour interval and background of application depends on weather. I used also great Gatsby image plugin to create placeholders for images while loading.`,
+		descPL: `Jest to aplikacja pobierająca dane asynchronicznie i wyświetlająca prognozę pogody dla dowolnego miejsca. Jest to projekt tworzony zazwyczaj na bootcampach, lecz ja postanowiłem go zrobić osobiście w innej technologii i z innymi funkcjami niż studenci bootcampów. Stworzyłem go za pomocą GatsbyJS oraz pobieram dane nie dobowe, lecz co 3 godziny. Użytkownik dzięki temu posiada możliwość sprawdzenia prognozy dla danego dnia w danym interwale godzinowym. Każdy czynnik pogodowy można wyświetlić za pomocą wykresów, natomiast tło aplikacji zależy od rodzaju pogody, która wystąpi danego dnia. Zastosowałem również świetny dodatek, czyli Gatsby Image Plugin który umożliwia stworzenie rozmycia zdjęcia lub wykorzystania innej opcji zanim to główne w pełni się załaduje.`,
 		selected: false,
 	},
 	{
@@ -203,8 +205,8 @@ export const projects = [
 		id: 7,
 		shortDesc: `My second React based application, this is my own project created while learning React when I don't fully understand some hooks and options. I created this project to make another step while learning React and make first steps in express. This is also my second project with working stripe implementation.`,
 		shortDescPL: `Moja druga aplikacja opracowana w React, mój własny projekt tworzony jeszcze w czasie Nauki tego frameworka, kiedy to nie rozumiałem do końca niektórych koncepcji i hooków. Opracowałem go w celu postawienia kolejnych kroków w trakcie nauki oraz poznania nieco bardziej Reacta i podstaw Expressa. Jest to ecommerce sprzedające kawę w internecie gdzie po raz drugi zaimplementowałem Stripe, lecz w innej technologii niż dotychczas.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `Caffe is my second application created in React. I created this app on my own while course when I doesn’t fully understand all hooks and concepts. This project allow me to make another step while learning this framework. It’s simple e-commerce with express backend. It allows user to make fake shopping and fake payment with testing stripe implementation.`,
+		descPL: `Caffe jest moją drugą aplikacją opracowaną w React. Stworzyłem ją jeszcze w trakcie kursu, lecz nie była ona jego częścią, jest to strona ecommerce mojego własnego pomysłu. Nie rozumiałem jeszcze wtedy do końca wszystkich hooków oraz funkcjonalności Reacta, lecz ten projekt pozwolił mi na postawienie dużego kroku na przód w nauce tego frameworka. Jest to moja druga aplikacja zawierająca implementację systemu płatności za pomocą Stripe oraz pierwsza z prostym Back-Endem napisanym za pomocą express. Pozwala użytkownikowi zrobić proste zakupy oraz zapłacić online przez system Stripe, oczywiście jest to płatność symulowana. Najważniejszym elementem strony jest koszyk użytkownika oparty o pamięć lokalną i posiada możliwość podania adresu dostawy, metody dostawy i oczywiście symulację płatności.`,
 		selected: true,
 	},
 	{
@@ -232,8 +234,8 @@ export const projects = [
 		id: 6,
 		shortDesc: `My project in VanillaJS, created to better understand this language and async functions. This project fetch data from TMDB and describe movies as slides. User can save movie as liked and add this to list of movies to watch.`,
 		shortDescPL: `Jest to projekt stworzony w czystym JavaScript, opracowałem go w celu lepszego zrozumienia tego języka oraz asynchroniczności. Pobiera dane z TMDB oraz wyświetla w stworzonym przeze mnie sliderze. Użytkownik ma opcję dodania filmów do ulubionych oraz do listy do obejrzenia. Zapisuje je wtedy w przeglądarce za pomocą pamięci lokalnej.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `This project is created with VanillaJS, and my first project with asynchronous functions. It allows search movies with selected title or part of title (ex. Superman). It describes movies as slider of posters, after choose movie application describes information about it. User can add movie as liked or add to watchlist. App allow also watch trailer.`,
+		descPL: `Jest to projekt stworzony z pomocą TMDB, jest to również pierwszy mój projekt, który stworzyłem w celu poćwiczenia asynchroniczności. Oparty jest o VanillaJS i ma za zadanie wyświetlać szukane przez użytkownika filmy w formie zaprojektowanego przeze mnie slidera. Po wybraniu filmu wyświetla on o nim informacje pod spodem. Umożliwia dodanie tytułu do ulubionych, listy do obejrzenia oraz obejrzenia zwiastuna bezpośrednio w aplikacji. Dzięki temu projektowi dobrze zrozumiałem czysty JavaScript oraz manipulacje obiektowym modelem dokumentu. Projekt ten również wykorzystuje pamięć lokalną do zapisu filmów użytkownika. `,
 		selected: true,
 	},
 	{
@@ -263,14 +265,18 @@ export const projects = [
 				ico: <SiJquery />,
 				name: "jQuery",
 			},
+			{
+				ico: <SiBootstrap />,
+				name: "Bootstrap",
+			},
 		],
 		github: "",
 		demo: "http://corpio.pl/corpio/",
 		id: 5,
 		shortDesc: `Bigger project created for one from tailoring companies from my city. Website have admin panel and he can add groups or under groups of products. Admin have full possibilities to change all content of website. For security reasons code of this project isn't available for inspection.`,
 		shortDescPL: `Większy projekt stworzony na bazie PHP dla jednej z miejscowych szwalni, ma opcję tworzenia grup i podgrup w katalogu z produktami oraz włączania lub wyłączania ich widoczności dla użytkownika. Administrator strony ma również pełną swobodę w dostosowywaniu jej do własnych potrzeb. Z powodów bezpieczeństwa nie udostępniono kodu strony do wglądu.`,
-		desc: "EN description",
-		descPL: "PL opis",
+		desc: `Bigger project created for one from tailoring companies from my city. Website have admin panel and he can add groups or under groups of products. Admin have full possibilities to change all content of website. For security reasons code of this project isn't available for inspection.`,
+		descPL: `Jest to projekt strony internetowej która ma za zadanie pełnić funkcję internetowego katalogu. Projekt jest oparty o PHP i pozwolił mi się nauczyć wielu pożytecznych rzeczy związanych właśnie z tym językiem. Wykorzystałem w nim również Bootstrapa który czyni tworzenie stron szybkim i przyjemnym oraz powoduje, że do ich budowy nie są wymagane większe umiejętności techniczne. Strona posiada panel logowania administratora oraz funkcjonalności pozwalające na nią wpływać. Administrator może tworzyć grupy oraz podgrupy produktów oraz zmieniać ich widoczność dla użytkownika. Posiada on niemal pełną kontrolę nad stroną i może modyfikować każdą treść na stronie.`,
 		selected: false,
 	},
 	{
@@ -307,7 +313,7 @@ export const projects = [
 		shortDesc: `My first own project with stripe integration, created to learn more about PHP and website deployment. Website have products saved in database and allows to create account. But creating account and options inside isn't most important part of this project.`,
 		shortDescPL: `Jest to mój pierwszy projekt z integracją wtyczki Stripe stworzony w celu lepszego zapoznania się z językiem PHP oraz publikacją na stronach z hostingiem. Posiada katalog produktów oparty na bazach danych oraz możliwość założenia konta która jest funkcjonalnością poboczną.`,
 		desc: "EN description",
-		descPL: "PL opis",
+		descPL: `Mój pierwszy projekt z integracją Stripe, posiada on bazę danych produktów oraz prostą symulację płatności. Strona jest oparta o PHP oraz VanillaJS, daje możliwość założenia konta oraz zapisu symulowanych transakcji. Posiada działający koszyk, możliwość dodania produktów do ulubionych oraz kilka innych opcji.`,
 		selected: false,
 	},
 	{
@@ -341,7 +347,8 @@ export const projects = [
 		shortDescPL: `Jeden z moich pierwszych projektów stworzonych przy pomocy jQuery. Jest to prosty przeglądarkowy kalkulator stworzony w celu rozwoju moich umiejętności
 		programowania w JavaScript z wykorzystaniem biblioteki jQuery.`,
 		desc: "EN description",
-		descPL: "PL opis",
+		descPL:
+			"Jest to mój pierwszy projekt w oparciu o bibliotekę jQuery, prosty kalkulator umożliwiający również wykonywanie prostych równań. Stworzyłem go w celu rozwoju moich umiejętności programistycznych w JavaScript, tworzy on dwie wersje list, wersję graficzną równania wyświetlaną użytkownikowi oraz wersję produkcyjną która daje ostateczny wynik",
 		selected: false,
 	},
 	{
@@ -370,7 +377,8 @@ export const projects = [
 		shortDesc: `My first web app, simple shopping list allows to add or remove product.`,
 		shortDescPL: `Moja pierwsza aplikacja internetowa stworzona za pomocą czystego JavaScript. Prosta lista zakupowa do której dodaje lub kasuje się produkty.`,
 		desc: "EN description",
-		descPL: "PL opis",
+		descPL:
+			"Jest to moja pierwsza aplikacja internetowa, stworzona w oparciu o pamięć lokalną przeglądarki. Posiada ona możliwość dodawania przedmiotów do listy oraz usuwania ich. Aplikacja została napisana w VanillaJS.",
 		selected: false,
 	},
 	{
@@ -396,11 +404,12 @@ export const projects = [
 		github: "https://github.com/oskardabrowski/fakeweb-domplast",
 		demo: "https://statuesque-genie-47600b.netlify.app/",
 		id: 1,
-		shortDesc: `My first website inspired not actual version of my uncle’s company website.`,
+		shortDesc: `My first website inspired not actual version of my uncle's company website.`,
 		shortDescPL: `Jest to pierwsza stworzona przeze mnie strona internetowa dla której inspiracją była przestarzała strona jednej z lokalnych firm. Posiada podstawowe funkcjonalności w
 		JavaScript.`,
 		desc: "EN description",
-		descPL: "PL opis",
+		descPL:
+			"Moja pierwsza strona internetowa stworzona z wykorzstaniem SASS, została zainspirowana starą stroną firmy mojego wujka. Posiada podstawowe funkcjonalności napisane za pomocą VanillaJS.",
 		selected: false,
 	},
 ];
@@ -547,7 +556,7 @@ export const aboutMe = {
 	longDesc: [
 		`I'm Oskar Dąbrowski, I started programming in college about two years ago. At this time, I learn programming in college and on my own. I was Geoinformation student, which is why I learnt most about Python. It was also Front-End Programming courses, but I have been learning about it before, so I had no problem to pass this exam. I've been interested more about this kind of programming so I've been developing my knowledge on my own. Firstly, I've learned from freeCodeCamp and books, but I decided to learn from other courses and platforms.`,
 		`I live in Golub-Dobrzyń, it's small town near Toruń in Kujawsko-Pomorskie. I'm interested in books, movies and shooting. I like trips and explore new places. I'm interested also in computer graphic in second and third dimensions.`,
-		`I took part in military training for student's, I make student practise in geodesy and cartography department of my town city hall. I also did an internship as surveyor's assistant in one from companies in Toruń.`,
+		`I took part in military training for student's, I made student practise in geodesy and cartography department of my town city hall. I also did an internship as surveyor's assistant in one from companies in Toruń.`,
 	],
 	longDescPL: [
 		`Jestem Oskar Dąbrowski, programować zacząłem podczas studiów około dwa lata temu. Przez ten czas wraz uczyłem się programowania na studiach jak i na własną rękę. Jako iż byłem studentem Geoinformacji najwięcej uczyłem się języka Python, lecz miałem również zajęcia dotyczące budowy aplikacji internetowych. Interesowałem się Front-Endem jeszcze przed formalnymi kursami ze studiów, przez co łatwiej przez wszystko przeszedłem. Zainteresowałem się tymi zagadnieniami bardziej, co poskutkowało moim osobistym rozwojem w tym kierunku. Początkowo przechodziłem kursy na freeCodeCamp i czytałem książki. Lecz z czasem zacząłem czerpać wiedzę z różnych źródeł co znacznie poszerzyło moje horyzonty. Aktualnie porządkuję wiedzę za pomocą strony roadmap.sh udostępniającą świetną drogę, którą powinien przejść każdy Front-End Developer. Sam również poznaje inne zagadnienia, takie jak biblioteka Leaflet lub TURF będące Front-Endowymi bibliotekami geoinformacyjnymi.`,
