@@ -62,7 +62,7 @@ const HeadSkillsStyles = styled.div`
 			height: 3rem;
 		}
 		@media (max-width: 37.5em) {
-			top: 2rem;
+			top: 3rem;
 			width: 20rem;
 			height: 2rem;
 		}
