@@ -12,7 +12,7 @@ const AboutContent = () => {
 		<StylesAboutContent>
 			<div className="Photo">
 				<div className="Photo-container">
-					<img src="/img/Guy.png" alt="guy" />
+					<img src={`/img/${aboutMe.adminImage}`} alt="guy" />
 				</div>
 			</div>
 			<AboutHead title={appLang === "EN" ? "About me" : "Kim jestem?"} />

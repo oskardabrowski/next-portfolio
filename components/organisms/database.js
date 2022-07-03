@@ -312,7 +312,7 @@ export const projects = [
 		id: 4,
 		shortDesc: `My first own project with stripe integration, created to learn more about PHP and website deployment. Website have products saved in database and allows to create account. But creating account and options inside isn't most important part of this project.`,
 		shortDescPL: `Jest to mój pierwszy projekt z integracją wtyczki Stripe stworzony w celu lepszego zapoznania się z językiem PHP oraz publikacją na stronach z hostingiem. Posiada katalog produktów oparty na bazach danych oraz możliwość założenia konta która jest funkcjonalnością poboczną.`,
-		desc: "EN description",
+		desc: "This is my first project with Stripe integration, it is connected with SQL database. Project allows user to create account. Website is based on PHP and VanillaJS.",
 		descPL: `Mój pierwszy projekt z integracją Stripe, posiada on bazę danych produktów oraz prostą symulację płatności. Strona jest oparta o PHP oraz VanillaJS, daje możliwość założenia konta oraz zapisu symulowanych transakcji. Posiada działający koszyk, możliwość dodania produktów do ulubionych oraz kilka innych opcji.`,
 		selected: false,
 	},
@@ -346,7 +346,7 @@ export const projects = [
 		shortDesc: `One form my first projects created with jQuery. It's simple calculator created to develop my knowledge about programming.`,
 		shortDescPL: `Jeden z moich pierwszych projektów stworzonych przy pomocy jQuery. Jest to prosty przeglądarkowy kalkulator stworzony w celu rozwoju moich umiejętności
 		programowania w JavaScript z wykorzystaniem biblioteki jQuery.`,
-		desc: "EN description",
+		desc: "One form my first projects created with jQuery. It's simple calculator created to develop my knowledge about programming.",
 		descPL:
 			"Jest to mój pierwszy projekt w oparciu o bibliotekę jQuery, prosty kalkulator umożliwiający również wykonywanie prostych równań. Stworzyłem go w celu rozwoju moich umiejętności programistycznych w JavaScript, tworzy on dwie wersje list, wersję graficzną równania wyświetlaną użytkownikowi oraz wersję produkcyjną która daje ostateczny wynik",
 		selected: false,
@@ -376,7 +376,7 @@ export const projects = [
 		id: 2,
 		shortDesc: `My first web app, simple shopping list allows to add or remove product.`,
 		shortDescPL: `Moja pierwsza aplikacja internetowa stworzona za pomocą czystego JavaScript. Prosta lista zakupowa do której dodaje lub kasuje się produkty.`,
-		desc: "EN description",
+		desc: "My first web app, simple shopping list allows to add or remove product.",
 		descPL:
 			"Jest to moja pierwsza aplikacja internetowa, stworzona w oparciu o pamięć lokalną przeglądarki. Posiada ona możliwość dodawania przedmiotów do listy oraz usuwania ich. Aplikacja została napisana w VanillaJS.",
 		selected: false,
@@ -407,7 +407,7 @@ export const projects = [
 		shortDesc: `My first website inspired not actual version of my uncle's company website.`,
 		shortDescPL: `Jest to pierwsza stworzona przeze mnie strona internetowa dla której inspiracją była przestarzała strona jednej z lokalnych firm. Posiada podstawowe funkcjonalności w
 		JavaScript.`,
-		desc: "EN description",
+		desc: "My first website inspired not actual version of my uncle's company website.",
 		descPL:
 			"Moja pierwsza strona internetowa stworzona z wykorzstaniem SASS, została zainspirowana starą stroną firmy mojego wujka. Posiada podstawowe funkcjonalności napisane za pomocą VanillaJS.",
 		selected: false,
@@ -550,7 +550,10 @@ export const skills = [
 ];
 
 export const aboutMe = {
-	contactOptions: ["email@email.pl", "linkedin@linekdin.pl"],
+	contactOptions: [
+		"oskar.dabrowski12890@wp.pl",
+		"https://www.linkedin.com/in/oskar-d%C4%85browski-024455226/",
+	],
 	shortDesc: `I'm Oskar Dąbrowki, second degree student of Geoinformation. I have been interested in programming from second year of my first stage studies. Firstly, I was learning Python, but I decided to try other various languages and choose the best for me. At last, I decided to learn JavaScript because it's very interesting language and have much interesting libraries, frameworks and supersets. Today I learn about TypeScript, next I'll learn Angular because in my opinion it's good to know that framework. At now I use React for my projects, and I know React based static sites generators NextJS and GatsbyJS. I prefer first option because I feel it's more right for me, but I don't have any problems with second option. I will learn also React Native and Electron to create cross-platform applications. While learning about programming it's easy to get an impression the farther you go then less you know. But I thing every single part of new knowledge create awesome opportunities for you.`,
 	shortDescPL: `Jestem Oskar Dąbrowski, obecnie kończę studia na kierunku Geoinformacja II stopnia. Programowaniem interesuję się od końca drugiego roku studiów licencjackich. Początkowo uczyłem się Pythona, postanowiłem, jednakże rozejrzeć się wśród innych języków programowania, aby poszukać coś najbardziej odpowiedniego dla mnie. Ostatecznie zdecydowałem się wybrać JavaScript, gdyż posiada on wiele ciekawych bibliotek, frameworków i supersetów. Aktualnie uczę się TypeScript, wraz z nim chcę poznać również Angulara, gdyż jest frameworkiem który w mojej ocenie warto poznać. Aktualnie programuję aplikacje w React, znam również zbudowane na jego bazie generatory stron statycznych NextJS i Gatsby JS. Preferuję jednakże pierwszy z nich, lecz nie mam problemu w pracy z drugim. Dalej mam zamiar poznać React Native i Electron, aby również umieć tworzyć aplikacje crossplatformowe. Ucząc się programowania łatwo odnieść wrażenie, iż im dalej w las tym więcej drzew, dla mnie, jednakże nie jest to problemem, gdyż każde z nich jest ciekawe i niesie nowe świetne możliwości.`,
 	longDesc: [
@@ -563,4 +566,5 @@ export const aboutMe = {
 		`Mieszkam w Golubiu-Dobrzyniu, małym mieście niedaleko Torunia w województwie Kujawsko-Pomorskim. Interesuje się książkami, filmami i sportem strzeleckim. Lubię również wyjeżdżać i poznawać nowe miejsca. Interesuję się również grafiką komputerową w różnych wariantach. Aktualnie jestem posiadaczem Affinity Suite, czyli zestawu narzędzi stworzonych przez firmę Serif które zakupiłem w połowie poprzedniego roku. Wykorzystałem je, żeby zaprojektować moją stronę portfolio, oraz korzystam z nich do innych projektów.`,
 		`Brałem udział w szkoleniach dla studentów w programie Legii Akademickiej, odbywałem praktyki w ośrodku geodezji i kartografii Urzędu Miasta Golubia-Dobrzynia. Oraz staż absolwencki jako asystent Geodety w jednej z Toruńskich firm.`,
 	],
+	adminImage: "photo.png",
 };

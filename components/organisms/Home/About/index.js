@@ -28,7 +28,7 @@ const HomeAbout = () => {
 						data-scroll-offset="30%"
 						data-scroll-class="AboutPhotoVisible"
 					>
-						<img src="/img/Guy.png" alt="guy" />
+						<img src={`/img/${aboutMe.adminImage}`} alt="guy" />
 					</div>
 				</div>
 			</div>
