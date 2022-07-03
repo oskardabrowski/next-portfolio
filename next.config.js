@@ -4,11 +4,10 @@ const nextConfig = {
 	experimental: {
 		styledComponents: true,
 	},
+	images: {
+		loader: "akamai",
+		path: "",
+	},
 };
 
 module.exports = nextConfig;
-
-// images: {
-// 	loader: "akamai",
-// 	path: "",
-// },

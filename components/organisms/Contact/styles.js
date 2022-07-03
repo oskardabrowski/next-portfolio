@@ -170,6 +170,10 @@ const ContactOptions = styled.div`
 				}
 				@media (max-width: 50em) {
 					background: linear-gradient(to right, #ffd500, #00b1ff);
+					width: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
 				}
 			}
 		}
@@ -217,7 +221,7 @@ const ContactOptions = styled.div`
 			left: -5rem;
 		}
 		@media (max-width: 50em) {
-			left: -17.5rem;
+			left: 0rem;
 		}
 	}
 

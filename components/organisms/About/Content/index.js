@@ -17,11 +17,11 @@ const AboutContent = () => {
 			<AboutHead title={appLang === "EN" ? "About me" : "Kim jestem?"} />
 			<div className="FirstDescription">
 				{appLang === "EN"
-					? aboutMe.longDesc.map((el, index) => {
-							return <p key={index}>{el}</p>;
+					? aboutMe.longDesc.map((el) => {
+							return <p key={el}>{el}</p>;
 					  })
 					: aboutMe.longDescPL.map((el) => {
-							return <p key={index}>{el}</p>;
+							return <p key={el}>{el}</p>;
 					  })}
 			</div>
 		</StylesAboutContent>
