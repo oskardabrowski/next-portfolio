@@ -1,7 +1,6 @@
 import React from "react";
 import StylesAboutContent from "./style";
 import AboutHead from "../../../molecules/Title1";
-import SelectedProjectsHead from "../../../molecules/Title2";
 import { useContext } from "react";
 import { AppContext } from "../../Context";
 import { aboutMe } from "../../database";
@@ -18,11 +17,11 @@ const AboutContent = () => {
 			<AboutHead title={appLang === "EN" ? "About me" : "Kim jestem?"} />
 			<div className="FirstDescription">
 				{appLang === "EN"
-					? aboutMe.longDesc.map((el) => {
-							return <p>{el}</p>;
+					? aboutMe.longDesc.map((el, index) => {
+							return <p key={index}>{el}</p>;
 					  })
 					: aboutMe.longDescPL.map((el) => {
-							return <p>{el}</p>;
+							return <p key={index}>{el}</p>;
 					  })}
 			</div>
 		</StylesAboutContent>

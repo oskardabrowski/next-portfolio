@@ -26,7 +26,6 @@ function MyApp({ Component, pageProps }) {
 							name="viewport"
 							content="width=device-width, initial-scale=1"
 						/>
-						<meta name="robots" content="noindex, nofollow" />
 						<meta
 							name="keywords"
 							content="Front-End, Developer, HTML, CSS, JavaScript, PHP, React, NextJS"
