@@ -31,10 +31,14 @@ const ProjectContent = () => {
 				<img src={`/img/proj/${data?.responsive}`} alt="" />
 			</div>
 			<div className="Links">
-				<a href={data?.github} target="_blank" rel="noreferrer">
-					<AiOutlineGithub className="ico" />
-					Github
-				</a>
+				{data?.github != "" ? (
+					<a href={data?.github} target="_blank" rel="noreferrer">
+						<AiOutlineGithub className="ico" />
+						Github
+					</a>
+				) : (
+					""
+				)}
 				<a href={data?.demo} target="_blank" rel="noreferrer">
 					<SiSitepoint className="ico" />
 					Demo

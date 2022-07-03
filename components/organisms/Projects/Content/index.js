@@ -52,15 +52,19 @@ const AllProjects = () => {
 										<div></div>
 										{appLang === "EN" ? "Read more" : "Czytaj więcej"}
 									</button>
-									<a
-										href={github}
-										target="_blank"
-										aria-label="Github"
-										className="btn"
-										rel="noreferrer"
-									>
-										<div></div>Github
-									</a>
+									{github !== "" ? (
+										<a
+											href={github}
+											target="_blank"
+											aria-label="Github"
+											className="btn"
+											rel="noreferrer"
+										>
+											<div></div>Github
+										</a>
+									) : (
+										""
+									)}
 									<a
 										href={demo}
 										target="_blank"

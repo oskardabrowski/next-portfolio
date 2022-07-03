@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 export const AppContext = createContext();
 
 const ContextProvider = ({ children }) => {
-	const [appLang, setAppLang] = useState("EN");
+	const [appLang, setAppLang] = useState("PL");
 	const [pageLoaded, setPageLoaded] = useState(false);
 	const [redirectPath, setRedirectPath] = useState({
 		action: false,
