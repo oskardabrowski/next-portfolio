@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }) {
 							name="description"
 							content="Hello, my name is Oskar Dąbrowski. I'm Front-End Developer learning modern technologies to create awesome projects!"
 						/>
+						<meta httpEquiv="Cache-Control" content="no-store" />
 						<meta name="author" content="Oskar Dąbrowski" />
 						<meta name="og:title" content="Abstract Developer" />
 						<meta name="og:type" content="website" />
