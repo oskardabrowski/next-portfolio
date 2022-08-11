@@ -30,6 +30,27 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 export const projects = [
 	{
+		name: "Alien Invaders Game",
+		namePL: "Gra Alien Invaders",
+		img: "Aliens.png",
+		responsive: "AliensRWD.png",
+		technologies: "TypeScript",
+		techStack: [
+			{
+				ico: <SiTypescript />,
+				name: "TypeScript",
+			},
+		],
+		github: "https://github.com/oskardabrowski/aliens",
+		demo: "https://62f439c528714e371a3e77ff--sunny-heliotrope-cb9157.netlify.app/",
+		id: 13,
+		shortDesc: `This is my first Vanilla TypeScript based project. I created simple alien invaders game from my childhood using canvas and OOP to train new skills.`,
+		shortDescPL: `Jest to mój pierwszy osobisty projekt wykonany na bazie Vanilla TypeScript. Jako iż jeszcze nie tworzyłem żadnych gier w oparciu o canvas oraz nie trenowałem OOP, postanowiłem stworzyć grę przeglądarkową w oparciu o starą grę z dzieciństwa.`,
+		desc: `This is my first Vanilla TypeScript based project. I created simple alien invaders game from my childhood using canvas and OOP to train new skills.`,
+		descPL: `Jest to mój pierwszy osobisty projekt wykonany na bazie Vanilla TypeScript. Jako iż jeszcze nie tworzyłem żadnych gier w oparciu o canvas oraz nie trenowałem OOP, postanowiłem stworzyć grę przeglądarkową w oparciu o starą grę z dzieciństwa.`,
+		selected: false,
+	},
+	{
 		name: "Portfolio",
 		namePL: "Portfolio",
 		img: "PortfolioImg.png",
@@ -515,7 +536,7 @@ export const skills = [
 		name: `TypeScript`,
 		colors: "#007AFF, #004999",
 		ico: <SiTypescript className="ico" />,
-		inprogress: true,
+		inprogress: false,
 	},
 	{
 		name: `React Native`,
